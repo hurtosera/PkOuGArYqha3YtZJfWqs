@@ -1,4 +1,4 @@
-//--- Hacked By Optix Bitches <3
+//--- SkyLife Community
 
 Config_Intersect_Cockpits = [];
 publicVariable "Config_Intersect_Cockpits";
@@ -96,27 +96,27 @@ Config_911System = [
     ["ins","All units please respond","ALLUNITS_PLEASE_RESPOND",2],
     ["ins","Immidiate Response Necesarry","IMMIDIATE_RESPONSE_NECESARRY",2],
     ["ins","Use Caution","USE_CAUTION",2],
-    ["Type","Sports Car","SPORTS_CAR",1],
-    ["Type","Motorcycle","MOTORCYCLE",1],
-    ["Type","Truck","TRUCK",1],
+    ["Type","Vehículo Deportivo","SPORTS_CAR",1],
+    ["Type","Motocicleta","MOTORCYCLE",1],
+    ["Type","Camión","TRUCK",1],
     ["Type","Four Door","FOUR_DOOR",1],
     ["Type","TwoDoor","TWO_DOOR",1],
     ["Type","Hatchback","HATCHBACK",1],
     ["Type","Sedan","SEDAN",1],
     ["Type","Convertible","CONVERTIBLE",1],
     ["Type","Coupe","COUPE",1],
-    ["Type","Helicopter","HELICOPTER",1],
-    ["Type","Speedboat","SPEEDBOAT",1],
-    ["Type","Yacht","YACHT",1],
-    ["Colour","Black","BLACK",1],
-    ["Colour","Blue","BLUE",1],
-    ["Colour","Green","GREEN",1],
-    ["Colour","Red","RED",1],
-    ["Colour","Brown","BROWN",1],
-    ["Colour","Gold","GOLD",1],
-    ["Colour","Grey","GREY",1],
-    ["Colour","Orange","ORANGE",1],
-    ["Colour","Pink","PINK",1]
+    ["Type","Helicóptero","HELICOPTER",1],
+    ["Type","Lancha","SPEEDBOAT",1],
+    ["Type","Yate","YACHT",1],
+    ["Colour","Negro","BLACK",1],
+    ["Colour","Azul","BLUE",1],
+    ["Colour","Verde","GREEN",1],
+    ["Colour","Rojo","RED",1],
+    ["Colour","Marrón","BROWN",1],
+    ["Colour","Dorado","GOLD",1],
+    ["Colour","Gris","GREY",1],
+    ["Colour","Naranja","ORANGE",1],
+    ["Colour","Rosa","PINK",1]
 ];
 publicVariable "Config_911System";
 
@@ -132,10 +132,10 @@ A3PL_Interaction_Options = [
         getPlayerUID player == "_SP_PLAYER_"
     }],
     ["Check job vehicle time", {
-        [format["System: You have %1 minutes left to use your assigned job vehicle", ((player getVariable["jobVehicleTimer", diag_tickTime]) - diag_tickTime) / 60], Color_Green] call A3PL_Player_Notification;
+        [format["Sistema: Tienes %1 minutos restantes para usar tu vehículo de trabajo", ((player getVariable["jobVehicleTimer", diag_tickTime]) - diag_tickTime) / 60], Color_Green] call A3PL_Player_Notification;
     }, {!isNull(player getVariable["jobVehicle", objNull])
     }],
-    ["Deliver package", {
+    ["Paquete de Entrega", {
         [] call A3PL_Delivery_Deliver;
     }, {
         private["_found"];
@@ -148,22 +148,22 @@ A3PL_Interaction_Options = [
         foreach([player] call A3PL_Lib_AttachedAll);
         _found;
     }],
-    ["Open licensing menu", {
+    ["Abrir menú de Licencias", {
         [] call A3PL_DMV_Open;
     }, {
         ((player getVariable["faction", "citizen"]) IN ["doj", "dmv", "police", "faa", "uscg"])
     }],
-    ["Exit crane", {
+    ["Salir de la Grúa", {
         player action["eject", vehicle player];
     }, {
         ((typeOf(vehicle player)) == "A3PL_MobileCrane")
     }],
-    ["Reset crane", {
+    ["Restablecer Grúa", {
         [] call A3PL_IE_CraneReset;
     }, {
         ((typeOf(vehicle player)) == "A3PL_MobileCrane")
     }],
-    ["Show crane controls", {
+    ["Mostrar controles de la Grúa", {
         [localize "STR_INTER_SHOWCONT1", Color_Yellow] call A3PL_Player_Notification;
         [localize "STR_INTER_SHOWCONT2", Color_Yellow] call A3PL_Player_Notification;
         [localize "STR_INTER_SHOWCONT3", Color_Yellow] call A3PL_Player_Notification;
@@ -173,109 +173,109 @@ A3PL_Interaction_Options = [
     }, {
         (typeOf vehicle player) == "A3PL_MobileCrane"
     }],
-    ["Place a roadcone", {
+    ["Colocar un Cono", {
         [] call A3PL_Placeables_PlaceCone;
     }, {
         (typeOf(([] call A3PL_Lib_Attached) select 0)) == "A3PL_RoadCone_x10"
     }],
-    ["Setup taxi fare", {
+    ["Establecer tarifa del Taxi", {
         [] call A3PL_JobTaxi_SetupFare;
     }, {
         typeOf(vehicle player) == "A3PL_CVPI_Taxi"
     }],
-    ["Open medical", {
+    ["Abrir menú Médico", {
         [player] spawn A3PL_Medical_Open;
     }, {
         true
     }],
-    ["Take person hostage", {
+    ["Tomar persona como Rehén", {
         [cursorobject] spawn A3PL_Player_TakeHostage;
     }, {
         isNil "A3PL_EnableHostage" && (handgunWeapon player != "") && (cursorobject IN allPlayers) && (player distance cursorobject < 2) && (([cursorobject, player] call BIS_fnc_relativeDirTo) < 220) && (([cursorobject, player] call BIS_fnc_relativeDirTo) > 130)
     }],
-    ["Release hostage", {
+    ["Soltar Rehén", {
         A3PL_EnableHostage = false;
     }, {!isNil "A3PL_EnableHostage"
     }],
-    ["Point gun forward", {
+    ["Apuntar con el Arma", {
         A3PL_HostageMode = "shoot"
     }, {!isNil "A3PL_EnableHostage" && A3PL_HostageMode == "hostage"
     }],
-    ["Point gun at hostage", {
+    ["Apuntar con el Arma al Rehén", {
         A3PL_HostageMode = "hostage"
     }, {!isNil "A3PL_EnableHostage" && A3PL_HostageMode == "shoot"
     }],
-    ["Sell vehicle", {
+    ["Vender Vehículo", {
         [player_objintersect] call A3PL_Business_Sell;
     }, {
         (player_objintersect isKindOf "All") && {
             (getPlayerUID player in (player_objintersect getVariable["keyAccess", []]))
         } && ((player getVariable "job") == "business")
     }],
-    ["Buy vehicle", {
+    ["Comprar Vehículo", {
         [player_objintersect] call A3PL_Business_BuyItem;
     }, {
         (player_objintersect isKindOf "All") && (!isNil {
             player_objintersect getVariable["bitem", nil]
         })
     }],
-    ["Plant seed", {
+    ["Plantar Semilla", {
         [] call A3PL_JobFarming_Plant;
     }, {
         (player_itemClass IN["seed_wheat", "seed_marijuana", "seed_corn", "seed_lettuce", "seed_coca", "seed_sugar"]) && ((surfaceType getpos player) == "#cype_plowedfield")
     }],
-    ["Search for seeds", {
+    ["Buscar Semillas", {
         [] call A3PL_JobFarming_SearchSeeds;
     }, {
         ((surfaceType getpos player) == "#cype_plowedfield")
     }],
-    ["Prospect ground", {
+    ["Analizar Terreno", {
         [] call A3PL_JobWildCat_ProspectOpen
     }, {
         (vehicle player == player) && (!(animationState player IN["a3pl_handsupkneelcuffed", "a3pl_handsupkneelkicked", "a3pl_handsuptokneel", "A3PL_HandsupToKneel", "A3PL_HandsupKneelGetCuffed", "A3PL_Cuff", "A3PL_HandsupKneelCuffed", "A3PL_HandsupKneelKicked", "A3PL_CuffKickDown", "a3pl_idletohandsup", "a3pl_kneeltohandsup", "A3PL_HandsupKneel"])) && ((surfaceType getpos player) IN["#cype_plowedfield", "#cype_grass", "#cype_forest", "#cype_soil", "#cype_beach", "#GtdMud", "#GtdDirt", "#cype_beach"]) && (!(isOnRoad player))
     }],
-    ["Check tanker content", {
-        [format["System: There seems to be %1 gallons of petrol in this tanker", (cursorObject getVariable["petrol", 0])], Color_Green] call A3PL_Player_Notification;
+    ["Comprobar el contenido del Tanque", {
+        [format["Sistema: Hay %1 galones de petroleo en este tanque", (cursorObject getVariable["petrol", 0])], Color_Green] call A3PL_Player_Notification;
     }, {
         (typeOf cursorObject == "A3PL_Tanker_Trailer")
     }],
-    ["Check Truck content", {
-        [format["System: There seems to be %1 gallons of Kerosene in this truck", (cursorObject getVariable["petrol", 0])], Color_Green] call A3PL_Player_Notification;
+    ["Comprobar el contenido del Camión", {
+        [format["Sistema: Hay %1 galones de queroseno en este camion", (cursorObject getVariable["petrol", 0])], Color_Green] call A3PL_Player_Notification;
     }, {
         (typeOf cursorObject == "A3PL_Fuel_Van")
     }],
-    ["Show ID", {
+    ["Mostrar Identificación", {
         if (!([] call A3PL_Player_AntiSpam)) exitWith {};
         [player] remoteExec ["A3PL_Hud_IDCard", cursorObject];
     }, {
         isPlayer cursorObject && alive cursorObject && (player distance cursorObject < 8)
     }],
-    ["Grab ID", {
+    ["Coger Identificación", {
         [cursorObject] spawn A3PL_Hud_IDCard;
     }, {
         isPlayer cursorObject && alive cursorObject && (player distance cursorObject < 8) && ((player getVariable["job", "unemployed"]) IN["police", "uscg", "dmv"]) && animationState cursorObject IN ["a3pl_handsuptokneel", "a3pl_handsupkneelgetcuffed", "a3pl_cuff", "a3pl_handsupkneelcuffed", "a3pl_handsupkneelkicked", "a3pl_cuffkickdown", "a3pl_idletohandsup", "a3pl_kneeltohandsup", "a3pl_handsuptokneel", "a3pl_handsupkneel"]
     }],
-    ["Set Nametag", {
+    ["Establecer Nombre", {
         [(getPlayerUID cursorObject)] call A3PL_Player_OpenNametag;
     }, {
         isPlayer cursorObject
     }],
-    ["Jail Player", {
+    ["Encarcelar Usuario", {
         [cursorObject] call A3PL_Police_StartJailPlayer
     }, {
         isPlayer cursorObject && alive cursorObject && ((player getVariable["job", "unemployed"]) == "police")
     }],
-    ["Throw popcorn", {
+    ["Lanzar Palomitas", {
         [] call A3PL_Items_ThrowPopcornClient;
     }, {
         (player_itemclass == "popcornbucket" && (vehicle player == player))
     }],
-    ["Search Player", {
+    ["Buscar Usuario", {
         [cursorObject] call A3PL_Police_SearchPlayer;
     }, {
         isPlayer cursorObject && alive cursorObject && ((player getVariable["job", "unemployed"]) IN["police", "uscg"])
     }],
-    ["Seize Items", {
+    ["Incautar Objetos", {
         _items = nearestObjects[player, ["weaponholder"], 3] + nearestObjects[player, ["groundWeaponHolder"], 3];
 
         {
@@ -285,32 +285,32 @@ A3PL_Interaction_Options = [
     }, {
         ((player getVariable["job", "unemployed"]) IN["police", "uscg"]) && (count(nearestObjects[player, ["weaponholder"], 3] + nearestObjects[player, ["groundWeaponHolder"], 3]) > 0)
     }],
-    ["Repair terrain object", {
+    ["Reparar Objetos del Terreno", {
         [] call A3PL_JobRoadworker_RepairTerrain;
     }, {
         ((player getVariable["job", "unemployed"]) IN["roadworker", "Roadside_Service"]) && (vehicle player == player)
     }],
-    ["Change Locality", {
+    ["Cambiar Localidad", {
         [netID cursorObject, netID player] remoteExec ["A3PL_Lib_ChangeLocality", 2];
     }, {
         (cursorObject isKindOf "Car") && ((player getVariable ["job","unemployed"]) isEqualTo "Roadside_Service") && (cursorObject getVariable ["impound", false])
     }],
-    ["Unmark/Mark - impound (Police)", {
+    ["Desmarcar/Marcar - incautación (Policía)", {
         [] call A3PL_Police_Impound;
     }, {
         ((player_nameintersect IN["doorL", "doorR", "Door_LF", "Door_LF2", "Door_LF3", "Door_LF4", "Door_LF5", "Door_LF6", "Door_LB", "Door_LB2", "Door_LB3", "Door_LB4", "Door_LB5", "Door_LB6", "Door_RF", "Door_RF2", "Door_RF3", "Door_RF4", "Door_RF5", "Door_RF6", "Door_RB", "Door_RB2", "Door_RB3", "Door_RB4", "Door_RB5", "Door_RB6"]) OR(player_objintersect isKindOf "Car") OR(player_objintersect isKindOf "Ship")) && ((player getVariable["job", "unemployed"]) IN["police", "fifr", "uscg"])
     }],
-    ["Impound (USCG)", {
+    ["Incautar (USCG)", {
         [] call A3PL_Police_Impound;
     }, {
         (cursorObject isKindOf "Ship") AND((player getvariable["job", "unemployed"]) == "uscg")
     }],
-    ["Unmark/Mark for impound", {
+    ["Desmarcar/Marcar para incautar", {
         [] call A3PL_JobRoadWorker_ToggleMark;
     }, {
         (player_objintersect isKindOf "Car") && (getPlayerUID player IN(player_objintersect getVariable["keyAccess", []])) && (!((typeOf player_objintersect) IN A3PL_Jobroadworker_MarkBypass))
     }],
-    ["Lock Vehicle", {
+    ["Cerrar Vehículo", {
         vehicle player setVariable["locked", true, true];
         [localize "STR_INTER_LOCKVD", Color_Red] call A3PL_Player_Notification;
     }, {
@@ -319,7 +319,7 @@ A3PL_Interaction_Options = [
         } && {!(vehicle player getVariable["locked", true])
         }
     }],
-    ["Lock Vehicle", {
+    ["Cerrar Vehículo", {
         player_objintersect setVariable["locked", true, true];
         [localize "STR_INTER_LOCKVD", Color_Red] call A3PL_Player_Notification;
         cursorObject say3D "A3PL_Car_Lock";
@@ -332,7 +332,7 @@ A3PL_Interaction_Options = [
         } && {!(player_objintersect getVariable["locked", true])
         }
     }],
-    ["Unlock Vehicle", {
+    ["Abrir Vehículo", {
         vehicle player setVariable["locked", false, true];
         [localize "STR_INTER_UNLOCKVD", Color_Green] call A3PL_Player_Notification;
     }, {
@@ -342,14 +342,14 @@ A3PL_Interaction_Options = [
             (vehicle player getVariable["locked", true])
         }
     }],
-    ["Unlock Vehicle", {
+    ["Abrir Vehículo", {
         player_objintersect setVariable["locked", false, true];
         [localize "STR_INTER_UNLOCKVD", Color_Green] call A3PL_Player_Notification;
         cursorObject say3D "A3PL_Car_Lock";
     }, {
         (vehicle player == player) && (simulationEnabled player_objintersect) && ((player distance player_objintersect) < 15) && ((getPlayerUID player) IN(player_objintersect getVariable["keyAccess", []])) && (player_objintersect getVariable["locked", true])
     }],
-    ["Attach nearest boat", {
+    ["Enganchar Bote más cercano", {
         [cursorObject] call A3PL_Vehicle_TrailerAttach;
     }, {
         ((vehicle player == player) && (cursorObject distance player < 5)) && {
@@ -358,7 +358,7 @@ A3PL_Interaction_Options = [
             (typeOf cursorObject == "A3PL_Small_Boat_Trailer")
         }
     }],
-    ["Attach nearest boat", {
+    ["Enganchar Bote más cercano", {
         [cursorObject] call A3PL_Vehicle_BigTrailerAttach;
     }, {
         ((vehicle player == player) && (cursorObject distance player < 5)) && {
@@ -369,14 +369,14 @@ A3PL_Interaction_Options = [
             (cursorObject animationSourcePhase "RBM_Supports" > 0.5)
         }
     }],
-    ["Detach boat", {
+    ["Desenganchar Bote", {
         _Boat = ((attachedObjects player_objintersect) select 0);
         _Trailer = player_objintersect;
         [_Boat] remoteExec ["Server_Vehicle_TrailerDetach", 2];
     }, {
         ((vehicle player == player) && (cursorObject distance player < 5)) && (!(((attachedObjects player_objintersect) select 0) getVariable["locked", true]))
     }],
-    ["Detach boat", {
+    ["Desenganchar Bote", {
         if (!(cursorObject isKindOf "Ship")) exitwith {};
         [cursorObject] remoteExec ["Server_Vehicle_TrailerDetach", 2];
     }, {
@@ -384,7 +384,7 @@ A3PL_Interaction_Options = [
             (typeOf(attachedTo cursorObject)) IN["A3PL_Boat_Trailer", "A3PL_Small_Boat_Trailer"]
         }) && (!(cursorObject getVariable["locked", true]))
     }],
-    ["Climb onto yacht", {
+    ["Subirse al Yate", {
         private["_veh"];
         _veh = player_objintersect;
         if (!(_veh isKindOf "A3PL_Yacht")) exitwith {};
@@ -392,7 +392,7 @@ A3PL_Interaction_Options = [
     }, {
         (vehicle player == player) && (player_objintersect isKindOf "A3PL_Yacht") && ((player distance(player_objintersect modeltoworld[-1, -25, -5])) < 10)
     }],
-    ["Climb onto RBM", {
+    ["Subirse a RBM", {
         private["_veh"];
         _veh = cursorObject;
         if (!(_veh isKindOf "A3PL_RBM")) exitwith {};
@@ -400,39 +400,39 @@ A3PL_Interaction_Options = [
     }, {
         (vehicle player == player) && (cursorObject isKindOf "A3PL_RBM") && (cursorObject distance player < 10)
     }],
-    ["Inventory", {
+    ["Inventario", {
         [] call A3PL_Inventory_Open;
     }, {
         true
     }],
-    ["Change Rank", {
+    ["Cambiar Rango", {
         [] spawn AFPL_FS_ChangeFactionRank_Menu;
     }, {
         ([(player getVariable ["faction", "citizen"])] call AFPL_FS_Is_Faction_Leader) && ((cursorObject getVariable ["faction", "citizen"]) isEqualTo (player getVariable ["faction", "citizen"]))
     }],
-    ["Access DOJ Computer", {
+    ["Acceder al ordenador de DOJ", {
         [] spawn A3PL_Police_DatabaseOpen;
     }, {
         player_objIntersect IN [doj_pc, doj_pc_1, doj_pc_2, doj_pc_3]
     }],
-    ["Revive", {
+    ["Revivir", {
         [] remoteExec ["A3PL_Medical_Revive", player_objintersect];
     }, {
         (player_objintersect getVariable["incapacitated", false]) && {
             player getVariable["job", "unemployed"] == "fifr"
         }
     }],
-    ["Throw Bowling Ball", {
+    ["Lanzar bola de bolos", {
         [(([] call A3PL_Lib_Attached) select 0)] call A3PL_Bowling_ThrowBall
     }, {
         ((typeOf(([] call A3PL_Lib_Attached) select 0)) == "A3PL_Ball")
     }],
-    ["Drop Bowling Ball", {
+    ["Lanzar bola de bolos", {
         detach(([] call A3PL_Lib_Attached) select 0);
     }, {
         ((typeOf(([] call A3PL_Lib_Attached) select 0)) == "A3PL_Ball")
     }],
-    ["(Un)Freeze", {
+    ["(Des)Congelar", {
         if (player_objintersect getVariable["locked", true]) then {
             player_objintersect setVariable["locked", false];
         } else {
@@ -441,7 +441,7 @@ A3PL_Interaction_Options = [
     }, {
         Player_NameIntersect == "furniture" && ((player_objintersect getVariable["stock", -1]) < 0)
     }],
-    ["Cuff person", {
+    ["Esposar Persona", {
         private["_obj"];
         _obj = call A3PL_Intersect_cursorObject;
         if (!(Player_NameIntersect IN["leftforearm", "rightforearm"])) exitwith {};
@@ -454,7 +454,7 @@ A3PL_Interaction_Options = [
     }, {
         (((Player_NameIntersect == "leftforearm") OR(Player_NameIntersect == "rightforearm")) && (typeOf(call A3PL_Intersect_cursorObject) == "C_man_1"))
     }],
-    ["Uncuff person", {
+    ["Desesposar Persona", {
         private["_obj"];
         _obj = call A3PL_Intersect_cursorObject;
         if (!(Player_NameIntersect IN["leftforearm", "rightforearm"])) exitwith {};
@@ -467,7 +467,7 @@ A3PL_Interaction_Options = [
     }, {
         ((Player_NameIntersect == "spine3") && (typeOf(call A3PL_Intersect_cursorObject) == "C_man_1") && ((animationState(call A3PL_Intersect_cursorObject)) IN["a3pl_handsupkneelcuffed", "a3pl_handsupkickeddown"]))
     }],
-    ["Kick person down", {
+    ["Tumbar Persona", {
         private["_obj"];
         _obj = call A3PL_Intersect_cursorObject;
         if (!(Player_NameIntersect IN["spine3"])) exitwith {};
@@ -476,88 +476,88 @@ A3PL_Interaction_Options = [
     }, {
         ((Player_NameIntersect == "spine3") && (typeOf(call A3PL_Intersect_cursorObject) == "C_man_1") && ((animationState(call A3PL_Intersect_cursorObject)) IN["a3pl_handsupkneelcuffed"]))
     }],
-    ["Surrender", {
+    ["Rendirse", {
         [player, true] call A3PL_Police_Surrender;
     }, {
         (((animationState player) IN["amovpercmstpsnonwnondnon", "amovpercmrunsnonwnondf", "amovpercmrunsnonwnondb"]) && (vehicle player == player))
     }],
-    ["End surrender", {
+    ["Parar Rendición", {
         [player, true] call A3PL_Police_Surrender;
     }, {
         ((animationState player IN["a3pl_idletohandsup", "a3pl_kneeltohandsup"]) && (vehicle player == player))
     }],
-    ["Kneel down", {
+    ["Arrodillarse", {
         [player, false] call A3PL_Police_Surrender;
     }, {
         ((animationState player IN["a3pl_idletohandsup", "a3pl_kneeltohandsup"]) && (vehicle player == player))
     }],
-    ["Stand up", {
+    ["Levantarse", {
         [player, true] call A3PL_Police_Surrender;
     }, {
         ((animationState player IN["a3pl_handsuptokneel", "a3pl_kneeltohandsup"]) && (vehicle player == player))
     }],
-    ["Stop dragging", {
+    ["Parar de Arrastrar", {
         [call A3PL_Intersect_cursorObject] call A3PL_Police_Drag;
     }, {
         (((call A3PL_Intersect_cursorObject) getVariable ["dragged",false]) && (player getVariable["job", "unemployed"] IN ["police", "uscg", "dmv"]))
     }],
-    ["Detain suspect in vehicle", {
+    ["Detener al sospechoso en el vehículo", {
         if (!((call A3PL_Intersect_cursorObject) isKindOf "Car")) exitwith {};
         [call A3PL_Intersect_cursorObject] call A3PL_Police_Detain;
     }, {
         (((player getVariable "job") IN["police", "uscg", "dmv"]) && ((call A3PL_Intersect_cursorObject) isKindOf "Car") && (((player distance player_objintersect) < 6)))
     }],
-    ["Eject all passengers", {
+    ["Sacar a todos los ocupantes", {
         [player_objintersect] call A3PL_Police_unDetain;
     }, {
         (((player getVariable "job") == "police") && ((player_objintersect) isKindOf "Car") && (((player distance player_objintersect) < 6)))
     }],
-    ["Eat Item", {
+    ["Comer Item", {
         [] call A3PL_Items_Food;
     }, {
         (([Player_ItemClass, 'fnc'] call A3PL_Config_GetItem) isEqualTo 'A3PL_Items_Food')
     }],
-    ["Drink Item", {
+    ["Beber Item", {
         [] spawn A3PL_Items_Thirst;
     }, {
         (([Player_ItemClass, 'fnc'] call A3PL_Config_GetItem) isEqualTo 'A3PL_Items_Thirst')
     }],
-    ["Use drugs", {
+    ["Usar Drogas", {
         [Player_ItemClass, 1] call A3PL_Drugs_Use;
     }, {
         (([Player_ItemClass, 'fnc'] call A3PL_Config_GetItem) isEqualTo 'A3PL_Drugs_Use')
     }],
-    ["Put Item Back", {
+    ["Devolver Item al Inventario", {
         [] call A3PL_Inventory_PutBack;
     }, {
         ((isNull Player_Item) isEqualTo false) && (!(player_itemClass IN["ticket"]))
     }],
-    ["Destroy ticket", {
+    ["Destruir Ticket", {
         [player_item] call A3PL_Inventory_Clear;
     }, {
         ((isNull Player_Item) isEqualTo false) && (player_itemClass IN["ticket"])
     }],
-    ["Write ticket", {
+    ["Escribir Ticket", {
         [] call A3PL_Police_OpenTicketMenu;
     }, {
         (vehicle player == player) && ((player getVariable["job", "unemployed"]) IN["police", "uscg", "dmv"]) && (!(player_itemclass == "ticket"))
     }],
-    ["Throw Item", {
+    ["Lanzar Item", {
         [] call A3PL_Inventory_Throw;
     }, {
         ((isNull Player_Item) isEqualTo false) && ([Player_ItemClass, 'canDrop'] call A3PL_Config_GetItem)
     }],
-    ["Drop Item", {
+    ["Tirar Item", {
         [] call A3PL_Inventory_Drop;
     }, {
         ([Player_ItemClass, 'canDrop'] call A3PL_Config_GetItem)
     }],
-    ["Pickup Item", {
+    ["Recoger Item", {
         [player_objintersect] call A3PL_Inventory_Pickup;
     }, {
         (((isNull Player_Item) isEqualTo true) && ((call A3PL_Intersect_cursorObject) in (server getVariable 'Server_DroppedItems')))
     }],
-    ["Exit Motorboat", {
+    ["Salir de la Lancha", {
         private["_veh"];
         _veh = vehicle player;
         if (_veh getVariable["locked", true]) exitwith {
@@ -570,7 +570,7 @@ A3PL_Interaction_Options = [
     }, {
         ((vehicle player) isKindOf "Ship")
     }],
-    ["Passenger Motorboat", {
+    ["Pasajero de la Lancha", {
         private["_veh"];
         _veh = cursorObject;
         if (_veh getVariable["locked", true]) exitwith {
@@ -583,7 +583,7 @@ A3PL_Interaction_Options = [
     }, {
         (cursorobject isKindOf "Ship") && (player distance cursorObject < 5)
     }],
-    ["Enter Motorboat", {
+    ["Entrar a la Lancha", {
         private["_veh"];
         _veh = cursorObject;
         if (_veh getVariable["locked", true]) exitwith {
@@ -595,7 +595,7 @@ A3PL_Interaction_Options = [
     }, {
         (cursorobject isKindOf "Ship") && (player distance cursorObject < 5)
     }],
-    ["Toggle Searchlight", {
+    ["Encender Luz de Búsqueda", {
         _veh = vehicle player;
         if (_veh animationSourcePhase "Spotlight" < 0.5) then {
             _veh animateSource["Spotlight", 1];
@@ -613,7 +613,7 @@ A3PL_Interaction_Options = [
     }, {
         (typeOf(vehicle player) == "A3PL_Jayhawk") && (player == ((vehicle player) turretUnit[0]))
     }],
-    ["Toggle Rescue Basket", {
+    ["Lanzar Cesta de Rescate", {
         private["_veh", "_rope"];
         _veh = vehicle player;
         _basket = _veh getVariable "basket";
@@ -639,7 +639,7 @@ A3PL_Interaction_Options = [
     }, {
         ((typeOf(vehicle player) == "A3PL_Jayhawk") && ((player == ((vehicle player) turretUnit[0])) OR(player == ((vehicle player) turretUnit[1])) OR(player == (driver vehicle player))) && ((speed vehicle player) < 30))
     }],
-    ["Exit Into Heil", {
+    ["Salir", {
         [] spawn {
             private["_veh"];
             _veh = vehicle player;
@@ -672,7 +672,7 @@ A3PL_Interaction_Options = [
     }, {
         (("A3PL_rescueBasket" == (typeOf(vehicle player))))
     }],
-    ["Increase Rope Length", {
+    ["Lanzar más Cuerda", {
         private["_veh"];
         _veh = vehicle player;
         if (typeOf _veh != "A3PL_Jayhawk") exitwith {};
@@ -682,7 +682,7 @@ A3PL_Interaction_Options = [
     }, {
         ((typeOf(vehicle player) == "A3PL_Jayhawk") && (local vehicle player) && ((player == ((vehicle player) turretUnit[0])) OR(player == ((vehicle player) turretUnit[1])) OR(player == (driver vehicle player))))
     }],
-    ["Decrease Rope Length", {
+    ["Recoger Cuerda", {
         private["_veh"];
         _veh = vehicle player;
         if (typeOf _veh != "A3PL_Jayhawk") exitwith {};
@@ -692,7 +692,7 @@ A3PL_Interaction_Options = [
     }, {
         ((typeOf(vehicle player) == "A3PL_Jayhawk") && (local vehicle player) && ((player == ((vehicle player) turretUnit[0])) OR(player == ((vehicle player) turretUnit[1])) OR(player == (driver vehicle player))))
     }],
-    ["Toggle Autohover", {
+    ["Habilitar Estabilizador", {
         private["_veh"];
         _veh = vehicle player;
         if (isAutoHoverOn _veh) then {
@@ -704,12 +704,12 @@ A3PL_Interaction_Options = [
     }, {
         (((vehicle player) isKindOf "Helicopter")) && (((player == (vehicle player turretUnit[0]))) OR(player == (driver vehicle player)))
     }],
-    ["Use transponder", {
+    ["Usar Transpondedor", {
         [] call A3PL_ATC_Transponder;
     }, {
         (((vehicle player) isKindOf "Air")) && (((player == (vehicle player turretUnit[0]))) OR(player == (driver vehicle player)))
     }],
-    ["Toggle Control", {
+    ["Habilitar Controles", {
         private["_veh"];
         _veh = vehicle player;
         if (!isCopilotEnabled _veh) then {
@@ -724,33 +724,33 @@ A3PL_Interaction_Options = [
     }, {
         (((vehicle player) isKindOf "Air") && (player == (driver vehicle player)))
     }],
-    ["Take Control", {
+    ["Tomar el Control", {
         private["_veh"];
         _veh = vehicle player;
         player action["TakeVehicleControl", _veh];
     }, {
         (((vehicle player) isKindOf "Air") && (player == (vehicle player turretUnit[0])) && (isCopilotEnabled vehicle player))
     }],
-    ["Release Control", {
+    ["Soltar Controles", {
         private["_veh"];
         _veh = vehicle player;
         player action["SuspendVehicleControl", _veh];
     }, {
         (((vehicle player) isKindOf "Air") && (player == (vehicle player turretUnit[0])) && (isCopilotEnabled vehicle player))
     }],
-    ["Open radar screen", {
+    ["Abrir la Pantalla del Radar", {
         [] spawn A3PL_ATC_RadarStart;
     }, {
         (player getVariable["job", "unemployed"] == "faa")
     }],
-    ["Reset plane velocity", {
+    ["Restablecer velocidad del Avión", {
 
         _veh = vehicle player;
         _veh setVelocity[0, 0, 0];
     }, {
         (local(vehicle player)) && ((vehicle player) isKindOf "Plane") && ((speed vehicle player) < 10)
     }],
-    ["Exit vehicle", {
+    ["Salir del Vehículo", {
         if ((speed vehicle player) < 1) then {
             player action["GetOut", vehicle player];
             [] spawn {
@@ -774,7 +774,7 @@ A3PL_Interaction_Options = [
     }, {
         ((vehicle player) != player) && (!(vehicle player getVariable["locked", true]))
     }],
-    ["Push plane forward", {
+    ["Empujar avión hacia adelante", {
         _veh = vehicle player;
         _vel = velocity _veh;
         _dir = direction _veh;
@@ -787,7 +787,7 @@ A3PL_Interaction_Options = [
     }, {
         ((vehicle player) isKindOf "Plane") && (local(vehicle player))
     }],
-    ["Push-back plane", {
+    ["Empujar avión hacia atrás", {
         _veh = vehicle player;
         _vel = velocity _veh;
         _dir = direction _veh;
@@ -800,12 +800,12 @@ A3PL_Interaction_Options = [
     }, {
         ((vehicle player) isKindOf "Plane") && (local(vehicle player))
     }],
-    ["Deploy Parachute", {
+    ["Desplegar Paracaídas", {
         player action["openParachute"];
     }, {
         ((backpack player) isKindOf "B_Parachute")
     }],
-    ["Switch Controls", {
+    ["Cambiar Controles", {
         private["_veh", "_turretPos", "_newTurretPos"];
         _veh = vehicle player;
         _turretPos = call A3PL_Lib_ReturnTurret;
@@ -824,42 +824,42 @@ A3PL_Interaction_Options = [
     }, {
         (call A3PL_Lib_ReturnTurret IN[0, 1]) && (typeOf vehicle player IN["A3PL_Pierce_Heavy_Ladder", "A3PL_Pierce_Ladder"]) && !((vehicle player) getVariable["locked", true])
     }],
-    ["Deploy Fire Hose", {
+    ["Desplegar Boquilla de Manguera", {
         [30] call A3PL_FD_DeployHose;
     }, {
         player_ItemClass == "FD_Hose"
     }],
-    ["Drop Hose Adapter", {
+    ["Desplegar Adaptador de Manguera", {
         [(call A3PL_Lib_AttachedFirst)] call A3PL_FD_DropHose;
     }, {
         (typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"]
     }],
-    ["Put mask on", {
+    ["Ponerse la mascarilla", {
         [] call A3PL_FD_MaskOn;
     }, {
         player_itemClass == "fd_mask"
     }],
-    ["Take off mask", {
+    ["Quitarse la mascarilla", {
         [] call A3PL_FD_MaskOff;
     }, {
         goggles player == "A3PL_FD_Mask"
     }],
-    ["Clean mask", {
+    ["Limpiarse mascarilla", {
         [] call A3PL_FD_SwipeMask;
     }, {
         goggles player == "A3PL_FD_Mask"
     }],
-    ["Deploy Gas Hose", {
+    ["Desplegar manguera de Gas", {
         [50] call A3PL_FD_GasDeployHose;
     }, {
         (player_ItemClass == "FD_Hose") && (player getVariable["job", "unemployed"] == "oil")
     }],
-    ["Dig ground", {
+    ["Excavar en el suelo", {
         [] spawn A3PL_Resources_StartDigging;
     }, {
         currentWeapon player == "A3PL_Shovel" && (vehicle player == player) && ((surfaceType getpos player) IN["#cype_beach"])
     }],
-    ["High beam", {
+    ["Luces del Puente", {
         _veh = vehicle player;
         if (_veh animationSourcePhase "High_Beam" < 0.5) then {
             _veh animateSource["High_Beam", 1];
@@ -869,7 +869,7 @@ A3PL_Interaction_Options = [
     }, {
         (vehicle player) isKindOf "Car"
     }],
-    ["Reset lock/fast", {
+    ["Restablecer Radar", {
         _veh = vehicle player;
         if (player == driver _veh) then {
             _veh setVariable["lockfast", nil, false];
@@ -885,12 +885,12 @@ A3PL_Interaction_Options = [
     }, {
         (typeOf vehicle player IN["A3PL_Charger_PD", "A3PL_Charger_PD_Slicktop", "A3PL_Mustang_PD", "A3PL_Mustang_PD_Slicktop", "A3PL_CVPI_PD_Slicktop", "A3PL_Tahoe_PD", "A3PL_Tahoe_PD_Slicktop", "A3PL_CVPI_PD"])
     }],
-    ["Check backpack money", {
+    ["Comprobar el dinero de la mochila", {
         [] call A3PL_BHeist_CheckCash;
     }, {
         backpack player == "A3PL_Backpack_Money"
     }],
-    ["Spawn storage box", {
+    ["Aparecer caja de almacenamiento", {
         private["_house"];
         if (!([] call A3PL_Player_AntiSpam)) exitWith {};
         _house = nearestObjects[player, ["Land_Home1g_DED_Home1g_01_F", "Land_Mansion01", "Land_A3PL_Ranch1", "Land_A3PL_Ranch2", "Land_A3PL_Ranch3", "Land_A3PL_ModernHouse1", "Land_A3PL_ModernHouse2", "Land_A3PL_ModernHouse3", "Land_A3PL_BostonHouse", "Land_A3PL_Shed1", "Land_A3PL_Shed2", "Land_A3PL_Shed3", "Land_A3PL_Shed4"], 10];
@@ -902,7 +902,7 @@ A3PL_Interaction_Options = [
     }, {
         (player distance(player getVariable["house", objNull]) < 8)
     }],
-    ["Store storage box", {
+    ["Guardar caja de almacenamiento", {
         private["_house", "_box"];
         if (!([] call A3PL_Player_AntiSpam)) exitWith {};
         _house = nearestObjects[player, ["Land_Home1g_DED_Home1g_01_F", "Land_Mansion01", "Land_A3PL_Ranch1", "Land_A3PL_Ranch2", "Land_A3PL_Ranch3", "Land_A3PL_ModernHouse1", "Land_A3PL_ModernHouse2", "Land_A3PL_ModernHouse3", "Land_A3PL_BostonHouse", "Land_A3PL_Shed1", "Land_A3PL_Shed2", "Land_A3PL_Shed3", "Land_A3PL_Shed4"], 10];
@@ -920,12 +920,12 @@ A3PL_Interaction_Options = [
     }, {
         (player distance(nearestObject[player, "Box_GEN_Equip_F"]) < 5)
     }],
-    ["Rent ($350)", {
+    ["Alquilar ($350)", {
         [cursorobject] call A3PL_JobFarming_BuyGreenhouse;
     }, {
         (typeOf cursorobject == "Land_A3PL_GreenHouse") && ((player distance cursorobject) < 4.3)
     }],
-    ["Repair Vehicle", {
+    ["Reparar Vehículo", {
         private["_intersect"];
         _intersect = player_objintersect;
         if (isNull _intersect) exitwith {};
@@ -933,21 +933,21 @@ A3PL_Interaction_Options = [
     }, {
         (player_ItemClass == "repairwrench") && (vehicle player == player) && (player distance cursorObject < 5)
     }],
-    ["Toggle Anchor", {
+    ["Desplegar Ancla", {
         private["_veh"];
         _veh = cursorObject;
         [_veh] spawn A3PL_Vehicle_Anchor;
     }, {
         ((typeOf cursorObject) IN["A3PL_Motorboat", "A3PL_Motorboat_Rescue", "A3PL_Motorboat_Police", "A3PL_RHIB", "A3PL_Yacht", "A3PL_Yacht_Pirate", "A3PL_RBM", "A3PL_Container_Ship"]) && (player distance cursorObject < 15) && (!(cursorObject getVariable["locked", true])) && ((speed cursorObject) < 5)
     }],
-    ["Toggle Anchor", {
+    ["Desplegar Ancla", {
         private["_veh"];
         _veh = vehicle player;
         [_veh] spawn A3PL_Vehicle_Anchor;
     }, {
         ((typeOf vehicle player) IN["A3PL_Motorboat", "A3PL_Motorboat_Rescue", "A3PL_Motorboat_Police", "A3PL_RHIB", "A3PL_Yacht", "A3PL_Yacht_Pirate", "A3PL_RBM", "A3PL_Container_Ship"]) && (!(vehicle player getVariable["locked", true])) && ((speed vehicle player) < 5)
     }],
-    ["Stand Up", {
+    ["Levantarse", {
         [player,""] remoteExec ["A3PL_Lib_SyncAnim",0];
     }, {
         animationState player IN ["hubsittingchairb_idle1","hubsittingchairb_idle2","hubsittingchairb_idle3","incapacitated"]
@@ -1090,19 +1090,19 @@ Config_Gear = [
 publicVariable "Congfig_Gear";
 
 Config_Licenses = [
-    ["driver","Class C driver's license"],
-    ["bike","Bike driving license"],
-    ["cdl","Commercial driver's license"],
-    ["boat","Boating license"],
+    ["driver","Permiso de conducción tipo C"],
+    ["bike","Permiso de conducción tipo motocicletas"],
+    ["cdl","Licencia de Comerciante"],
+    ["boat","Licencia de Barcos"],
     ["ccp","Concealed carry permit"],
-    ["hunting","Hunting Rifle permit"],
-    ["pilot","Pilots License"],
-    ["hpilot","Helicopter Pilots License"],
-    ["c3driver","Advanced Driver's License"],
-    ["fishing","Fishing License"],
-    ["cfishing","Comercial Fishing License"],
-    ["cboat","Comercial Boating License"],
-    ["security","Security License"]
+    ["hunting","Permiso de Caza"],
+    ["pilot","Licencia de Piloto"],
+    ["hpilot","Licencia de Piloto de Helicóptero"],
+    ["c3driver","Permiso de conducción avanzado"],
+    ["fishing","Licencia de Pesca"],
+    ["cfishing","Licencia de Pesca Comercial"],
+    ["cboat","Licencia de Barcos Comerciantes"],
+    ["security","Licencia de Seguridad"]
 ];
 publicVariable "Config_Licenses";
 
@@ -1212,34 +1212,34 @@ Config_Items = [
     ["pavilion","Pavilion",0.1,"A3PL_Pavilion",0,true,true,true,false,false,"",[0,0,0],""],
     ["cannabis_bud","Cannabis Bud",0.25,"A3PL_Cannabis_Bud",0,true,true,true,true,true,"",[0,0,0],""],
     ["cannabis_bud_cured","Cured Cannabis Bud",0.25,"A3PL_Cannabis_Bud",0,true,true,true,true,true,"",[0,0,0],""],
-    ["marijuana","Marijuana (deprecated item, not used)",1,"A3PL_MarijuanaBag",0,true,true,true,true,true,"",[0,0,0],""],
+    ["marijuana","Marihuana (deprecated item, not used)",1,"A3PL_MarijuanaBag",0,true,true,true,true,true,"",[0,0,0],""],
     ["cannabis_grinded_5g","Grinded cannabis",0.25,"A3PL_Cannabis_Bud",0,true,true,true,true,true,"",[0,0,0],""],
-    ["blunt","Marijuana Blunt",1,"AFPL_Drugs_Blunt",90,true,true,true,true,true,"A3PL_Drugs_Use",[0,0,0],""],
-    ["weed_5g","Marijuana (5 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_10g","Marijuana (10 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_15g","Marijuana (15 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_20g","Marijuana (20 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_25g","Marijuana (25 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_30g","Marijuana (30 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_35g","Marijuana (35 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_40g","Marijuana (40 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_45g","Marijuana (45 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_50g","Marijuana (50 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_55g","Marijuana (55 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_60g","Marijuana (60 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_65g","Marijuana (65 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_70g","Marijuana (70 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_75g","Marijuana (75 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_80g","Marijuana (80 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_85g","Marijuana (85 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_90g","Marijuana (90 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_95g","Marijuana (95 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["weed_100g","Marijuana (100 grams)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
-    ["roadcones","Roadcones",0.1,"A3PL_RoadCone_x10",0,true,true,true,false,true,"",[0,0,0],""],
-    ["roadbarrier","Road Barrier",0.1,"A3PL_PlasticBarrier_02",0,true,true,true,false,true,"",[0,0,0],""],
-    ["roadcone","Roadcone",0.1,"A3PL_RoadCone",0,true,true,true,false,false,"",[0,0,0],""],
+    ["blunt","Porro de Marihuana",1,"AFPL_Drugs_Blunt",90,true,true,true,true,true,"A3PL_Drugs_Use",[0,0,0],""],
+    ["weed_5g","Marihuana (5 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_10g","Marihuana (10 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_15g","Marihuana (15 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_20g","Marihuana (20 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_25g","Marihuana (25 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_30g","Marihuana (30 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_35g","Marihuana (35 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_40g","Marihuana (40 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_45g","Marihuana (45 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_50g","Marihuana (50 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_55g","Marihuana (55 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_60g","Marihuana (60 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_65g","Marihuana (65 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_70g","Marihuana (70 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_75g","Marihuana (75 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_80g","Marihuana (80 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_85g","Marihuana (85 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_90g","Marihuana (90 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_95g","Marihuana (95 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["weed_100g","Marihuana (100 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
+    ["roadcones","Conos",0.1,"A3PL_RoadCone_x10",0,true,true,true,false,true,"",[0,0,0],""],
+    ["roadbarrier","Barrera",0.1,"A3PL_PlasticBarrier_02",0,true,true,true,false,true,"",[0,0,0],""],
+    ["roadcone","Cono",0.1,"A3PL_RoadCone",0,true,true,true,false,false,"",[0,0,0],""],
     ["seed_coca","Coca seeds",0.5,"A3PL_Seed_Corn",0,true,true,true,true,true,"",[0,0,0],""],
-    ["seed_sugar","Sugar cane seeds",0.5,"A3PL_Seed_Corn",0,true,true,true,true,true,"",[0,0,0],""],
+    ["seed_sugar","Semillas de caña de azúcar",0.5,"A3PL_Seed_Corn",0,true,true,true,true,true,"",[0,0,0],""],
     ["coca","Coca",0.5,"A3PL_Seed_Corn",0,true,true,true,true,true,"",[0,0,0],""],
     ["sugarcane","Sugar cane",0.5,"A3PL_Seed_Corn",0,true,true,true,true,true,"",[0,0,0],""],
     ["coke","Coke",0.5,"A3PL_Can_V2",0,true,true,true,true,true,"A3PL_Items_Thirst",[0,0,0],""],
