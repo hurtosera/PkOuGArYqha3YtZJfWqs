@@ -17842,7 +17842,7 @@ Config_QuickActions = [
             ["System: Unable to Open Showroom Doors", Color_Red] call A3PL_Player_Notification;
         };
         if (!(typeOf _obj == "Land_A3PL_Showroom")) exitwith {
-            ["System: You are not looking at a showroom building", Color_Red] call A3PL_Player_Notification;
+            ["Sistema You are not looking at a showroom building", Color_Red] call A3PL_Player_Notification;
         };
 
         if (_name == "garage1_open") then {
@@ -17851,16 +17851,16 @@ Config_QuickActions = [
             _obj animateSource["garage1", 1];
         };
     }],
-    ["Land_A3PL_Showroom", "Close Showroom Doors", {
+    ["Land_A3PL_Showroom", "Cerrar puertas del Showroom", {
         private["_obj", "_name"];
 
         _obj = player_objintersect;
         _name = player_nameIntersect;
         if ((isNull _obj) or(_name == "")) exitwith {
-            ["System: Unable to Close Showroom Doors", Color_Red] call A3PL_Player_Notification;
+            ["Sistema: No ha sido posible cerrar las puertas del showroom", Color_Red] call A3PL_Player_Notification;
         };
         if (!(typeOf _obj == "Land_A3PL_Showroom")) exitwith {
-            ["System: You are not looking at a showroom building", Color_Red] call A3PL_Player_Notification;
+            ["Sistema: No estas mirando a un edificio de showroom", Color_Red] call A3PL_Player_Notification;
         };
 
         if (_name == "garage1_close") then {
@@ -17869,317 +17869,317 @@ Config_QuickActions = [
             _obj animateSource["garage1", 0];
         };
     }],
-    ["Land_A3PL_Garage", "Use Car Lift", {
+    ["Land_A3PL_Garage", "Usar elevador de Vehículos", {
         [player_objintersect] call A3PL_JobMechanic_UseLift;
     }],
-    ["", "Delivery Vehicle", {
+    ["", "Vehiculo de Reparto", {
         [player_objintersect, player_nameIntersect] call A3PL_JobVDelivery_Deliver;
     }],
-    ["", "Deliver Package", {
+    ["", "Entregar Paquete", {
         [player_objintersect, player_nameIntersect] call A3PL_JobMDelivery_Deliver;
     }],
-    ["", "Knock On Door", {
+    ["", "Tocar a la Puerta", {
         playSound3D["A3PL_Common\effects\knockdoor.ogg", player, true, getPosASL player, 2, 1, 10];
     }],
-    ["", "Talk to Purge Weapons Dealers", {
+    ["", "Hablar al socio de Purge Weapons", {
         ["Shop_Purge_Guns"] call A3PL_Shop_Open;
     }],
-    ["", "Talk to Purge Foods Dealer", {
+    ["", "Hablar al socio de Purge Foods", {
         ["Shop_Purge_Food"] call A3PL_Shop_Open;
     }],
-    ["A3PL_DogCage", "Open K-9 Menu", {
+    ["A3PL_DogCage", "Abrir menú de Unidad K-9", {
         [] call A3PL_Dogs_OpenMenu
     }],
-    ["", "Open Import/Export Menu", {
+    ["", "Abrir menú de Importaciones/Exportaciones", {
         [] call A3PL_IE_Open;
     }],
-    ["", "Convert stolen money", {
+    ["", "Convertir dinero robado", {
         [] call A3PL_BHeist_ConvertCash;
     }],
-    ["", "Access Furniture Shop", {
+    ["", "Acceder a la Tienda de Mobiliario", {
         ["Shop_Furniture2"] call A3PL_Shop_Open;
     }],
-    ["", "Access Pinhead Larry's shop", {
+    ["", "Acceder a la Tienda de Pinhead Larry", {
         ["Shop_Paintball"] call A3PL_Shop_Open;
     }],
-    ["", "Access Buckeye Buck's shop", {
+    ["", "Acceder a la Tienda de Buckeye Buck", {
         ["Shop_Buckeye"] call A3PL_Shop_Open;
     }],
-    ["", "Access Moonshine Willy's shop", {
+    ["", "Acceder a la Tienda de Moonshine Willy", {
         ["Shop_Willy"] call A3PL_Shop_Open;
     }],
-    ["", "Access Hemlock Huck's shop", {
+    ["", "Acceder a la Tienda de Hemlock Huck", {
         ["Shop_Hemlock"] call A3PL_Shop_Open;
     }],
-    ["", "Access Mining Mike's shop", {
+    ["", "Acceder a la Tienda de Minería", {
         ["Shop_Mike"] call A3PL_Shop_Open;
     }],
-    ["", "Access Waste Management shop", {
+    ["", "Acceder a la Tienda de Basurero", {
         ["Shop_WasteManagement"] call A3PL_Shop_Open;
     }],
-    ["", "Start/Stop working for Waste Management!", {
+    ["", "Parar/Empezar a trabajar como Basurero", {
         [] spawn A3PL_Waste_StartJob;
     }],
-    ["", "Start/Stop working for Fishers Island Postal Service!", {
+    ["", "Parar/Empezar a trabajar en el Servicio Postal", {
         [] spawn A3PL_Delivery_StartJob;
     }],
-    ["", "Start/Stop working for the Great Ratsby!", {
+    ["", "Parar/Empezar a trabajar para la Empresa de Plagas", {
         [] call A3PL_Exterminator_Start;
     }],
-    ["", "Start/Stop renting a go-kart!", {
+    ["", "Parar/Empezar el alquiler de un Kart", {
         [] call A3PL_Karts_Rent;
     }],
-    ["", "Buy a Iron mining map ($500)", {
+    ["", "Comprar un mapa de menas de Hierro ($500)", {
         ["iron"] call A3PL_JobWildcat_BuyMap;
     }],
-    ["", "Buy a Coal mining map ($500)", {
+    ["", "Comprar un mapa de menas de Carbón ($500)", {
         ["coal"] call A3PL_JobWildcat_BuyMap;
     }],
-    ["", "Buy a Aluminium mining map ($500)", {
+    ["", "Comprar un mapa de menas de Aluminio ($500)", {
         ["aluminium"] call A3PL_JobWildcat_BuyMap;
     }],
-    ["", "Buy a Sulphur mining map ($500)", {
+    ["", "Comprar un mapa de menas de sulfuro ($500)", {
         ["sulphur"] call A3PL_JobWildcat_BuyMap;
     }],
-    ["", "Buy a Oil mining map ($1000)", {
+    ["", "Comprar un mapa de fosas petroliferas ($1000)", {
         ["oil"] call A3PL_JobWildCat_BuyMap;
     }],
-    ["", "Access Furniture Shop 2", {
+    ["", "Acceder a la Tienda de Mobiliario", {
         ["Shop_Furniture"] call A3PL_Shop_Open;
     }],
-    ["", "Access General Shop", {
+    ["", "Acceder a la Tienda General", {
         ["Shop_General_Supplies"] call A3PL_Shop_Open;
     }],
-    ["", "Access Hardware Shop", {
+    ["", "Acceder a la Tienda de Hardware", {
         ["Shop_Hardware"] call A3PL_Shop_Open;
     }],
-    ["", "Access Seeds Shop", {
+    ["", "Acceder a la Tienda de Semillas", {
         ["Shop_Seeds"] call A3PL_Shop_Open;
     }],
-    ["", "Access FIFR Equipment Shop", {
+    ["", "Acceder a la tienda de Equipamiento de FIFR", {
         private["_whitelist"];
         _whitelist = "fifr";
         if ((player getVariable["faction", "citizen"]) != _whitelist) exitwith {
-            [format["System: Only the %1 faction can use this shop", _whitelist], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo la faccion %1 puede usar esta tienda", _whitelist], Color_Red] call A3PL_Player_Notification;
         };
         ["Shop_FIFR_Supplies_Vendor"] call A3PL_Shop_Open;
     }],
-    ["", "Access FIFR Firefighting Shop", {
+    ["", "Acceder a la Tienda de FIFR", {
         private["_whitelist"];
         _whitelist = "fifr";
         if ((player getVariable["faction", "citizen"]) != _whitelist) exitwith {
-            [format["System: Only the %1 faction can use this shop", _whitelist], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo la faccion %1 puede usar esta tienda", _whitelist], Color_Red] call A3PL_Player_Notification;
         };
         ["Shop_FIFR_Supplies_Vendor2"] call A3PL_Shop_Open;
     }],
-    ["", "Access FIFR Vehicle Shop", {
+    ["", "Acceder a la tienda de Vehículos de FIFR", {
         private["_whitelist"];
         _whitelist = "fifr";
         if ((player getVariable["faction", "citizen"]) != _whitelist) exitwith {
-            [format["System: Only the %1 faction can use this shop", _whitelist], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo la faccion %1 puede usar esta tienda", _whitelist], Color_Red] call A3PL_Player_Notification;
         };
         //["Shop_FIFR_Vehicle_Vendor"] call A3PL_Shop_Open;
         ["fifr"] spawn AFPL_Faction_Vehicle_Shop_Open;
     }],
-    ["", "Access SD Equipment Shop", {
+    ["", "Acceder a la tienda de Equipamiento de SD", {
         private["_whitelist"];
         _whitelist = "police";
         if ((player getVariable["faction", "citizen"]) != _whitelist) exitwith {
-            [format["System: Only the %1 faction can use this shop", _whitelist], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo la faccion %1 puede usar esta tienda", _whitelist], Color_Red] call A3PL_Player_Notification;
         };
         ["Shop_SD_Supplies_Vendor"] call A3PL_Shop_Open;
     }],
-    ["", "Access SD Vehicle Shop", {
+    ["", "Acceder a la tienda de Vehículos de SD", {
         private["_whitelist"];
         _whitelist = "police";
         if ((player getVariable["faction", "citizen"]) != _whitelist) exitwith {
-            [format["System: Only the %1 faction can use this shop", _whitelist], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo la faccion %1 puede usar esta tienda", _whitelist], Color_Red] call A3PL_Player_Notification;
         };
         //["Shop_SD_Vehicles_Vendor"] call A3PL_Shop_Open;
         ["police"] spawn AFPL_Faction_Vehicle_Shop_Open;
     }],
-    ["", "Access Vehicle Shop", {
+    ["", "Acceder a la Tienda de Vehículos", {
         ["Shop_Vehicles_Supplies_Vendor"] call A3PL_Shop_Open;
     }],
-    ["", "Access FAA Equipment Shop", {
+    ["", "Acceder a la tienda de Equipamiento de FAA", {
         private["_whitelist"];
         _whitelist = "faa";
         if ((player getVariable["faction", "citizen"]) != _whitelist) exitwith {
-            [format["System: Only the %1 faction can use this shop", _whitelist], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo la faccion %1 puede usar esta tienda", _whitelist], Color_Red] call A3PL_Player_Notification;
         };
         ["Shop_FAA_Supplies_Vendor"] call A3PL_Shop_Open;
     }],
-    ["", "Access FAA Vehicle Shop", {
+    ["", "Acceder a la tienda de Vehículos de FAA", {
         private["_whitelist"];
         _whitelist = "faa";
         if ((player getVariable["faction", "citizen"]) != _whitelist) exitwith {
-            [format["System: Only the %1 faction can use this shop", _whitelist], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo la faccion %1 puede usar esta tienda", _whitelist], Color_Red] call A3PL_Player_Notification;
         };
         ["fss"] spawn AFPL_Faction_Vehicle_Shop_Open;
     }],
-    ["", "Access DOJ Equipment Shop", {
+    ["", "Acceder a la tienda de Equipamiento de DOJ", {
         private["_whitelist"];
         _whitelist = "doj";
         if ((player getVariable["faction", "citizen"]) != _whitelist) exitwith {
-            [format["System: Only the %1 faction can use this shop", _whitelist], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo la faccion %1 puede usar esta tienda", _whitelist], Color_Red] call A3PL_Player_Notification;
         };
         ["Shop_DOJ_Supplies_Vendor"] call A3PL_Shop_Open;
     }],
-    ["", "Access DOJ Vehicle Shop", {
+    ["", "Acceder a la tienda de Vehículos de DOJ", {
         if ((player getVariable["faction", "citizen"]) != "doj") exitwith {
-            ["System: Only the doj faction can use this shop", Color_Red] call A3PL_Player_Notification;
+            ["Sistema: Solo la faccion doj puede usar esta tienda", Color_Red] call A3PL_Player_Notification;
         };
         ["doj"] spawn AFPL_Faction_Vehicle_Shop_Open;
     }],
-    ["", "Access DMV Equipment Shop", {
+    ["", "Acceder a la tienda de Equipamiento de DMV", {
         private["_whitelist"];
         _whitelist = "dmv";
         if ((player getVariable["faction", "citizen"]) != _whitelist) exitwith {
-            [format["System: Only the %1 faction can use this shop", _whitelist], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo la faccion %1 puede usar esta tienda", _whitelist], Color_Red] call A3PL_Player_Notification;
         };
         ["Shop_DMV_Supplies_Vendor"] call A3PL_Shop_Open;
     }],
-    ["", "Access DMV Vehicle Shop", {
+    ["", "Acceder a la tienda de Vehículos de DMV", {
         private["_whitelist"];
         _whitelist = "dmv";
         if ((player getVariable["faction", "citizen"]) != _whitelist) exitwith {
-            [format["System: Only the %1 faction can use this shop", _whitelist], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo la faccion %1 puede usar esta tienda", _whitelist], Color_Red] call A3PL_Player_Notification;
         };
         ["dmv"] spawn AFPL_Faction_Vehicle_Shop_Open;
     }],
-    ["", "Access DOC Equipment Shop", {
+    ["", "Acceder a la tienda de Equipamiento de DOC", {
         if !((player getVariable["faction", "citizen"]) IN["police", "doc"]) exitwith {
-            [format["System: Only the SD/DOC faction can use this shop"], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo las facciones SD/DOC pueden usar esta tienda"], Color_Red] call A3PL_Player_Notification;
         };
         ["Shop_DOC_Supplies_Vendor"] call A3PL_Shop_Open;
     }],
-    ["", "Access USCG Equipment Shop", {
+    ["", "Acceder a la tienda de Equipamiento de USCG", {
         private["_whitelist"];
         _whitelist = "uscg";
         if ((player getVariable["faction", "citizen"]) != _whitelist) exitwith {
-            [format["System: Only the %1 faction can use this shop", _whitelist], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo la faccion %1 puede usar esta tienda", _whitelist], Color_Red] call A3PL_Player_Notification;
         };
         ["Shop_USCG_Supplies_Vendor"] call A3PL_Shop_Open;
     }],
-    ["", "Access USCG Car Shop", {
+    ["", "Acceder a la tienda de Vehículos de USCG", {
         private["_whitelist"];
         _whitelist = "uscg";
         if ((player getVariable["faction", "citizen"]) != _whitelist) exitwith {
-            [format["System: Only the %1 faction can use this shop", _whitelist], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo la faccion %1 puede usar esta tienda", _whitelist], Color_Red] call A3PL_Player_Notification;
         };
         //["Shop_USCG_Car_Vendor"] call A3PL_Shop_Open;
         ["uscg"] spawn AFPL_Faction_Vehicle_Shop_Open;
     }],
-    ["", "Access USCG Boat Shop", {
+    ["", "Acceder a la tienda de Botes de USCG", {
         private["_whitelist"];
         _whitelist = "uscg";
         if ((player getVariable["faction", "citizen"]) != _whitelist) exitwith {
-            [format["System: Only the %1 faction can use this shop", _whitelist], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo la faccion %1 puede usar esta tienda", _whitelist], Color_Red] call A3PL_Player_Notification;
         };
         ["uscg_b"] spawn AFPL_Faction_Vehicle_Shop_Open;
     }],
-    ["", "Access USCG Aircraft Shop", {
+    ["", "Acceder a la Tienda Aérea de USCG", {
         private["_whitelist"];
         _whitelist = "uscg";
         if ((player getVariable["faction", "citizen"]) != _whitelist) exitwith {
-            [format["System: Only the %1 faction can use this shop", _whitelist], Color_Red] call A3PL_Player_Notification;
+            [format["Sistema: Solo la faccion %1 puede usar esta tienda", _whitelist], Color_Red] call A3PL_Player_Notification;
         };
         ["uscg_h"] spawn AFPL_Faction_Vehicle_Shop_Open;
     }],
-    ["", "Access Chemical Plant", {
+    ["", "Acceder a la Planta Química", {
         ["Chemical Plant"] call A3PL_Factory_Open;
     }],
-    ["", "Access Faction Equipment Factory", {
+    ["", "Acceder a Items de Equipamiento de Facciones", {
         ["Faction equipment"] call A3PL_Factory_Open;
     }],
     ["", "Access Steel Mill", {
         ["Steel Mill"] call A3PL_Factory_Open;
     }],
-    ["", "Access Oil Refinery", {
+    ["", "Acceder a la Refinería de Petróleo", {
         ["Oil Refinery"] call A3PL_Factory_Open;
     }],
-    ["", "Access Weapon Factory", {
+    ["", "Acceder a los Items de Armas", {
         ["Weapon Factory"] call A3PL_Factory_Open;
     }],
-    ["", "Access Food Processing Plant", {
+    ["", "Acceder a la Planta de procesado de Comida", {
         ["Food Processing Plant"] call A3PL_Factory_Open;
     }],
-    ["", "Access Goods Factory", {
+    ["", "Acceder a la Factoria Goods", {
         ["Goods Factory"] call A3PL_Factory_Open;
     }],
-    ["", "Access Vehicle Factory", {
+    ["", "Acceder a los Vehículos", {
         ["Vehicle Factory"] call A3PL_Factory_Open;
     }],
-    ["", "Access Car Parts Factory", {
+    ["", "Acceder a los Items de Partes de Vehículos", {
         ["Car Parts Factory"] call A3PL_Factory_Open;
     }],
-    ["", "Access Faction Vehicle Factory", {
+    ["", "Acceder a los Vehículos", {
         ["Faction Vehicle Factory"] call A3PL_Factory_Open;
     }],
-    ["", "Access Marine Factory", {
+    ["", "Acceder a los Items de Pesca", {
         ["Marine Factory"] call A3PL_Factory_Open;
     }],
-    ["", "Access Aircraft Factory", {
+    ["", "Acceder a los Items de Aeronaves", {
         ["Aircraft Factory"] call A3PL_Factory_Open;
     }],
-    ["", "Access Car Parts Factory", {
+    ["", "Acceder a los Items de Partes de Vehículos", {
         ["Car Parts Factory"] call A3PL_Factory_Open;
     }],
-    ["", "Access Clothing Factory", {
+    ["", "Acceder a los Items de Ropa", {
         ["Clothing Factory"] call A3PL_Factory_Open;
     }],
-    ["", "Access Faction Clothing Factory", {
+    ["", "Acceder a los Items de Ropa", {
         ["Faction Clothing Factory"] call A3PL_Factory_Open;
     }],
-    ["", "Talk to McFishers Employee", {
+    ["", "Hablar al Empleado de McFishers", {
         ["mcfishers_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Switch to McFishers uniform", {
+    ["", "Equipar uniforme de McFishers", {
         ["mcfisher"] call A3PL_NPC_ReqJobUniform;
     }],
-    ["", "Talk to Taco Hell Employee", {
+    ["", "Hablar al Empleado de Taco Hell", {
         ["tacohell_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Switch to Taco Hell uniform", {
+    ["", "Equipar uniforme de Taco Hell", {
         ["tacohell"] call A3PL_NPC_ReqJobUniform;
     }],
-    ["", "Talk to mailman", {
+    ["", "Hablar al Cartero", {
         ["mailman_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Talk to Roadworker", {
+    ["", "Hablar al Trabajor de Manutención de Carreteras", {
         ["roadworker_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Talk to Fisherman", {
+    ["", "Hablar al Pescador", {
         ["fisherman_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Talk to Sheriff", {
+    ["", "Hablar al Sheriff", {
         ["police_initial"] call A3PL_NPC_Start;
     }],
     ["", "Talk to Dispatch", {
         ["dispatch_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Talk to Medic", {
+    ["", "Hablar al Médico", {
         ["fifr_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Talk to Bank Employee", {
+    ["", "Hablar al Empleado del Banco", {
         ["bank_initial"] call A3PL_NPC_Start;
     }],
     ["", "Talk to USCG Officer", {
         ["uscg_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Talk to supermarket employee", {
+    ["", "Hablar al Empleado del Supermercado", {
         ["auct_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Talk to Trucker", {
+    ["", "Hablar al Camionero", {
         ["trucker_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Talk to Farmer", {
+    ["", "Hablar al Granjero", {
         ["farmer_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Talk to Oil Recoverer", {
+    ["", "Hablar al Recuperador de Petróleo", {
         ["oil_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Talk to Oil Trader", {
+    ["", "Hablar al comerciante de Petróleo", {
         ["oilbarrel_initial"] call A3PL_NPC_Start;
     }],
     ["", "Talk to FAA 1", {
@@ -18188,32 +18188,32 @@ Config_QuickActions = [
     ["", "Talk to FAA 2", {
         ["faastop_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Talk to Drugs Dealer", {
+    ["", "Hablar al Camello", {
         ["Shop_DrugsDealer"] call A3PL_Shop_Open;
     }],
-    ["", "Talk to Black Market", {
+    ["", "Hablar al Contrabandista del Mercado Negro", {
         ["Shop_BlackMarket"] call A3PL_Shop_Open;
     }],
-    ["", "Talk to Guns NPC", {
+    ["", "Hablar al NPC Armero", {
         if (["ccp"] call A3PL_DMV_Check) then {
             ["Shop_Guns_Vendor"] call A3PL_Shop_Open;
         } else {
             ["You do not have a Concealed Carry Permit!", Color_Red] call A3PL_Player_Notification;
         };
     }],
-    ["", "Talk to Vehicles NPC", {
+    ["", "Hablar al NPC Mecánico", {
         ["Shop_Guns_Vendor"] call A3PL_Shop_Open;
     }],
-    ["", "Talk to Supermarket NPC", {
+    ["", "Hablar al NPC del Supermercado", {
         ["Shop_Supermarket"] call A3PL_Shop_Open;
     }],
-    ["", "Talk to Government NPC", {
+    ["", "Hablar al NPC del Gobierno", {
         ["government_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Generate Referal Code", {
+    ["", "Generar código de referido", {
         [] call AFPL_Open_Referal_Generate_Menu;
     }],
-    ["", "Claim My Referal Reward", {
+    ["", "Reclamar mi recompensa de referido", {
         [(getPlayerUID player)] remoteExec ["AFPL_Server_Referal_Load_My_Rewards", 2];
     }],   
     ["", "Talk to DOJ NPC", {
@@ -18225,16 +18225,16 @@ Config_QuickActions = [
     ["", "Talk to DMV NPC", {
         ["dmv_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Talk to Hunting NPC", {
+    ["", "Hablar al NPC Cazador", {
         ["Shop_Hunting_Supplies"] call A3PL_Shop_Open;
     }],
-    ["", "Talk to Roadside Service Worker", {
+    ["", "Hablar al Servicio de Carreteras", {
         ["roadside_service_initial"] call A3PL_NPC_Start;
     }],
-    ["", "Access Gem Stone Shop", {
+    ["", "Acceder a la Tienda de Gemas", {
         ["Shop_GemStone"] call A3PL_Shop_Open;
     }],
-    ["", "Skin animal", {
+    ["", "Piel de Animal", {
         [player_objintersect] call A3PL_Hunting_Skin;
     }]
 ];
