@@ -997,48 +997,48 @@ publicVariable "Config_Dispatch_Ins";
 
 Config_Gear = [
     ["itemGPS","GPS","item"],
-    ["itemMap","Map","item"],
-    ["itemCompass","Compass","item"],
-    ["itemWatch","Watch","item"],
+    ["itemMap","Mapa","item"],
+    ["itemCompass","Brujula","item"],
+    ["itemWatch","Reloj","item"],
     ["itemRadio","Radio","item"],
-    ["a3pl_cellphone","Cellphone","item"],
-    ["H_Cap_blk","Black Hat","item"],
-    ["B_Kitbag_mcamo","Backpack","backpack"],
-    ["A3PL_Citizen_Default_Uniform","Alpha shirt","uniform"],
-    ["A3PL_Citizen_mcFishers_Uniform","mcFisher uniform","uniform"],
+    ["a3pl_cellphone","Movil","item"],
+    ["H_Cap_blk","Sombrero Negro","item"],
+    ["B_Kitbag_mcamo","Mochila","backpack"],
+    ["A3PL_Citizen_Default_Uniform","Camiseta de la Alpha","uniform"],
+    ["A3PL_Citizen_mcFishers_Uniform","Uniforme McFisher","uniform"],
     ["U_I_C_Soldier_Para_1_F","APEX Para 1","uniform"],
     ["U_I_C_Soldier_Para_2_F","APEX Para 1","uniform"],
     ["U_I_C_Soldier_Para_3_F","APEX Para 1","uniform"],
     ["U_I_C_Soldier_Para_4_F","APEX Para 1","uniform"],
     ["U_I_C_Soldier_Para_5_F","APEX Para 1","uniform"],
-    ["U_I_C_Soldier_Bandit_1_F","APEX Bandit 1","uniform"],
-    ["U_I_C_Soldier_Bandit_2_F","APEX Bandit 2","uniform"],
-    ["U_I_C_Soldier_Bandit_3_F","APEX Bandit 3","uniform"],
-    ["U_I_C_Soldier_Bandit_4_F","APEX Bandit 4","uniform"],
-    ["U_I_C_Soldier_Bandit_5_F","APEX Bandit 5","uniform"],
+    ["U_I_C_Soldier_Bandit_1_F","APEX Bandido 1","uniform"],
+    ["U_I_C_Soldier_Bandit_2_F","APEX Bandido 2","uniform"],
+    ["U_I_C_Soldier_Bandit_3_F","APEX Bandido 3","uniform"],
+    ["U_I_C_Soldier_Bandit_4_F","APEX Bandido 4","uniform"],
+    ["U_I_C_Soldier_Bandit_5_F","APEX Bandido 5","uniform"],
     ["U_C_Man_casual_1_F","APEX Casual 1","uniform"],
     ["U_C_Man_casual_2_F","APEX Casual 2","uniform"],
     ["U_C_Man_casual_3_F","APEX Casual 3","uniform"],
     ["U_C_Man_casual_4_F","APEX Casual 4","uniform"],
     ["U_C_Man_casual_5_F","APEX Casual 5","uniform"],
     ["U_C_Man_casual_6_F","APEX Casual 6","uniform"],
-    ["U_C_man_sport_1_F","APEX Sport 1","uniform"],
-    ["U_C_man_sport_2_F","APEX Sport 2","uniform"],
-    ["U_C_man_sport_3_F","APEX Sport 3","uniform"],
-    ["A3PL_Sheriff_Uniform_cdt","Sheriff Uniform","uniform"],
-    ["A3PL_Sheriff_Uniform_cdt_NT","Sheriff Uniform","uniform"],
-    ["A3PL_Sheriff_Uniform_dpt","Sheriff Uniform","uniform"],
-    ["A3PL_Sheriff_Uniform_dpt_NT","Sheriff Uniform","uniform"],
-    ["A3PL_Sheriff_Uniform_spt","Sheriff Uniform","uniform"],
-    ["A3PL_Sheriff_Uniform_spt_NT","Sheriff Uniform","uniform"],
-    ["A3PL_Sheriff_Uniform_srg","Sheriff Uniform","uniform"],
-    ["A3PL_Sheriff_Uniform_srg_NT","Sheriff Uniform","uniform"],
-    ["A3PL_Sheriff_Uniform_lie","Sheriff Uniform","uniform"],
-    ["A3PL_Sheriff_Uniform_cap","Sheriff Uniform","uniform"],
-    ["A3PL_Sheriff_Uniform_ush","Sheriff Uniform","uniform"],
-    ["A3PL_Sheriff_Uniform_ssh","Sheriff Uniform","uniform"],
-    ["A3PL_TopOil_Wildcatter_Uniform","Wildcatting uniform","uniform"],
-    ["A3PL_TopOil_Recovery_Uniform","Oil recovery uniform","uniform"],
+    ["U_C_man_sport_1_F","APEX Deporte 1","uniform"],
+    ["U_C_man_sport_2_F","APEX Deporte 2","uniform"],
+    ["U_C_man_sport_3_F","APEX Deporte 3","uniform"],
+    ["A3PL_Sheriff_Uniform_cdt","Uniforme Sheriff","uniform"],
+    ["A3PL_Sheriff_Uniform_cdt_NT","Uniforme Sheriff","uniform"],
+    ["A3PL_Sheriff_Uniform_dpt","Uniforme Sheriff","uniform"],
+    ["A3PL_Sheriff_Uniform_dpt_NT","Uniforme Sheriff","uniform"],
+    ["A3PL_Sheriff_Uniform_spt","Uniforme Sheriff","uniform"],
+    ["A3PL_Sheriff_Uniform_spt_NT","Uniforme Sheriff","uniform"],
+    ["A3PL_Sheriff_Uniform_srg","Uniforme Sheriff","uniform"],
+    ["A3PL_Sheriff_Uniform_srg_NT","Uniforme Sheriff","uniform"],
+    ["A3PL_Sheriff_Uniform_lie","Uniforme Sheriff","uniform"],
+    ["A3PL_Sheriff_Uniform_cap","Uniforme Sheriff","uniform"],
+    ["A3PL_Sheriff_Uniform_ush","Uniforme Sheriff","uniform"],
+    ["A3PL_Sheriff_Uniform_ssh","Uniforme Sheriff","uniform"],
+    ["A3PL_TopOil_Wildcatter_Uniform","Uniforme Cazador","uniform"],
+    ["A3PL_TopOil_Recovery_Uniform","Uniforme Petrolero","uniform"],
     ["A3PL_LionLike_1_Uniform","Lionlike 1","uniform"],
     ["A3PL_LionLike_2_Uniform","Lionlike 2","uniform"],
     ["A3PL_LionLike_3_Uniform","Lionlike 3","uniform"],
@@ -1049,43 +1049,43 @@ Config_Gear = [
     ["A3PL_LionLike_8_Uniform","Lionlike 8","uniform"],
     ["A3PL_LionLike_9_Uniform","Lionlike 9","uniform"],
     ["A3PL_LionLike_10_Uniform","Lionlike 10","uniform"],
-    ["A3PL_Sheriff_Hat","Sheriff hat","headgear"],
-    ["A3PL_USCG_Basic_Uniform","USCG Basic Uniform","uniform"],
+    ["A3PL_Sheriff_Hat","Sombrero Sheriff","headgear"],
+    ["A3PL_USCG_Basic_Uniform","Uniforme basico de USCG","uniform"],
     ["A3PL_Taser","Taser","weapon"],
-    ["A3PL_TaserMag","Taser magazine","magazine"],
+    ["A3PL_TaserMag","Cargador del Taser","magazine"],
     ["hgun_Pistol_heavy_02_F","Revolver","weapon"],
-    ["hgun_Pistol_heavy_01_F",".45 pistol","weapon"],
-    ["6Rnd_45ACP_Cylinder","Revolver magazine","magazine"],
-    ["11Rnd_45ACP_Mag",".45 magazine","magazine"],
-    ["9Rnd_45ACP_Mag","45 mag 9rnd","magazine"],
-    ["hgun_Rook40_F","Rook pistol","weapon"],
-    ["16Rnd_9x21_Mag","Rook magazine","magazine"],
-    ["A3PL_EMS_Uniform","EMT Uniform","uniform"],
-    ["hgun_P07_F","9mm pistol","weapon"],
-    ["hgun_ACPC2_F","45 ACP","weapon"],
+    ["hgun_Pistol_heavy_01_F","Pistola del cal. .45","weapon"],
+    ["6Rnd_45ACP_Cylinder","Municion del Revolver","magazine"],
+    ["11Rnd_45ACP_Mag","Municion del cal. .45","magazine"],
+    ["9Rnd_45ACP_Mag","Cargador del 45 9rnd","magazine"],
+    ["hgun_Rook40_F","Pistola de Fogeo","weapon"],
+    ["16Rnd_9x21_Mag","Cargador pistola de Fogeo","magazine"],
+    ["A3PL_EMS_Uniform","Uniforme de EMT","uniform"],
+    ["hgun_P07_F","Pistola del cal. 9mm","weapon"],
+    ["hgun_ACPC2_F","Pistola del cal. 45 ACP","weapon"],
     ["LMG_Mk200_F","Mk200","weapon"],
-    ["200Rnd_65x39_cased_Box_Tracer","Mk200 mag","magazine"],
+    ["200Rnd_65x39_cased_Box_Tracer","Cargador de Mk200","magazine"],
     ["srifle_LRR_F","LRR","weapon"],
-    ["7Rnd_408_Mag","LRR Mag","magazine"],
-    ["optic_arco","ARCO Scope","item"],
-    ["A3PL_Citizen_Daniel_Uniform","Daniel Shirt","uniform"],
-    ["A3PL_Citizen_Eatsleep_Uniform","Eat-Sleep-Game-Repeat shirt","uniform"],
-    ["A3PL_Citizen_FartLoading_Uniform","Fart loading shirt","uniform"],
-    ["A3PL_Citizen_GotGuns_Uniform","Got-Guns shirt","uniform"],
-    ["A3PL_Citizen_MuscleMan_Uniform","Muscleman shirt","uniform"],
-    ["A3PL_Citizen_ObeyKitty_Uniform","Obey the kitty shirt","uniform"],
-    ["A3PL_Citizen_Trump_Uniform","Build a wall shirt","uniform"],
-    ["U_C_WorkerCoveralls","Mechanic outfit","uniform"],
-    ["U_B_PilotCoveralls","USCG Pilot Outfit","uniform"],
-    ["H_CrewHelmetHeli_B","USCG Pilot Helmet 1","headgear"],
-    ["H_PilotHelmetHeli_B","USCG Pilot Helmet 2","headgear"],
-    ["A3PL_FD_Helmet_Uniform","FD Helmet","headgear"],
-    ["A3PL_FD_Mask","FD Mask","goggles"],
-    ["A3PL_FD_Oxygen","FD Oxygen","backpack"],
-    ["A3PL_FD_Protective_Uniform","FD Protective Uniform","uniform"],
-    ["A3PL_FD_Casual1_Uniform","FD Casual 1","uniform"],
-    ["A3PL_FD_Casual2_Uniform","FD Casual 2","uniform"],
-    ["A3PL_FireAxe","Fire Axe","weapon"]
+    ["7Rnd_408_Mag","Cargador de LRR","magazine"],
+    ["optic_arco","Mirilla ARCO","item"],
+    ["A3PL_Citizen_Daniel_Uniform","Camiseta de Daniel","uniform"],
+    ["A3PL_Citizen_Eatsleep_Uniform","Camiseta Eat-Sleep-Game-Repeat","uniform"],
+    ["A3PL_Citizen_FartLoading_Uniform","Camiseta Fart loading","uniform"],
+    ["A3PL_Citizen_GotGuns_Uniform","Camiseta Got-Guns","uniform"],
+    ["A3PL_Citizen_MuscleMan_Uniform","Camiseta hombre musculoso","uniform"],
+    ["A3PL_Citizen_ObeyKitty_Uniform","Camiseta Obey el gatito","uniform"],
+    ["A3PL_Citizen_Trump_Uniform","Camiseta construye un muro","uniform"],
+    ["U_C_WorkerCoveralls","Ropa de Mecanico","uniform"],
+    ["U_B_PilotCoveralls","Ropa de Piloto de USCG","uniform"],
+    ["H_CrewHelmetHeli_B","Casco de Piloto 1 de USCG","headgear"],
+    ["H_PilotHelmetHeli_B","Casco de Piloto 2 de USCG","headgear"],
+    ["A3PL_FD_Helmet_Uniform","Casco de Bomberos (FD)","headgear"],
+    ["A3PL_FD_Mask","Mascarilla de Bomberos (FD)","goggles"],
+    ["A3PL_FD_Oxygen","Bombona de Oxigeno (FD)","backpack"],
+    ["A3PL_FD_Protective_Uniform","Equipo Protector de Bomberos (FD)","uniform"],
+    ["A3PL_FD_Casual1_Uniform","Equipacion de Bomberos Casual 1 (FD)","uniform"],
+    ["A3PL_FD_Casual2_Uniform","Equipacion de Bomberos Casual 2 (FD)","uniform"],
+    ["A3PL_FireAxe","Hacha","weapon"]
 ];
 publicVariable "Congfig_Gear";
 
@@ -1094,11 +1094,11 @@ Config_Licenses = [
     ["bike","Permiso de conducción tipo motocicletas"],
     ["cdl","Licencia de Comerciante"],
     ["boat","Licencia de Barcos"],
-    ["ccp","Concealed carry permit"],
+    ["ccp","Permiso de Portes Ocultos"],
     ["hunting","Permiso de Caza"],
     ["pilot","Licencia de Piloto"],
     ["hpilot","Licencia de Piloto de Helicóptero"],
-    ["c3driver","Permiso de conducción avanzado"],
+    ["c3driver","Permiso de Conducción Avanzado"],
     ["fishing","Licencia de Pesca"],
     ["cfishing","Licencia de Pesca Comercial"],
     ["cboat","Licencia de Barcos Comerciantes"],
@@ -1189,31 +1189,31 @@ Config_Food = [
 publicVariable "Config_Food";
 
 Config_Items = [
-    ["distillery","Moonshine Distillery",10,"A3PL_Distillery",0,true,true,true,false,false,"",[0,0,0],""],
-    ["distillery_hose","Distillery hose",10,"A3PL_Distillery_Hose",0,true,true,true,false,false,"",[0,0,0],""],
-    ["jug","Jug",1,"A3PL_Jug",0,true,true,true,true,true,"",[0,0,0],""],
-    ["jug_moonshine","Jug (contains moonshine)",1,"A3PL_Jug_Corked",0,true,true,true,true,true,"",[0,0,0],""],
-    ["jug_green","Jug (green)",1,"A3PL_Jug_Green",0,true,true,true,true,true,"",[0,0,0],""],
-    ["jug_green_moonshine","Jug (contains apple moonshine)",1,"A3PL_Jug_Green_Corked",0,true,true,true,true,true,"",[0,0,0],""],
-    ["malt","Malt",10,"A3PL_Grainsack_Malt",0,true,true,true,false,false,"",[0,0,0],""],
-    ["yeast","Yeast",10,"A3PL_Grainsack_Yeast",0,true,true,true,false,false,"",[0,0,0],""],
-    ["cornmeal","Cornmeal",10,"A3PL_Grainsack_CornMeal",0,true,true,true,false,false,"",[0,0,0],""],
-    ["wheat","Wheat",1,"A3PL_Sack",0,true,true,true,true,true,"",[0,0,0],""],
-    ["log","Wooden log",5,"A3PL_WoodenLog",0,true,true,true,false,false,"",[0,0,0],""],
-    ["bin","Bin",5,"A3PL_WheelieBin",0,true,true,true,false,false,"",[0,0,0],""],
-    ["planter","Planter",0.1,"A3PL_Planter2",0,true,true,true,false,false,"",[0,0,0],""],
-    ["workbench","Workbench Table",0.1,"A3PL_WorkBench",0,true,true,true,false,true,"",[0,0,0],""],
-    ["lamp_200w","200W Lamp",0.1,"A3PL_Cannabis_Lamp_200W",0,true,true,true,false,true,"",[0,0,0],""],
-    ["lamp_500w","500W Lamp",0.1,"A3PL_Cannabis_Lamp_500W",0,true,true,true,false,true,"",[0,0,0],""],
-    ["lamp_1000w","1000W Lamp",0.1,"A3PL_Cannabis_Lamp_1000W",0,true,true,true,false,true,"",[0,0,0],""],
-    ["fan","Fan",0.1,"A3PL_Fan",0,true,true,true,false,false,"",[0,0,0],""],
+    ["distillery","Destileria Moonshine",10,"A3PL_Distillery",0,true,true,true,false,false,"",[0,0,0],""],
+    ["distillery_hose","Manguera de Destileria",10,"A3PL_Distillery_Hose",0,true,true,true,false,false,"",[0,0,0],""],
+    ["jug","Bote",1,"A3PL_Jug",0,true,true,true,true,true,"",[0,0,0],""],
+    ["jug_moonshine","Bote (contiene alcohol)",1,"A3PL_Jug_Corked",0,true,true,true,true,true,"",[0,0,0],""],
+    ["jug_green","Bote (verde)",1,"A3PL_Jug_Green",0,true,true,true,true,true,"",[0,0,0],""],
+    ["jug_green_moonshine","Bote (contiene alcohol sabor manzana)",1,"A3PL_Jug_Green_Corked",0,true,true,true,true,true,"",[0,0,0],""],
+    ["malt","Malta",10,"A3PL_Grainsack_Malt",0,true,true,true,false,false,"",[0,0,0],""],
+    ["yeast","Levadura",10,"A3PL_Grainsack_Yeast",0,true,true,true,false,false,"",[0,0,0],""],
+    ["cornmeal","Harina de Maiz",10,"A3PL_Grainsack_CornMeal",0,true,true,true,false,false,"",[0,0,0],""],
+    ["wheat","Trigo",1,"A3PL_Sack",0,true,true,true,true,true,"",[0,0,0],""],
+    ["log","Tronco",5,"A3PL_WoodenLog",0,true,true,true,false,false,"",[0,0,0],""],
+    ["bin","Contenedor",5,"A3PL_WheelieBin",0,true,true,true,false,false,"",[0,0,0],""],
+    ["planter","Maceta",0.1,"A3PL_Planter2",0,true,true,true,false,false,"",[0,0,0],""],
+    ["workbench","Mesa de Trabajo",0.1,"A3PL_WorkBench",0,true,true,true,false,true,"",[0,0,0],""],
+    ["lamp_200w","Lampara de 200W",0.1,"A3PL_Cannabis_Lamp_200W",0,true,true,true,false,true,"",[0,0,0],""],
+    ["lamp_500w","Lampara de 500W",0.1,"A3PL_Cannabis_Lamp_500W",0,true,true,true,false,true,"",[0,0,0],""],
+    ["lamp_1000w","Lampara de 1000W",0.1,"A3PL_Cannabis_Lamp_1000W",0,true,true,true,false,true,"",[0,0,0],""],
+    ["fan","Ventilador",0.1,"A3PL_Fan",0,true,true,true,false,false,"",[0,0,0],""],
     ["grinder","Grinder",0.1,"A3PL_Mixer",0,true,true,true,false,false,"",[0,0,0],""],
-    ["scale","Scale",0.1,"A3PL_Scale",0,true,true,true,false,false,"",[0,0,0],""],
-    ["pavilion","Pavilion",0.1,"A3PL_Pavilion",0,true,true,true,false,false,"",[0,0,0],""],
-    ["cannabis_bud","Cannabis Bud",0.25,"A3PL_Cannabis_Bud",0,true,true,true,true,true,"",[0,0,0],""],
-    ["cannabis_bud_cured","Cured Cannabis Bud",0.25,"A3PL_Cannabis_Bud",0,true,true,true,true,true,"",[0,0,0],""],
-    ["marijuana","Marihuana (deprecated item, not used)",1,"A3PL_MarijuanaBag",0,true,true,true,true,true,"",[0,0,0],""],
-    ["cannabis_grinded_5g","Grinded cannabis",0.25,"A3PL_Cannabis_Bud",0,true,true,true,true,true,"",[0,0,0],""],
+    ["scale","Escala",0.1,"A3PL_Scale",0,true,true,true,false,false,"",[0,0,0],""],
+    ["pavilion","Pabellon",0.1,"A3PL_Pavilion",0,true,true,true,false,false,"",[0,0,0],""],
+    ["cannabis_bud","Marihuana",0.25,"A3PL_Cannabis_Bud",0,true,true,true,true,true,"",[0,0,0],""],
+    ["cannabis_bud_cured","Marihuana procesada",0.25,"A3PL_Cannabis_Bud",0,true,true,true,true,true,"",[0,0,0],""],
+    ["marijuana","Marihuana",1,"A3PL_MarijuanaBag",0,true,true,true,true,true,"",[0,0,0],""],
+    ["cannabis_grinded_5g","Cannabis Picado",0.25,"A3PL_Cannabis_Bud",0,true,true,true,true,true,"",[0,0,0],""],
     ["blunt","Porro de Marihuana",1,"AFPL_Drugs_Blunt",90,true,true,true,true,true,"A3PL_Drugs_Use",[0,0,0],""],
     ["weed_5g","Marihuana (5 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
     ["weed_10g","Marihuana (10 gramos)",1,"A3PL_MarijuanaBag",90,true,true,true,true,true,"",[0,0,0],""],
@@ -1238,37 +1238,37 @@ Config_Items = [
     ["roadcones","Conos",0.1,"A3PL_RoadCone_x10",0,true,true,true,false,true,"",[0,0,0],""],
     ["roadbarrier","Barrera",0.1,"A3PL_PlasticBarrier_02",0,true,true,true,false,true,"",[0,0,0],""],
     ["roadcone","Cono",0.1,"A3PL_RoadCone",0,true,true,true,false,false,"",[0,0,0],""],
-    ["seed_coca","Coca seeds",0.5,"A3PL_Seed_Corn",0,true,true,true,true,true,"",[0,0,0],""],
-    ["seed_sugar","Semillas de caña de azúcar",0.5,"A3PL_Seed_Corn",0,true,true,true,true,true,"",[0,0,0],""],
+    ["seed_coca","Semillas de Coca",0.5,"A3PL_Seed_Corn",0,true,true,true,true,true,"",[0,0,0],""],
+    ["seed_sugar","Semillas de caña de azucar",0.5,"A3PL_Seed_Corn",0,true,true,true,true,true,"",[0,0,0],""],
     ["coca","Coca",0.5,"A3PL_Seed_Corn",0,true,true,true,true,true,"",[0,0,0],""],
     ["sugarcane","Sugar cane",0.5,"A3PL_Seed_Corn",0,true,true,true,true,true,"",[0,0,0],""],
-    ["coke","Coke",0.5,"A3PL_Can_V2",0,true,true,true,true,true,"A3PL_Items_Thirst",[0,0,0],""],
+    ["coke","Coca-Cola",0.5,"A3PL_Can_V2",0,true,true,true,true,true,"A3PL_Items_Thirst",[0,0,0],""],
     ["jerrycan","inh",30,"A3PL_Jerrycan",-90,true,true,true,true,true,"",[0,0,0],""],
-    ["candy","Candy",0.1,"A3PL_hw_candybucket",0,true,true,true,true,true,"",[0,0,0],""],
-    ["cauldron","Cauldron",0.1,"A3PL_hw_cauldron",0,true,true,true,false,false,"",[0,0,0],""],
-    ["skeletoncauldron","Skeleton with Cauldron",0.1,"Land_A3PL_hw_skeletonCauldron",0,true,true,true,false,false,"",[0,0,0],""],
-    ["lantern","Lantern",0.1,"A3PL_hw_lantern",0,true,true,true,true,true,"",[0,0,0],""],
-    ["pumpkin_green","Pumpkin Green",0.1,"Land_A3PL_hw_pumpkin_green",0,true,true,true,false,false,"",[0,0,0],""],
-    ["pumpkin_orange","Pumpkin Orange",0.1,"Land_A3PL_hw_pumpkin_orange",0,true,true,true,false,false,"",[0,0,0],""],
-    ["pumpkin_red","Pumpkin Red",0.1,"Land_A3PL_hw_pumpkin_red",0,true,true,true,false,false,"",[0,0,0],""],
-    ["pumpkinhat_red","Pumpkin Hat Red",0.1,"Land_A3PL_hw_pumpkinhat_red",0,true,true,true,false,false,"",[0,0,0],""],
-    ["pumpkinhat_orange","Pumpkin Hat Orange",0.1,"Land_A3PL_hw_pumpkinhat_orange",0,true,true,true,false,false,"",[0,0,0],""],
-    ["pumpkinhat_green","Pumpkin Hat Green",0.1,"Land_A3PL_hw_pumpkinhat_green",0,true,true,true,false,false,"",[0,0,0],""],
-    ["girlstatue","Girl Statue",0.1,"Land_A3PL_Girlstatue",0,true,true,true,false,false,"",[0,0,0],""],
-    ["diamond","Diamond",0.5,"A3PL_Diamond",0,true,true,true,true,true,"",[0,0,0],""],
-    ["diamond_alex","Alexandrite Diamond",0.5,"A3PL_Diamond_Alex",0,true,true,true,true,true,"",[0,0,0],""],
-    ["diamond_aqua","Aquamarine Diamond",0.5,"A3PL_Diamond_Aqua",0,true,true,true,true,true,"",[0,0,0],""],
-    ["diamond_emerald","Emerald Diamond",0.5,"A3PL_Diamond_Emerald",0,true,true,true,true,true,"",[0,0,0],""],
-    ["diamond_ruby","Ruby Diamond",0.5,"A3PL_Diamond_Ruby",0,true,true,true,true,true,"",[0,0,0],""],
-    ["diamond_sapphire","Ruby Diamond",0.5,"A3PL_Diamond_Sapphire",0,true,true,true,true,true,"",[0,0,0],""],
-    ["diamond_tourmaline","Tourmaline Diamond",0.5,"A3PL_Diamond_Tourmaline",0,true,true,true,true,true,"",[0,0,0],""],
+    ["candy","Dulce",0.1,"A3PL_hw_candybucket",0,true,true,true,true,true,"",[0,0,0],""],
+    ["cauldron","Caldero",0.1,"A3PL_hw_cauldron",0,true,true,true,false,false,"",[0,0,0],""],
+    ["skeletoncauldron","Esqueleto con Caldero",0.1,"Land_A3PL_hw_skeletonCauldron",0,true,true,true,false,false,"",[0,0,0],""],
+    ["lantern","Linterna",0.1,"A3PL_hw_lantern",0,true,true,true,true,true,"",[0,0,0],""],
+    ["pumpkin_green","Calabaza Verde",0.1,"Land_A3PL_hw_pumpkin_green",0,true,true,true,false,false,"",[0,0,0],""],
+    ["pumpkin_orange","Calabaza Naranja",0.1,"Land_A3PL_hw_pumpkin_orange",0,true,true,true,false,false,"",[0,0,0],""],
+    ["pumpkin_red","Calabaza Roja",0.1,"Land_A3PL_hw_pumpkin_red",0,true,true,true,false,false,"",[0,0,0],""],
+    ["pumpkinhat_red","Gorro de Calabaza Rojo",0.1,"Land_A3PL_hw_pumpkinhat_red",0,true,true,true,false,false,"",[0,0,0],""],
+    ["pumpkinhat_orange","Gorro de Calabaza Naranja",0.1,"Land_A3PL_hw_pumpkinhat_orange",0,true,true,true,false,false,"",[0,0,0],""],
+    ["pumpkinhat_green","Gorro de Calabaza Verde",0.1,"Land_A3PL_hw_pumpkinhat_green",0,true,true,true,false,false,"",[0,0,0],""],
+    ["girlstatue","Estatua de Mujer",0.1,"Land_A3PL_Girlstatue",0,true,true,true,false,false,"",[0,0,0],""],
+    ["diamond","Diamante",0.5,"A3PL_Diamond",0,true,true,true,true,true,"",[0,0,0],""],
+    ["diamond_alex","Diamante de Alexandrita",0.5,"A3PL_Diamond_Alex",0,true,true,true,true,true,"",[0,0,0],""],
+    ["diamond_aqua","Diamante de Aquamarina",0.5,"A3PL_Diamond_Aqua",0,true,true,true,true,true,"",[0,0,0],""],
+    ["diamond_emerald","Diamante de Esmeralda",0.5,"A3PL_Diamond_Emerald",0,true,true,true,true,true,"",[0,0,0],""],
+    ["diamond_ruby","Diamante de Rubi",0.5,"A3PL_Diamond_Ruby",0,true,true,true,true,true,"",[0,0,0],""],
+    ["diamond_sapphire","Diamante de Zafiro",0.5,"A3PL_Diamond_Sapphire",0,true,true,true,true,true,"",[0,0,0],""],
+    ["diamond_tourmaline","Diamante de Turmalina",0.5,"A3PL_Diamond_Tourmaline",0,true,true,true,true,true,"",[0,0,0],""],
     ["diamond_ill","Stolen Diamond",0.5,"A3PL_Diamond",0,true,true,true,true,true,"",[0,0,0],""],
-    ["diamond_alex_ill","Stolen Alexandrite Diamond",0.5,"A3PL_Diamond_Alex",0,true,true,true,true,true,"",[0,0,0],""],
-    ["diamond_aqua_ill","Stolen Aquamarine Diamond",0.5,"A3PL_Diamond_Aqua",0,true,true,true,true,true,"",[0,0,0],""],
-    ["diamond_emerald_ill","Stolen Emerald Diamond",0.5,"A3PL_Diamond_Emerald",0,true,true,true,true,true,"",[0,0,0],""],
-    ["diamond_ruby_ill","Stolen Ruby Diamond",0.5,"A3PL_Diamond_Ruby",0,true,true,true,true,true,"",[0,0,0],""],
-    ["diamond_sapphire_ill","Stolen Ruby Diamond",0.5,"A3PL_Diamond_Sapphire",0,true,true,true,true,true,"",[0,0,0],""],
-    ["diamond_tourmaline_ill","Stolen Tourmaline Diamond",0.5,"A3PL_Diamond_Tourmaline",0,true,true,true,true,true,"",[0,0,0],""],
+    ["diamond_alex_ill","Diamante de Alexandrita Robado",0.5,"A3PL_Diamond_Alex",0,true,true,true,true,true,"",[0,0,0],""],
+    ["diamond_aqua_ill","Diamante de Aquamarina Robado",0.5,"A3PL_Diamond_Aqua",0,true,true,true,true,true,"",[0,0,0],""],
+    ["diamond_emerald_ill","Diamante de Esmeralda Robado",0.5,"A3PL_Diamond_Emerald",0,true,true,true,true,true,"",[0,0,0],""],
+    ["diamond_ruby_ill","Diamante de Rubi Robado",0.5,"A3PL_Diamond_Ruby",0,true,true,true,true,true,"",[0,0,0],""],
+    ["diamond_sapphire_ill","Diamante de Zafiro Robado",0.5,"A3PL_Diamond_Sapphire",0,true,true,true,true,true,"",[0,0,0],""],
+    ["diamond_tourmaline_ill","Diamante de Turmalina Robado",0.5,"A3PL_Diamond_Tourmaline",0,true,true,true,true,true,"",[0,0,0],""],
     ["furn_chair1","inh",6,"A3PL_Chair1",0,true,true,true,false,false,"",[0,0,0],""],
     ["furn_chair2","inh",6,"A3PL_Chair2",0,true,true,true,false,false,"",[0,0,0],""],
     ["furn_chair3","inh",6,"A3PL_Chair3",0,true,true,true,false,false,"",[0,0,0],""],
@@ -1335,84 +1335,84 @@ Config_Items = [
     ["furn_countertop3","inh",6,"A3PL_CounterTop3",0,true,true,true,false,false,"",[0,0,0],""],
     ["furn_sinkbigcounter","inh",6,"A3PL_SinkBigCounter",0,true,true,true,false,false,"",[0,0,0],""],
     ["furn_sinksinglecabinet","inh",6,"A3PL_SinkSingleCabinet",0,true,true,true,false,false,"",[0,0,0],""],
-    ["cash","Cash",0.01,"A3PL_Money",0,true,true,true,true,true,"",[0,0,0],""],
-    ["apple","Apple",1,"A3PL_Apple",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["cash","Dinero",0.01,"A3PL_Money",0,true,true,true,true,true,"",[0,0,0],""],
+    ["apple","Manzana",1,"A3PL_Apple",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
     ["donut","Donut",1,"",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["cereal","Cereal",1,"Land_CerealsBox_F",90,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["waterbottle","Water Bottle",1,"Land_BottlePlastic_V2_F",90,true,true,true,true,true,"",[0,0,0],""],
-    ["handcuffs","Hand Cuffs",1,"A3PL_Handcuffs",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Lifebuoy","Lifebuoy",1,"A3PL_Lifebuoy",0,true,true,true,true,true,"",[0,0,0],""],
-    ["doorkey","Door key",0.1,"A3PL_HouseKey",0,true,true,true,true,true,"",[0,0,0],""],
-    ["lamington","Lamington",0.1,"A3PL_Lamington",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["sausages","Sausages",0.1,"A3PL_Sausages",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["meatpie","Meat pie",0.1,"A3PL_MeatPie",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["meat_goat","Goat meat",0.5,"A3PL_Steak",90,true,true,true,true,true,"",[0,0,0],""],
-    ["meat_sheep","Sheep meat",0.5,"A3PL_Steak",90,true,true,true,true,true,"",[0,0,0],""],
-    ["meat_boar","Boar meat",0.5,"A3PL_Steak",90,true,true,true,true,true,"",[0,0,0],""],
-    ["meat_goat_tag","Goat meat (tagged)",0.5,"A3PL_Steak",90,true,true,true,true,true,"",[0,0,0],""],
-    ["meat_sheep_tag","Sheep meat (tagged)",0.5,"A3PL_Steak",90,true,true,true,true,true,"",[0,0,0],""],
-    ["meat_boar_tag","Boar meat (tagged)",0.5,"A3PL_Steak",90,true,true,true,true,true,"",[0,0,0],""],
-    ["tag_meat","Meat Tag",0.1,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["tag_shark","Shark Tag",0.1,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["tag_fish","Fish Tag",0.1,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["mullet","Mullet",0.5,"A3PL_Mullet",90,true,true,true,true,true,"",[0,0,0],""],
-    ["mullet_tag","Mullet (tagged)",0.5,"A3PL_Mullet",90,true,true,true,true,true,"",[0,0,0],""],
-    ["shark_2lb","Catshark - 2LB",2,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
-    ["shark_2lb_tag","Catshark - 2LB (tagged)",2,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
-    ["shark_4lb","Catshark - 4LB",4,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
-    ["shark_4lb_tag","Catshark - 4LB (tagged)",4,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
-    ["shark_5lb","Catshark - 5LB",5,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
-    ["shark_5lb_tag","Catshark - 5LB (tagged)",5,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
-    ["shark_7lb","Catshark - 7LB",7,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
-    ["shark_7lb_tag","Catshark - 7LB (tagged)",7,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
-    ["shark_10lb","Catshark - 10LB",10,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
-    ["shark_10lb_tag","Catshark - 10LB (tagged)",10,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
-    ["turtle","Turtle",2,"A3PL_Ornate",90,true,true,true,true,true,"",[0,0,0],""],
-    ["Meat_Scraps","Meat Scraps",0.5,"A3PL_Burger_Raw",90,true,true,true,true,true,"",[0,0,0],""],
-    ["burger_bun","Burger Bun",0.5,"A3PL_Burger_Bun",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["burger_burnt","Burnt Fish Patty",0.5,"A3PL_Burger_Burnt",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["burger_raw","Raw Fish Patty (mcfishers)",0.5,"A3PL_Burger_Raw",90,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["burger_cooked","Cooked Fish Patty",0.5,"A3PL_Burger_Cooked",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["burger_full_raw","Raw Fish Burger",1,"A3PL_Burger_Full",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["burger_full_cooked","Cooked Fish Burger",1,"A3PL_Burger_Full",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["burger_full_burnt","Burnt Fish Burger",1,"A3PL_Burger_Full",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["net","Fishing net",1,"A3PL_FishingBuoy",0,true,true,true,true,true,"",[0,0,0],""],
-    ["bucket_empty","Empty bucket",1,"A3PL_Bucket",0,true,true,true,true,true,"",[0,0,0],""],
-    ["bucket_full","Bucket of fish",1,"A3PL_BucketFull",0,true,true,true,true,true,"",[0,0,0],""],
-    ["repairwrench","Repair wrench",2.5,"A3PL_Wrench",0,true,true,true,true,true,"",[0,0,0],""],
+    ["cereal","Cereales",1,"Land_CerealsBox_F",90,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["waterbottle","Botella de Agua",1,"Land_BottlePlastic_V2_F",90,true,true,true,true,true,"",[0,0,0],""],
+    ["handcuffs","Esposas",1,"A3PL_Handcuffs",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Lifebuoy","Salvavidas",1,"A3PL_Lifebuoy",0,true,true,true,true,true,"",[0,0,0],""],
+    ["doorkey","Llave de Puerta",0.1,"A3PL_HouseKey",0,true,true,true,true,true,"",[0,0,0],""],
+    ["lamington","Postre Australiano",0.1,"A3PL_Lamington",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["sausages","Salchichas",0.1,"A3PL_Sausages",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["meatpie","Tarta de Carne",0.1,"A3PL_MeatPie",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["meat_goat","Carne de Cabra",0.5,"A3PL_Steak",90,true,true,true,true,true,"",[0,0,0],""],
+    ["meat_sheep","Carne de Oveja",0.5,"A3PL_Steak",90,true,true,true,true,true,"",[0,0,0],""],
+    ["meat_boar","Carne de Jabali",0.5,"A3PL_Steak",90,true,true,true,true,true,"",[0,0,0],""],
+    ["meat_goat_tag","Carne de Cabra (marcada)",0.5,"A3PL_Steak",90,true,true,true,true,true,"",[0,0,0],""],
+    ["meat_sheep_tag","Carne de Oveja (marcada)",0.5,"A3PL_Steak",90,true,true,true,true,true,"",[0,0,0],""],
+    ["meat_boar_tag","Carne de Jabali (marcada)",0.5,"A3PL_Steak",90,true,true,true,true,true,"",[0,0,0],""],
+    ["tag_meat","Marca de Carne",0.1,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["tag_shark","Marca de Tiburon",0.1,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["tag_fish","Marca de Pescado",0.1,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["mullet","Salmonete",0.5,"A3PL_Mullet",90,true,true,true,true,true,"",[0,0,0],""],
+    ["mullet_tag","Salmonete (marcado)",0.5,"A3PL_Mullet",90,true,true,true,true,true,"",[0,0,0],""],
+    ["shark_2lb","Cebo - 2LB",2,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
+    ["shark_2lb_tag","Cebo - 2LB (marcado)",2,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
+    ["shark_4lb","Cebo - 4LB",4,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
+    ["shark_4lb_tag","Cebo - 4LB (marcado)",4,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
+    ["shark_5lb","Cebo - 5LB",5,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
+    ["shark_5lb_tag","Cebo - 5LB (marcado)",5,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
+    ["shark_7lb","Cebo - 7LB",7,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
+    ["shark_7lb_tag","Cebo - 7LB (marcado)",7,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
+    ["shark_10lb","Cebo - 10LB",10,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
+    ["shark_10lb_tag","Cebo - 10LB (marcado)",10,"A3PL_CatShark",90,true,true,true,true,true,"",[0,0,0],""],
+    ["turtle","Tortuga",2,"A3PL_Ornate",90,true,true,true,true,true,"",[0,0,0],""],
+    ["Meat_Scraps","Restos de Carne",0.5,"A3PL_Burger_Raw",90,true,true,true,true,true,"",[0,0,0],""],
+    ["burger_bun","Pan de Hamburguesa",0.5,"A3PL_Burger_Bun",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["burger_burnt","Pescado Quemado",0.5,"A3PL_Burger_Burnt",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["burger_raw","Pescado Crudo (mcfishers)",0.5,"A3PL_Burger_Raw",90,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["burger_cooked","Pescado Cocinado",0.5,"A3PL_Burger_Cooked",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["burger_full_raw","Hamburguesa de Pescado Crudo",1,"A3PL_Burger_Full",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["burger_full_cooked","Hamburguesa de Pescado Cocinado",1,"A3PL_Burger_Full",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["burger_full_burnt","Pescado Quemado",1,"A3PL_Burger_Full",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["net","Red de Pesca",1,"A3PL_FishingBuoy",0,true,true,true,true,true,"",[0,0,0],""],
+    ["bucket_empty","Cubo vacio",1,"A3PL_Bucket",0,true,true,true,true,true,"",[0,0,0],""],
+    ["bucket_full","Cubo con pescado",1,"A3PL_BucketFull",0,true,true,true,true,true,"",[0,0,0],""],
+    ["repairwrench","Reparar Llave",2.5,"A3PL_Wrench",0,true,true,true,true,true,"",[0,0,0],""],
     ["ticket","Ticket",0.1,"A3PL_Ticket",0,false,false,true,true,true,"",[0,0,0],""],
-    ["Ladder","Ladder",5,"A3PL_Ladder",0,true,true,true,false,false,"",[0,0,0],""],
-    ["drill_bit","Drill bit",0.1,"A3PL_Drill_Bit",0,true,true,true,true,true,"",[0,0,0],""],
-    ["stinger","Spikestrip",0.1,"A3PL_Stinger",0,true,true,true,true,true,"",[2,0.5,0],""],
-    ["seed_wheat","Wheat seeds",0.5,"A3PL_Seed_Wheat",0,true,true,true,true,true,"",[0,0,0],""],
-    ["seed_corn","Corn seeds",0.5,"A3PL_Seed_Corn",0,true,true,true,true,true,"",[0,0,0],""],
-    ["seed_marijuana","Marijuana seeds",0.5,"A3PL_Seed_Marijuana",0,true,true,true,true,true,"",[0,0,0],""],
-    ["seed_lettuce","Lettuce seeds",0.5,"A3PL_Seed_Lettuce",0,true,true,true,true,true,"",[0,0,0],""],
-    ["corn","Corn cob",2,"A3PL_CornCob",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["lettuce","Lettuce",2,"A3PL_LettuceItem",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["beer","Corona Beer",0.1,"A3PL_Corona",180,true,true,true,true,true,"A3PL_Drugs_Use",[-0.03,-0.05,0.1],""],
-    ["beer_gold","XXXX Gold Beer",0.1,"A3PL_4xGold",180,true,true,true,true,true,"A3PL_Drugs_Use",[0,0,0],""],
-    ["cocaine","Cocaine",0.1,"A3PL_PowderedMilk",0,true,true,true,true,true,"A3PL_Drugs_Use",[0,0,0],""],
-    ["shrooms","Mushrooms",0.1,"A3PL_TacticalBacon",0,true,true,true,true,true,"A3PL_Drugs_Use",[0,0,0],""],
-    ["popcornbucket","Bucket of popcorn",5,"A3PL_PopcornBucket",0,false,true,true,true,true,"",[0,0,0],""],
-    ["Camper_Light","Camper Light",5,"A3PL_Camping_Light",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Salad","Salad",1,"A3PL_Salad",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["tacoshell","Taco Shell",1,"A3PL_TacoShell",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["taco_raw","Raw Fish Taco",1,"A3PL_Taco",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["taco_cooked","Cooked Fish Taco",1,"A3PL_Taco",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["taco_burned","Burned Fish Taco",1,"A3PL_Taco",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["fish_raw","Raw Fish (taco hell)",1,"A3PL_Fish_Raw",0.5,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["fish_cooked","Cooked Fish",0.5,"A3PL_Fish_Cooked",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["fish_burned","Burned Fish",0.5,"A3PL_Fish_Burned",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
-    ["rocket_blue","Firework Rocket (Blue)",2,"A3PL_Rocket",0,true,true,true,true,true,"",[0,0,0],""],
-    ["rocket_red","Firework Rocket (Red)",2,"A3PL_Rocket",0,true,true,true,true,true,"",[0,0,0],""],
-    ["rocket_green","Firework Rocket (Green)",2,"A3PL_Rocket",0,true,true,true,true,true,"",[0,0,0],""],
-    ["rocket_yellow","Firework Rocket (Yellow)",2,"A3PL_Rocket",0,true,true,true,true,true,"",[0,0,0],""],
-    ["FD_yAdapter","Hose Y-Adapter",1,"A3PL_FD_yAdapter",0,true,true,true,true,true,"",[0,0,0],""],
-    ["FD_Adapter","Hose Adapter",1,"A3PL_FD_HoseEnd_Player",0,true,true,true,true,true,"",[0,0,0],""],
-    ["FD_Hose","Hose Rolled",3,"A3PL_FD_HoseRolled",0,true,true,true,true,true,"",[0,0,0],""],
-    ["FD_HydrantWrench","Hydrant Wrench",3,"A3PL_FD_HydrantWrench",0,true,true,true,true,true,"",[0,0,0],""],
-    ["FD_Mask","Oxygen Mask",2,"A3PL_FD_Mask_Obj",180,true,true,true,true,true,"",[-0.12,-0.15,-0.73],""],
+    ["Ladder","Escalera",5,"A3PL_Ladder",0,true,true,true,false,false,"",[0,0,0],""],
+    ["drill_bit","Taladro",0.1,"A3PL_Drill_Bit",0,true,true,true,true,true,"",[0,0,0],""],
+    ["stinger","Barrera de Clavos",0.1,"A3PL_Stinger",0,true,true,true,true,true,"",[2,0.5,0],""],
+    ["seed_wheat","Semillas de Trigo",0.5,"A3PL_Seed_Wheat",0,true,true,true,true,true,"",[0,0,0],""],
+    ["seed_corn","Semillas de Maiz",0.5,"A3PL_Seed_Corn",0,true,true,true,true,true,"",[0,0,0],""],
+    ["seed_marijuana","Semillas de Marihuana",0.5,"A3PL_Seed_Marijuana",0,true,true,true,true,true,"",[0,0,0],""],
+    ["seed_lettuce","Semillas de Lechuga",0.5,"A3PL_Seed_Lettuce",0,true,true,true,true,true,"",[0,0,0],""],
+    ["corn","Maiz",2,"A3PL_CornCob",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["lettuce","Lechuga",2,"A3PL_LettuceItem",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["beer","Cerveza Corona",0.1,"A3PL_Corona",180,true,true,true,true,true,"A3PL_Drugs_Use",[-0.03,-0.05,0.1],""],
+    ["beer_gold","Cerveza Gold XXXX",0.1,"A3PL_4xGold",180,true,true,true,true,true,"A3PL_Drugs_Use",[0,0,0],""],
+    ["cocaine","Cocaina",0.1,"A3PL_PowderedMilk",0,true,true,true,true,true,"A3PL_Drugs_Use",[0,0,0],""],
+    ["shrooms","Setas",0.1,"A3PL_TacticalBacon",0,true,true,true,true,true,"A3PL_Drugs_Use",[0,0,0],""],
+    ["popcornbucket","Cubo de Palomitas",5,"A3PL_PopcornBucket",0,false,true,true,true,true,"",[0,0,0],""],
+    ["Camper_Light","Luz de Acampada",5,"A3PL_Camping_Light",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Salad","Ensalada",1,"A3PL_Salad",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["tacoshell","Taco",1,"A3PL_TacoShell",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["taco_raw","Taco de Pescado Crudo",1,"A3PL_Taco",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["taco_cooked","Taco de Pescado Cocinado",1,"A3PL_Taco",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["taco_burned","Taco de Pescado Quemado",1,"A3PL_Taco",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["fish_raw","Pescado Crudo (taco hell)",1,"A3PL_Fish_Raw",0.5,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["fish_cooked","Pescado Cocinado",0.5,"A3PL_Fish_Cooked",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["fish_burned","Pescado Quemado",0.5,"A3PL_Fish_Burned",0,true,true,true,true,true,"A3PL_Items_Food",[0,0,0],""],
+    ["rocket_blue","Fuegos artificiales (Azul)",2,"A3PL_Rocket",0,true,true,true,true,true,"",[0,0,0],""],
+    ["rocket_red","Fuegos artificiales (Rojo)",2,"A3PL_Rocket",0,true,true,true,true,true,"",[0,0,0],""],
+    ["rocket_green","Fuegos artificiales (Verde)",2,"A3PL_Rocket",0,true,true,true,true,true,"",[0,0,0],""],
+    ["rocket_yellow","Fuegos artificiales (Amarillo)",2,"A3PL_Rocket",0,true,true,true,true,true,"",[0,0,0],""],
+    ["FD_yAdapter","Adaptador de boquilla Y",1,"A3PL_FD_yAdapter",0,true,true,true,true,true,"",[0,0,0],""],
+    ["FD_Adapter","Adaptador de boquilla de manguera",1,"A3PL_FD_HoseEnd_Player",0,true,true,true,true,true,"",[0,0,0],""],
+    ["FD_Hose","Manguera Enrollada",3,"A3PL_FD_HoseRolled",0,true,true,true,true,true,"",[0,0,0],""],
+    ["FD_HydrantWrench","Llave Hidrante",3,"A3PL_FD_HydrantWrench",0,true,true,true,true,true,"",[0,0,0],""],
+    ["FD_Mask","Mascarilla de Oxigeno",2,"A3PL_FD_Mask_Obj",180,true,true,true,true,true,"",[-0.12,-0.15,-0.73],""],
     ["Pumpjack","inh",50,"A3PL_Pumpjack",0,true,true,true,false,false,"",[0,0,0],""],
     ["mail","inh",0.2,"A3PL_DeliveryBox",0,true,true,true,false,false,"",[0,0,0],""],
     ["Synthetic_Fibre","inh",0.2,"A3PL_Synthetic_Fiber",0,true,true,true,true,true,"",[0,0,0],""],
@@ -1448,30 +1448,30 @@ Config_Items = [
     ["Fibreglass","inh",1,"A3PL_Fibreglass",0,true,true,true,true,true,"",[0,0,0],""],
     ["Plastic","inh",1,"A3PL_Plastic",0,true,true,true,true,true,"",[0,0,0],""],
     ["Kevlar","inh",1,"A3PL_Kevlar",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Engine","Engine",5,"A3PL_Engine",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Trans","Transmission",1,"A3PL_Transmission",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Radiator","Radiator",1,"A3PL_Radiator",0,true,true,true,true,true,"",[0,0,0],""],
-    ["BrakeRotors","Brake Rotors",1,"A3PL_Brake_Rotor",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Diff","Differential",1,"A3PL_Diff",0,true,true,true,true,true,"",[0,0,0],""],
-    ["FuelTank","Fuel Tank",1,"A3PL_Fuel_Tank",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Chassis","Chassis Rails",5,"A3PL_Chassis",0,true,true,true,true,true,"",[0,0,0],""],
-    ["DriveShaft","Drive Shaft",1,"A3PL_Drive_Shaft",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Exhaust","Exhaust Pipes",1,"A3PL_Exhaust",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Windows","Windows",5,"A3PL_Glass",0,true,true,true,true,true,"",[0,0,0],""],
-    ["HEEngine","High End Engine",5,"A3PL_Engine",0,true,true,true,true,true,"",[0,0,0],""],
-    ["HETrans","High End Transmission",1,"A3PL_Transmission",0,true,true,true,true,true,"",[0,0,0],""],
-    ["HERadiator","High End Radiator",1,"A3PL_Radiator",0,true,true,true,true,true,"",[0,0,0],""],
-    ["HERadiator","High End Radiator",1,"A3PL_Radiator",0,true,true,true,true,true,"",[0,0,0],""],
-    ["HEBrakeRotors","High End Brake Rotors",1,"A3PL_Brake_Rotor",0,true,true,true,true,true,"",[0,0,0],""],
-    ["HEDiff","High End Differential",1,"A3PL_Diff",0,true,true,true,true,true,"",[0,0,0],""],
-    ["HEFuelTank","High End Fuel Tank",1,"A3PL_Fuel_Tank",0,true,true,true,true,true,"",[0,0,0],""],
-    ["HEChassis","High End Chassis Rails",5,"A3PL_Chassis",0,true,true,true,true,true,"",[0,0,0],""],
-    ["HEDriveShaft","High End Drive Shaft",1,"A3PL_Drive_Shaft",0,true,true,true,true,true,"",[0,0,0],""],
-    ["HEExhaust","High End Exhaust Pipes",1,"A3PL_Exhaust",0,true,true,true,true,true,"",[0,0,0],""],
-    ["4WDDiff","4WD Differential",1,"A3PL_Diff",0,true,true,true,true,true,"",[0,0,0],""],
-    ["SteelRims","Steel Rims",1,"A3PL_SteelRims",0,true,true,true,true,true,"",[0,0,0],""],
-    ["AlloyRims","Alloy Rims",1,"A3PL_AlloyRims",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Tyres","Tyres",1,"A3PL_Tyre",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Engine","Motor",5,"A3PL_Engine",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Trans","Transmision",1,"A3PL_Transmission",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Radiator","Radiador",1,"A3PL_Radiator",0,true,true,true,true,true,"",[0,0,0],""],
+    ["BrakeRotors","Frenos de Rotor",1,"A3PL_Brake_Rotor",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Diff","Diferencial",1,"A3PL_Diff",0,true,true,true,true,true,"",[0,0,0],""],
+    ["FuelTank","Tanque de Combustible",1,"A3PL_Fuel_Tank",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Chassis","Railes del Chasis",5,"A3PL_Chassis",0,true,true,true,true,true,"",[0,0,0],""],
+    ["DriveShaft","Eje del Motor",1,"A3PL_Drive_Shaft",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Exhaust","Tubo de Escape",1,"A3PL_Exhaust",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Windows","Ventanas",5,"A3PL_Glass",0,true,true,true,true,true,"",[0,0,0],""],
+    ["HEEngine","Motor de Alta Gama",5,"A3PL_Engine",0,true,true,true,true,true,"",[0,0,0],""],
+    ["HETrans","Transmision de Alta Gama",1,"A3PL_Transmission",0,true,true,true,true,true,"",[0,0,0],""],
+    ["HERadiator","Radiador de Alta Gama",1,"A3PL_Radiator",0,true,true,true,true,true,"",[0,0,0],""],
+    ["HERadiator","Radiador de Alta Gama",1,"A3PL_Radiator",0,true,true,true,true,true,"",[0,0,0],""],
+    ["HEBrakeRotors","Rotores de Freno de Alta Gama",1,"A3PL_Brake_Rotor",0,true,true,true,true,true,"",[0,0,0],""],
+    ["HEDiff","Diferencial de Alta Gama",1,"A3PL_Diff",0,true,true,true,true,true,"",[0,0,0],""],
+    ["HEFuelTank","Tanque de Combustible de Alta Gama",1,"A3PL_Fuel_Tank",0,true,true,true,true,true,"",[0,0,0],""],
+    ["HEChassis","Railes del Chasis de Alta Gama",5,"A3PL_Chassis",0,true,true,true,true,true,"",[0,0,0],""],
+    ["HEDriveShaft","Eje del Motor de Alta Gama",1,"A3PL_Drive_Shaft",0,true,true,true,true,true,"",[0,0,0],""],
+    ["HEExhaust","Tubos de Escape de Alta Gama",1,"A3PL_Exhaust",0,true,true,true,true,true,"",[0,0,0],""],
+    ["4WDDiff","Diferencial 4WD",1,"A3PL_Diff",0,true,true,true,true,true,"",[0,0,0],""],
+    ["SteelRims","Llantas",1,"A3PL_SteelRims",0,true,true,true,true,true,"",[0,0,0],""],
+    ["AlloyRims","Llantas de Aleacion",1,"A3PL_AlloyRims",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Tyres","Ruedas",1,"A3PL_Tyre",0,true,true,true,true,true,"",[0,0,0],""],
     ["ME_Bucket","inh",120,"A3PL_MiniExcavator_Bucket",0,true,true,true,true,true,"",[0,0,0],""],
     ["ME_Jackhammer","inh",180,"A3PL_MiniExcavator_Jackhammer",0,true,true,true,true,true,"",[0,0,0],""],
     ["ME_Claw","inh",160,"A3PL_MiniExcavator_Claw",0,true,true,true,true,true,"",[0,0,0],""],
@@ -1482,105 +1482,105 @@ Config_Items = [
     ["Steel_Pellet","inh",6,"A3PL_Steel_Pellet",0,true,true,true,false,false,"",[0,0,0],""],
     ["Aluminium_Pellet","inh",6,"A3PL_Aluminium_Pellet",0,true,true,true,false,false,"",[0,0,0],""],
     ["Titanium_Pellet","inh",6,"A3PL_Titanium_Pellet",0,true,true,true,false,false,"",[0,0,0],""],
-    ["med_cast","Cast",5,"A3PL_Medical_Cast",0.1,true,true,true,true,true,"",[0,0,0],""],
-    ["med_endotracheal","Endotracheal",0.1,"A3PL_Medical_Endotracheal",0,true,true,true,true,true,"",[0,0,0],""],
-    ["med_icepack","Icepack",0.1,"A3PL_Medical_Icepack",0,true,true,true,true,true,"",[0,0,0],""],
-    ["med_bandage","Bandage",0.1,"A3PL_Bandage",0,true,true,true,true,true,"",[0,0,0],""],
-    ["med_kit","Surgical kit",0.1,"A3PL_Medical_Kit",0,true,true,true,true,true,"",[0,0,0],""],
-    ["med_oxygenmask","Oxygen",0.1,"A3PL_Medical_OxygenMask",0,true,true,true,true,true,"",[0,0,0],""],
-    ["med_splint","Splint",0.1,"A3PL_Medical_Splint",0,true,true,true,true,true,"",[0,0,0],""],
+    ["med_cast","Molde",5,"A3PL_Medical_Cast",0.1,true,true,true,true,true,"",[0,0,0],""],
+    ["med_endotracheal","Endotraqueal",0.1,"A3PL_Medical_Endotracheal",0,true,true,true,true,true,"",[0,0,0],""],
+    ["med_icepack","Bolsa de Hielo",0.1,"A3PL_Medical_Icepack",0,true,true,true,true,true,"",[0,0,0],""],
+    ["med_bandage","Vendaje",0.1,"A3PL_Bandage",0,true,true,true,true,true,"",[0,0,0],""],
+    ["med_kit","Kit quirurgico",0.1,"A3PL_Medical_Kit",0,true,true,true,true,true,"",[0,0,0],""],
+    ["med_oxygenmask","Oxigeno",0.1,"A3PL_Medical_OxygenMask",0,true,true,true,true,true,"",[0,0,0],""],
+    ["med_splint","Tablilla",0.1,"A3PL_Medical_Splint",0,true,true,true,true,true,"",[0,0,0],""],
     ["med_painkillers","inh",0.1,"A3PL_PainKillers",0,true,true,true,true,true,"",[0,0,0],""],
     ["med_autograft","inh",0.1,"A3PL_Grinder",0,true,true,true,true,true,"",[0,0,0],""],
     ["medS_bloodbag","inh",0.1,"A3PL_BloodBag",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_A3PL_Taser","Taser Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_P07","P07 Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_P07_khk","P07 Khaki Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Pistol_heavy_01","4-five Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_ACPC2","ACP Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Pistol_01","PM 9mm Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Rook40","Rook Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Pistol_heavy_02","Zubr Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_AK12","AK-12 Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_AKM","AKM Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_AKS","AKS-74U Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_MX","MX Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_MX_Blk","MX-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_MX_khk","MX-Khaki Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_MXC","MXC Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_MXC_Blk","MXC-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_MXC_khk","MXC Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_PDW2000","PDW2000 Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_SMG_05","Protector Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_SPAR_Blk","Spar-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_SPAR_khk","Spar-Khaki Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_SPAR_snd","Spar-Sand Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_SMG_02","Sting 9B Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Mk18_ABR","EBR-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Mk14","DMR06-Olive Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_A3PL_TaserMag","Taser Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_16Rnd_9x21_Mag","16Rnd 9x21 Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_11Rnd_45ACP_Mag","11Rnd ACP Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_6Rnd_45ACP_Mag","6Rnd ACP Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_9Rnd_45ACP_Mag","9Rnd ACP Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_10Rnd_9x21_Mag","10Rnd PM Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_16Rnd_9x21_green_Mag","16Rnd Green Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_16Rnd_9x21_red_Mag","16Rnd Red Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_16Rnd_9x21_yellow_Mag","16Rnd Yellow Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_9x21_Mag","30Rnd 9x21 Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_9x21_Green_Mag","30Rnd 9x21 Green Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_9x21_Red_Mag","30Rnd 9x21 Red Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_9x21_Yellow_Mag","30Rnd Yellow Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_762x39_Mag_F","30Rnd 762 Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_545x39_Mag_Green","5.45 mm 30Rnd Reload Tracer (Green) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_545x39_Mag_Tracer_Green","5.45 mm 30Rnd Tracer (Green) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_545x39_Mag","5.45 mm 30Rnd Reload Tracer (Yellow) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_545x39_Mag_Tracer","5.45 mm 30Rnd Tracer (Yellow) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_65x39_caseless_mag","6.5 mm 30Rnd STANAG Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_65x39_caseless_mag_Tracer","6.5 mm 30Rnd Tracer (Red) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_762x39_Mag","7.62 mm 30Rnd Reload Tracer (Yellow) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_762x39_Mag_Tracer","7.62 mm 30Rnd Tracer (Yellow) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_762x39_Mag_Green","7.62 mm 30Rnd Reload Tracer (Green) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_762x39_Mag_Tracer_Green","7.62 mm 30Rnd Tracer (Green) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_556x45_Stanag_Green","5.56 mm 30rnd Tracer (Green) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_556x45_Stanag_Red","5.56 mm 30rnd Tracer (Red) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_30Rnd_556x45_Stanag_Yellow","5.56 mm 30rnd Tracer (Yellow) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Laserbatteries","Designator Batteries Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_20Rnd_762x51_Mag","7.62mm 20Rnd Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_ACO","ACO-Green Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Chestrig_blk","Chest Rig-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Rangemaster_belt","Rangemaster Belt Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Rangemaster_belt_blk","Rangemaster Belt Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_TacVestIR_blk","Raven Vest Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_BandollierB_blk","Slash Bandolier-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_TacVest_blk","Tactical Vest-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Press_F","Vest-Press Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_ACO_red","ACO-Red Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_ACO_grn_smg","ACO SMG-Green Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_ACO_smg_red","ACO SMG-Red Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_bipod_01_F_blk","Bipod-Black-NATO Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_flashlight","Flashlight Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Holosight","MK17 Holosight Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Holosight_blk","Mk17 Holosight-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Holosight_khk","Mk17 Holosight-Khaki Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Holosight_smg","Mk17 Holosight SMG Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Holosight_smg_blk","Mk17 Holosight SMG-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_MRD","MRD Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_muzzle_snds","Sound Suppressor-9В mm Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Yorris","Yorris J2 Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Laserdesignator_01_khk","Laser Designator-Khaki Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Laserdesignator_03","Laser Designator-AAF Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Laserdesignator","Laser Designator-NATO Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_MRCO","MRCO Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Rangefinder","Rangefinder Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_FD_yAdapter","BP Y Adapter",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_FD_Adapter","BP Adapter",0,"A3PL_File2",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_FD_HydrantWrench","BP Hydrant Wrench",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_FD_Mask","BP FD Mask",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_FD_FireNozzle","BP Fire Nozzle",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_FD_Helmet","BP FD Helmet",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_FD_Oxygen","BP FD Oxygen Backpack",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Handcuffs","BP Handcuffs",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
-    ["Blueprint_Sheriff_Hat","BP Sheriff Hat",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_A3PL_Taser","Plano de Fabricacion de Taser",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_P07","Plano de Fabricacion de P07 Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_P07_khk","Plano de Fabricacion de P07 Khaki Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Pistol_heavy_01","Plano de Fabricacion de 4-five Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_ACPC2","Plano de Fabricacion de ACP Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Pistol_01","Plano de Fabricacion de PM 9mm Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Rook40","Plano de Fabricacion de Rook Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Pistol_heavy_02","Plano de Fabricacion de Zubr Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_AK12","Plano de Fabricacion de AK-12 Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_AKM","Plano de Fabricacion de AKM Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_AKS","Plano de Fabricacion de AKS-74U Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_MX","Plano de Fabricacion de MX Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_MX_Blk","Plano de Fabricacion de MX-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_MX_khk","Plano de Fabricacion de MX-Khaki Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_MXC","Plano de Fabricacion de MXC Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_MXC_Blk","Plano de Fabricacion de MXC-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_MXC_khk","Plano de Fabricacion de MXC Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_PDW2000","Plano de Fabricacion de PDW2000 Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_SMG_05","Plano de Fabricacion de Protector Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_SPAR_Blk","Plano de Fabricacion de Spar-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_SPAR_khk","Plano de Fabricacion de Spar-Khaki Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_SPAR_snd","Plano de Fabricacion de Spar-Sand Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_SMG_02","Plano de Fabricacion de Sting 9B Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Mk18_ABR","Plano de Fabricacion de EBR-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Mk14","Plano de Fabricacion de DMR06-Olive Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_A3PL_TaserMag","Plano de Fabricacion de Taser Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_16Rnd_9x21_Mag","Plano de Fabricacion de 16Rnd 9x21 Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_11Rnd_45ACP_Mag","Plano de Fabricacion de 11Rnd ACP Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_6Rnd_45ACP_Mag","Plano de Fabricacion de 6Rnd ACP Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_9Rnd_45ACP_Mag","Plano de Fabricacion de 9Rnd ACP Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_10Rnd_9x21_Mag","Plano de Fabricacion de 10Rnd PM Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_16Rnd_9x21_green_Mag","Plano de Fabricacion de16Rnd Green Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_16Rnd_9x21_red_Mag","Plano de Fabricacion de 16Rnd Red Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_16Rnd_9x21_yellow_Mag","Plano de Fabricacion de 16Rnd Yellow Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_9x21_Mag","Plano de Fabricacion de 30Rnd 9x21 Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_9x21_Green_Mag","Plano de Fabricacion de 30Rnd 9x21 Green Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_9x21_Red_Mag","Plano de Fabricacion de 30Rnd 9x21 Red Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_9x21_Yellow_Mag","Plano de Fabricacion de 30Rnd Yellow Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_762x39_Mag_F","Plano de Fabricacion de 30Rnd 762 Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_545x39_Mag_Green","5Plano de Fabricacion de .45 mm 30Rnd Reload Tracer (Green) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_545x39_Mag_Tracer_Green","Plano de Fabricacion de 5.45 mm 30Rnd Tracer (Green) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_545x39_Mag","Plano de Fabricacion de 5.45 mm 30Rnd Reload Tracer (Yellow) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_545x39_Mag_Tracer","Plano de Fabricacion de 5.45 mm 30Rnd Tracer (Yellow) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_65x39_caseless_mag","Plano de Fabricacion de 6.5 mm 30Rnd STANAG Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_65x39_caseless_mag_Tracer","Plano de Fabricacion de 6.5 mm 30Rnd Tracer (Red) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_762x39_Mag","Plano de Fabricacion de 7.62 mm 30Rnd Reload Tracer (Yellow) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_762x39_Mag_Tracer","Plano de Fabricacion de 7.62 mm 30Rnd Tracer (Yellow) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_762x39_Mag_Green","Plano de Fabricacion de 7.62 mm 30Rnd Reload Tracer (Green) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_762x39_Mag_Tracer_Green","Plano de Fabricacion de 7.62 mm 30Rnd Tracer (Green) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_556x45_Stanag_Green","Plano de Fabricacion de 5.56 mm 30rnd Tracer (Green) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_556x45_Stanag_Red","Plano de Fabricacion de 5.56 mm 30rnd Tracer (Red) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_30Rnd_556x45_Stanag_Yellow","Plano de Fabricacion de 5.56 mm 30rnd Tracer (Yellow) Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Laserbatteries","Plano de Fabricacion de Designator Batteries Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_20Rnd_762x51_Mag","Plano de Fabricacion de 7.62mm 20Rnd Mag Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_ACO","Plano de Fabricacion de ACO-Green Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Chestrig_blk","Plano de Fabricacion de Chest Rig-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Rangemaster_belt","Plano de Fabricacion de Rangemaster Belt Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Rangemaster_belt_blk","Plano de Fabricacion de Rangemaster Belt Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_TacVestIR_blk","Plano de Fabricacion de Raven Vest Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_BandollierB_blk","Plano de Fabricacion de Slash Bandolier-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_TacVest_blk","Plano de Fabricacion de Tactical Vest-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Press_F","Plano de Fabricacion de Vest-Press Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_ACO_red","Plano de Fabricacion de ACO-Red Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_ACO_grn_smg","Plano de Fabricacion de ACO SMG-Green Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_ACO_smg_red","Plano de Fabricacion de ACO SMG-Red Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_bipod_01_F_blk","Plano de Fabricacion de Bipod-Black-NATO Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_flashlight","Plano de Fabricacion de Flashlight Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Holosight","Plano de Fabricacion de MK17 Holosight Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Holosight_blk","Plano de Fabricacion de Mk17 Holosight-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Holosight_khk","Plano de Fabricacion de Mk17 Holosight-Khaki Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Holosight_smg","Plano de Fabricacion de Mk17 Holosight SMG Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Holosight_smg_blk","Plano de Fabricacion de Mk17 Holosight SMG-Black Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_MRD","Plano de Fabricacion de MRD Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_muzzle_snds","Plano de Fabricacion de Sound Suppressor-9В mm Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Yorris","Plano de Fabricacion de Yorris J2 Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Laserdesignator_01_khk","Plano de Fabricacion de Laser Designator-Khaki Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Laserdesignator_03","Plano de Fabricacion de Laser Designator-AAF Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Laserdesignator","Plano de Fabricacion de Laser Designator-NATO Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_MRCO","Plano de Fabricacion de MRCO Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Rangefinder","Plano de Fabricacion de Rangefinder Blueprint",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_FD_yAdapter","Adaptador BP Y",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_FD_Adapter","Adaptador BP",0,"A3PL_File2",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_FD_HydrantWrench","Llave Hidrante BP",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_FD_Mask","Mascarilla BP (FD)",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_FD_FireNozzle","Boquilla de Fuego BP",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_FD_Helmet","Casco BP (FD)",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_FD_Oxygen","Bombona de Oxigneo BP (FD)",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Handcuffs","Esposas BP",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
+    ["Blueprint_Sheriff_Hat","Sombrero Sheriff BP",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
     ["Blueprint_Sheriff_Cap","BP Sheriff Cap",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
     ["Blueprint_Spikestrip","BP Spikestrip",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
     ["Blueprint_Sheriff_Uniform","BP SD Sheriff Uniform",0,"A3PL_File2",0,true,true,true,true,true,"",[0,0,0],""],
@@ -1634,570 +1634,570 @@ Config_Items = [
 publicVariable "Config_Items";
 
 Config_IntersectArray = [
-    ["distillery_end", "Install hose", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["distillery_end", "Instalar manguera", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         ((count(nearestObjects[player_objintersect, ["A3PL_Distillery_Hose"], 2])) > 0) && ((count([player_objintersect] call A3PL_Lib_AttachedAll)) < 1)
     }],
-    ["distillery_main", "Start distillery", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["distillery_main", "Comenzar a destilar", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         true
     }],
-    ["distillery_main", "Check distillery status", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["distillery_main", "Comprobar estado de la destileria", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         (player_objintersect getVariable["running", false])
     }],
-    ["distillery_main", "Add item to distillery", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["distillery_main", "Agregar item a la destileria", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         true
     }],
-    ["item_Pickup", "Connect jug to hose", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["item_Pickup", "Conectar bote a la manguera", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         ((typeOf player_objintersect) == "A3PL_Distillery_Hose") && ((count([player_objIntersect] call A3PL_Lib_AttachedAll)) < 1)
     }],
-    ["item_Pickup", "Grind wheat into yeast", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["item_Pickup", "Picar trigo a levadura", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         ((typeOf player_objintersect) == "A3PL_Mixer")
     }],
-    ["item_Pickup", "Grind wheat into malt", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["item_Pickup", "Picar trigo a malta", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         ((typeOf player_objintersect) == "A3PL_Mixer")
     }],
-    ["item_Pickup", "Grind corn into cornmeal", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["item_Pickup", "Picar maiz", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         ((typeOf player_objintersect) == "A3PL_Mixer")
     }],
-    ["spine2", "Skin animal", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine2", "Piel de animal", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         ((typeOf player_objintersect) IN["Sheep", "Sheep02", "Sheep03", "Goat", "Goat02", "Goat03", "WildBoar"]) && !alive player_objintersect
     }],
-    ["hips", "Skin animal", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["hips", "Piel de animal", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         ((typeOf player_objintersect) IN["Sheep", "Sheep02", "Sheep03", "Goat", "Goat02", "Goat03", "WildBoar"]) && !alive player_objintersect
     }],
-    ["spine", "Skin animal", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine", "Piel de animal", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         ((typeOf player_objintersect) IN["Sheep", "Sheep02", "Sheep03", "Goat", "Goat02", "Goat03", "WildBoar"]) && !alive player_objintersect
     }],
-    ["head", "Skin animal", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["head", "Piel de animal", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         ((typeOf player_objintersect) IN["Sheep", "Sheep02", "Sheep03", "Goat", "Goat02", "Goat03", "WildBoar"]) && !alive player_objintersect
     }],
-    ["item_pickup", "Tag meat", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["item_pickup", "Carne marcada", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         (player_objintersect getVariable["class", "unknown"]) IN["meat_sheep", "meat_goat", "meat_boar", "mullet", "shark_2lb", "shark_4lb", "shark_5lb", "shark_7lb", "shark_10lb"]
     }],
-    ["trunkinside", "Cure bud", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["trunkinside", "Cogollo", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         ((typeOf player_objintersect) == "A3PL_WorkBench") && (player_itemClass == "cannabis_bud")
     }],
-    ["item_pickup", "Check cure status", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["item_pickup", "Comprobar estado del cogollo", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         ((typeOf player_objintersect) == "A3PL_Cannabis_Bud")
     }],
-    ["item_Pickup", "Grind cannabis", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["item_Pickup", "Picar cannabis", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         ((typeOf player_objintersect) == "A3PL_Mixer")
     }],
-    ["item_Pickup", "Collect grinded cannabis", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["item_Pickup", "Recoger cannabis picado", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         ((typeOf player_objintersect) == "A3PL_Mixer")
     }],
-    ["item_Pickup", "Bag marijuana", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["item_Pickup", "Empaquetar Marihuana", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         ((typeOf player_objintersect) == "A3PL_Scale")
     }],
-    ["item_Pickup", "Make Blunt", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["item_Pickup", "Liarse un Porro", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         ((typeOf player_objintersect) == "A3PL_Scale")
     }],
-    ["Toggle_Ramp", "Lower/Raise Car Ramp", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Toggle_Ramp", "Bajar/Subir rampa de vehiculos", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         player_objintersect isKindOf "A3PL_Car_Trailer"
     }],
-    ["Bin_Controller1", "Flip Left Bin", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin1" == 0.1)
+    ["Bin_Controller1", "Voltear contenedor a la izquierda", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin1" == 0.1)
     }],
-    ["Bin_Controller1", "Lower Left Bin", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin1" > 0.5)
+    ["Bin_Controller1", "Bajar contenedor de la izquierda", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin1" > 0.5)
     }],
-    ["Bin_Controller1", "Flip Right Bin", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin2" == 0.1)
+    ["Bin_Controller1", "Voltear contenedor a la derecha", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin2" == 0.1)
     }],
-    ["Bin_Controller1", "Lower Right Bin", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin2" > 0.5)
+    ["Bin_Controller1", "Bajar contenedor de la derecha", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin2" > 0.5)
     }],
-    ["Bin_Controller2", "Flip Left Bin", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin1" == 0.1)
+    ["Bin_Controller2", "Voltear contenedor a la izquierda", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin1" == 0.1)
     }],
-    ["Bin_Controller2", "Lower Left Bin", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin1" > 0.5)
+    ["Bin_Controller2", "Bajar contenedor de la izquierda", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin1" > 0.5)
     }],
-    ["Bin_Controller2", "Flip Right Bin", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin2" == 0.1)
+    ["Bin_Controller2", "Voltear contenedor a la derecha", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin2" == 0.1)
     }],
-    ["Bin_Controller2", "Lower Right Bin", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin2" > 0.5)
+    ["Bin_Controller2", "Bajar contenedor de la derecha", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!(player_objIntersect getVariable["locked", true]) && (player_objintersect animationSourcePhase "Bin2" > 0.5)
     }],
-    ["Lid", "Open Bin", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Lid", "Abrir Contenedor", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (player_objintersect animationPhase "Lid" < 0.5)
     }],
-    ["Lid", "Load bin onto truck", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Lid", "Cargar contenedor al camion", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         [player_objintersect] call A3PL_Waste_CheckNear
     }],
-    ["bin1", "Unload bin from truck", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["bin1", "Descargar contenedor del camion", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (typeOf player_objintersect == "A3PL_P362_Garbage_Truck") && (player_objintersect animationSourcePhase "Bin1" == 0.1)
     }],
-    ["bin2", "Unload bin from truck", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["bin2", "Descargar contenedor del camion", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (typeOf player_objintersect == "A3PL_P362_Garbage_Truck") && (player_objintersect animationSourcePhase "Bin2" == 0.1)
     }],
-    ["Lid", "Pickup bin", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Lid", "Recoger Contenedor", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         typeOf player_objintersect == "A3PL_WheelieBin"
     }],
-    ["Lid", "Close Bin", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Lid", "Cerrar Contenedor", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (player_objintersect animationPhase "Lid" > 0.5)
     }],
     ["goose_floats", "Toggle Floats", "\a3\ui_f\data\IGUI\Cfg\Actions\autohover_ca.paa", {
         (vehicle player) isKindOf "A3PL_Goose_Base"
     }],
-    ["goose_fuelpump", "Toggle Fuelpump", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\fuelwarning_ca.paa", {
+    ["goose_fuelpump", "Coger Manguera de Gasolina", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\fuelwarning_ca.paa", {
         (vehicle player) isKindOf "A3PL_Goose_Base"
     }],
-    ["goose_gear", "Toggle Fuelpump", "\a3\ui_f\data\IGUI\Cfg\Actions\autohover_ca.paa", {
+    ["goose_gear", "Coger Manguera de Gasolina", "\a3\ui_f\data\IGUI\Cfg\Actions\autohover_ca.paa", {
         (vehicle player) isKindOf "A3PL_Goose_Base"
     }],
-    ["goose_bat", "Toggle Battery", "\a3\ui_f\data\IGUI\Cfg\Actions\ico_cpt_batt_on_ca", {
+    ["goose_bat", "Coger Bateria", "\a3\ui_f\data\IGUI\Cfg\Actions\ico_cpt_batt_on_ca", {
         (vehicle player) isKindOf "A3PL_Goose_Base"
     }],
-    ["goose_flaps", "Adjust Flaps Upward", "\a3\ui_f\data\IGUI\Cfg\Actions\flapsretract_ca.paa", {
+    ["goose_flaps", "Ajustar Flaps Arriba", "\a3\ui_f\data\IGUI\Cfg\Actions\flapsretract_ca.paa", {
         (vehicle player) isKindOf "A3PL_Goose_Base"
     }],
-    ["goose_flaps", "Adjust Flaps Downward", "\a3\ui_f\data\IGUI\Cfg\Actions\flapsextend_ca.paa", {
+    ["goose_flaps", "Ajustar Flaps Abajo", "\a3\ui_f\data\IGUI\Cfg\Actions\flapsextend_ca.paa", {
         (vehicle player) isKindOf "A3PL_Goose_Base"
     }],
-    ["goose_gen", "Switch Generator", "\a3\ui_f\data\IGUI\Cfg\Actions\repair_ca.paa", {
+    ["goose_gen", "Cambiar Generador", "\a3\ui_f\data\IGUI\Cfg\Actions\repair_ca.paa", {
         (vehicle player) isKindOf "A3PL_Goose_Base"
     }],
-    ["goose_ign", "Switch Ignition/Starter", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\igui_wlight_eng_ca.paa", {
+    ["goose_ign", "Cambiar Ignicion/Starter", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\igui_wlight_eng_ca.paa", {
         (vehicle player) isKindOf "A3PL_Goose_Base"
     }],
-    ["lightswitch", "Toggle Head Lights", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
+    ["lightswitch", "Encender Luces", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
         (vehicle player) isKindOf "A3PL_Goose_Base"
     }],
-    ["collision_lights", "Toggle Collision Lights", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
+    ["collision_lights", "Encender Luces de Colision", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
         (vehicle player) isKindOf "A3PL_Goose_Base"
     }],
-    ["C172_fuelpump", "Toggle Fuelpump", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\fuelwarning_ca.paa", {
+    ["C172_fuelpump", "Coger Manguera de Gasolina", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\fuelwarning_ca.paa", {
         (vehicle player) isKindOf "A3PL_Cessna172"
     }],
-    ["C172_batteries", "Toggle Battery", "\a3\ui_f\data\IGUI\Cfg\Actions\ico_cpt_batt_on_ca", {
+    ["C172_batteries", "Coger Bateria", "\a3\ui_f\data\IGUI\Cfg\Actions\ico_cpt_batt_on_ca", {
         (vehicle player) isKindOf "A3PL_Cessna172"
     }],
-    ["Switch_C172_Flaps", "Adjust Flaps Upward", "\a3\ui_f\data\IGUI\Cfg\Actions\flapsretract_ca.paa", {
+    ["Switch_C172_Flaps", "Ajustar Flaps Arriba", "\a3\ui_f\data\IGUI\Cfg\Actions\flapsretract_ca.paa", {
         (vehicle player) isKindOf "A3PL_Cessna172"
     }],
-    ["Switch_C172_Flaps", "Adjust Flaps Downward", "\a3\ui_f\data\IGUI\Cfg\Actions\flapsextend_ca.paa", {
+    ["Switch_C172_Flaps", "Ajustar Flaps Abajo", "\a3\ui_f\data\IGUI\Cfg\Actions\flapsextend_ca.paa", {
         (vehicle player) isKindOf "A3PL_Cessna172"
     }],
-    ["C172_Ignition", "Switch Ignition/Starter", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\igui_wlight_eng_ca.paa", {
+    ["C172_Ignition", "Cambiar Ignicion/Starter", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\igui_wlight_eng_ca.paa", {
         (vehicle player) isKindOf "A3PL_Cessna172"
     }],
-    ["lightswitch", "Toggle Head Lights", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
+    ["lightswitch", "Encender Luces", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
         (vehicle player) isKindOf "A3PL_Cessna172"
     }],
-    ["collision_lights", "Toggle Collision Lights", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
+    ["collision_lights", "Encender Luces de Colision", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
         (vehicle player) isKindOf "A3PL_Cessna172"
     }],
-    ["switch_radio_atc", "Toggle ATC Radio", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_ATC_ON_ca.paa", {
+    ["switch_radio_atc", "Habilitar Radio ATC", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_ATC_ON_ca.paa", {
         (vehicle player) isKindOf "A3PL_Cessna172"
     }],
-    ["switch_starter", "Toggle Starter (Engine 1)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_start_ON_ca.paa", {
+    ["switch_starter", "Habilitar Encendedor (Motor 1)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_start_ON_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["switch_starter", "Toggle Starter (Engine 2)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_start_ON_ca.paa", {
+    ["switch_starter", "Habilitar Encendedor (Motor 2)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_start_ON_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["switch_throttle", "Throttle Closed (Engine 1)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_thtl_OFF_ca.paa", {
+    ["switch_throttle", "Acelerador Cerrado (Motor 1)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_thtl_OFF_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["switch_throttle2", "Throttle Closed (Engine 2)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_thtl_OFF_ca.paa", {
+    ["switch_throttle2", "Acelerador Cerrado (Motor 2)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_thtl_OFF_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["switch_radio_atc", "Toggle ATC Radio", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_ATC_ON_ca.paa", {
+    ["switch_radio_atc", "Habilitar Radio ATC", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_ATC_ON_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["switch_batteries", "Toggle Batteries", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_batt_ON_ca.paa", {
+    ["switch_batteries", "Coger Baterias", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_batt_ON_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["Interior_Lights", "Cockpit Lights", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
+    ["Interior_Lights", "Luces de Cabina", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["Searchlight_Switch", "Toggle Searchlight", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_land_ON_ca.paa", {
+    ["Searchlight_Switch", "Encender Luz de Busqueda", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_land_ON_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["switch_lightsac", "Toggle Collision Lights", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
+    ["switch_lightsac", "Encender Luces de Colision", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["switch_lightsldg", "Toggle Head Lights", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_land_ON_ca.paa", {
+    ["switch_lightsldg", "Encender Luces", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_land_ON_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["switch_rotor_brake", "Toggle Rotor Brake", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_brk_ON_ca.paa", {
+    ["switch_rotor_brake", "Encender Freno del Rotor", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_brk_ON_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["switch_starter_2", "Toggle Starter (Engine 1)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_start_ON_ca.paa", {
+    ["switch_starter_2", "Habilitar Encendedor (Motor 1)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_start_ON_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["switch_starter_2", "Toggle Starter (Engine 2)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_start_ON_ca.paa", {
+    ["switch_starter_2", "Habilitar Encendedor (Motor 2)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_start_ON_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["switch_throttle_2", "Throttle Closed (Engine 1)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_thtl_OFF_ca.paa", {
+    ["switch_throttle_2", "Acelerador Cerrado (Motor 1)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_thtl_OFF_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["switch_throttle2_2", "Throttle Closed (Engine 2)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_thtl_OFF_ca.paa", {
+    ["switch_throttle2_2", "Acelerador Cerrado (Motor 2)", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_thtl_OFF_ca.paa", {
         (vehicle player) isKindOf "Heli_Medium01_Base_H"
     }],
-    ["item_pickup", "Stack cone", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["item_pickup", "Apilar Cono", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (typeOf player_objintersect IN["A3PL_RoadCone", "A3PL_RoadCone_x10"])
     }],
-    ["Pilot_Door", "Enter as Driver", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["Pilot_Door", "Entrar como Conductor", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         (player_objintersect isKindOf "Air") && (vehicle player == player) && !(player_objIntersect getVariable["locked", true])
     }],
-    ["Pilot_Door", "Exit Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!((vehicle player) == player) && !(player_objIntersect getVariable["locked", true])
+    ["Pilot_Door", "Salir del Vehiculo", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!((vehicle player) == player) && !(player_objIntersect getVariable["locked", true])
     }],
-    ["Pilot_Door", "Lock/Unlock Vehicle Doors", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
+    ["Pilot_Door", "Bloquear/Desbloquear Puertas del Vehiculo", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
         (getPlayerUID player in (player_objintersect getVariable["keyAccess", []]))
     }],
-    ["Pilot_Door", "Eject All Passengers", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Pilot_Door", "Expulsar a todos los pasajeros", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         ((vehicle player) == player) && ((player getVariable "job") == "police") && ((speed player_objIntersect) < 5)
     }],
-    ["Pilot_Door", "Detain Suspect", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Pilot_Door", "Detener Sospechoso", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         ((vehicle player) == player) && ((player getVariable "job") == "police")
     }],
-    ["Pilot_Door", "Open\Close Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", true])
+    ["Pilot_Door", "Abrir\Cerrar Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", true])
     }],
-    ["Pilot_Door", "Repair Vehicle", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
+    ["Pilot_Door", "Reparar Vehiculo", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
         player_ItemClass == "repairwrench"
     }],
-    ["CoPilot_Door", "Enter as Co-Pilot", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["CoPilot_Door", "Entrar como Co-piloto", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         (player_objintersect isKindOf "Air") && (vehicle player == player) && !(player_objIntersect getVariable["locked", true])
     }],
-    ["CoPilot_Door", "Exit Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!((vehicle player) == player) && !(player_objIntersect getVariable["locked", true])
+    ["CoPilot_Door", "Salir del Vehiculo", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!((vehicle player) == player) && !(player_objIntersect getVariable["locked", true])
     }],
-    ["CoPilot_Door", "Lock/Unlock Vehicle Doors", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
+    ["CoPilot_Door", "Bloquear/Desbloquear Puertas del Vehiculo", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
         (getPlayerUID player in (player_objintersect getVariable["keyAccess", []]))
     }],
-    ["CoPilot_Door", "Eject All Passengers", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["CoPilot_Door", "Expulsar a todos los pasajeros", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         ((vehicle player) == player) && ((player getVariable "job") == "police") && ((speed player_objIntersect) < 5)
     }],
-    ["CoPilot_Door", "Detain Suspect", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["CoPilot_Door", "Detener Sospechoso", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         ((vehicle player) == player) && ((player getVariable "job") == "police")
     }],
-    ["CoPilot_Door", "Open\Close Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", true])
+    ["CoPilot_Door", "Abrir\Cerrar Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", true])
     }],
-    ["CoPilot_Door", "Repair Vehicle", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
+    ["CoPilot_Door", "Reparar Vehiculo", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
         player_ItemClass == "repairwrench"
     }],
-    ["inspect_hitengine1", "Inspect Engine #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["inspect_hitengine1", "Inspeccionar Motor #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (!("inspect_hitengine1"
             IN(player_objIntersect getVariable "Inspection"))) && (player_objintersect animationSourcePhase "Inspect_Panel1_1" > 0.5)
     }],
-    ["inspect_hitengine2", "Inspect Engine #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["inspect_hitengine2", "Inspeccionar Motor #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (!("inspect_hitengine2"
             IN(player_objIntersect getVariable "Inspection"))) && (player_objintersect animationSourcePhase "Inspect_Panel2_1" > 0.5)
     }],
-    ["inspect_hithrotor1", "Inspect Main Rotor #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hithrotor1"
+    ["inspect_hithrotor1", "Inspeccionar Rotor Principal #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hithrotor1"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hithrotor2", "Inspect Main Rotor #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hithrotor2"
+    ["inspect_hithrotor2", "Inspeccionar Rotor Principal #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hithrotor2"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hithrotor3", "Inspect Main Rotor #3", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hithrotor3"
+    ["inspect_hithrotor3", "Inspeccionar Rotor Principal #3", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hithrotor3"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hithrotor4", "Inspect Main Rotor #4", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hithrotor4"
+    ["inspect_hithrotor4", "Inspeccionar Rotor Principal #4", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hithrotor4"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hitvrotor1", "Inspect Tail Rotor #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitvrotor1"
+    ["inspect_hitvrotor1", "Inspeccionar Rotor de Cola #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitvrotor1"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hitvrotor2", "Inspect Tail Rotor #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitvrotor2"
+    ["inspect_hitvrotor2", "Inspeccionar Rotor de Cola #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitvrotor2"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hitvrotor3", "Inspect Tail Rotor Hub", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitvrotor3"
+    ["inspect_hitvrotor3", "Inspeccionar Rotor del HUB", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitvrotor3"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hittransmission1", "Inspect Transmission", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hittransmission1"
+    ["inspect_hittransmission1", "Inspeccionar Transmision", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hittransmission1"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hitfuel1", "Inspect Fuel", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitfuel1"
+    ["inspect_hitfuel1", "Inspeccionar Combustible", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitfuel1"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hitgear1", "Inspect Gear #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitgear1"
+    ["inspect_hitgear1", "Inspeccionar Carroceria #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitgear1"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hitgear2", "Inspect Gear #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitgear2"
+    ["inspect_hitgear2", "Inspeccionar Carroceria #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitgear2"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hitgear3", "Inspect Gear #3", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitgear3"
+    ["inspect_hitgear3", "Inspeccionar Carroceria #3", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitgear3"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hitgear4", "Inspect Gear #4", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitgear4"
+    ["inspect_hitgear4", "Inspeccionar Carroceria #4", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitgear4"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hithstabilizerl11", "Inspect Horizontal stabilizer #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hithstabilizerl11"
+    ["inspect_hithstabilizerl11", "Inspeccionar Estabilizador Horizontal #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hithstabilizerl11"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hithstabilizerr11", "Inspect Horizontal stabilizer #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hithstabilizerr11"
+    ["inspect_hithstabilizerr11", "Inspeccionar Estabilizador Horizontal #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hithstabilizerr11"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hitlight1", "Inspect Landing Light", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitlight1"
+    ["inspect_hitlight1", "Inspeccionar Luz de Aterrizaje", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitlight1"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hitpitottube1", "Inspect Pitot Tube #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitpitottube1"
+    ["inspect_hitpitottube1", "Inspeccionar Tubo Pitot #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitpitottube1"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hitpitottube2", "Inspect Pitot Tube #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitpitottube2"
+    ["inspect_hitpitottube2", "Inspeccionar Tubo Pitot #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitpitottube2"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hitstaticport1", "Inspect Static Port #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitstaticport1"
+    ["inspect_hitstaticport1", "Inspeccionar Puerto Estatico #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitstaticport1"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hitstaticport2", "Inspect Static Port #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitstaticport2"
+    ["inspect_hitstaticport2", "Inspeccionar Puerto Estatico #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitstaticport2"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_hitvstabilizer11", "Inspect Vertical Stabilizer", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitvstabilizer11"
+    ["inspect_hitvstabilizer11", "Inspeccionar Estabilizador Vertical", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_hitvstabilizer11"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_intake1", "Inspect Intake #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_intake1"
+    ["inspect_intake1", "Inspeccionar Entrada de Aire #1", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_intake1"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["inspect_intake2", "Inspect Intake #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_intake2"
+    ["inspect_intake2", "Inspeccionar Entrada de Aire #2", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!("inspect_intake2"
             IN(player_objIntersect getVariable "Inspection"))
     }],
-    ["hatchl", "Toggle Left Engine Hatch", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["hatchl", "Habilitar Escotilla del Motor Izquierdo", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (!(player_objIntersect getVariable["locked", true]))
     }],
-    ["hatchr", "Toggle Right Engine Hatch", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["hatchr", "Habilitar Escotilla del Motor Derecho", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (!(player_objIntersect getVariable["locked", true]))
     }],
-    ["button_bargate2", "Open/Close Bargate", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["button_bargate2", "Abrir/Cerrar Barrera", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["button_bargate1", "Open/Close Bargate", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["button_bargate1", "Abrir/Cerrar Barrera", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Virtual_Storage", "Access virtual storage", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Virtual_Storage", "Acceder al almacenamiento virtual", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Body", "Repair Vehicle", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
+    ["Body", "Reparar Vehiculo", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
         player_ItemClass == "repairwrench"
     }],
-    ["Repair", "Repair Vehicle", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
+    ["Repair", "Reparar Vehiculo", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
         player_ItemClass == "repairwrench"
     }],
-    ["collision_lights", "Toggle Collision Lights", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
+    ["collision_lights", "Encender Luces de Colision", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
         true
     }],
-    ["ignition", "Ignition", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\igui_wlight_eng_ca.paa", {
+    ["ignition", "Ignicion", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\igui_wlight_eng_ca.paa", {
         (vehicle player) isKindOf "AllVehicles"
     }],
-    ["lightswitch", "Toggle Head Lights", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
+    ["lightswitch", "Encender Luces", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
         (vehicle player != player)
     }],
-    ["collision_lights2", "Toggle Collision Lights", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
+    ["collision_lights2", "Encender Luces de Colision", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
         true
     }],
-    ["ignition2", "Ignition", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\igui_wlight_eng_ca.paa", {
+    ["ignition2", "Ignicion", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\igui_wlight_eng_ca.paa", {
         (vehicle player) isKindOf "AllVehicles"
     }],
-    ["lightswitch2", "Toggle Head Lights", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
+    ["lightswitch2", "Encender Luces", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
         (vehicle player != player)
     }],
-    ["collision_lights3", "Toggle Collision Lights", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
+    ["collision_lights3", "Encender Luces de Colision", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
         true
     }],
-    ["ignition3", "Ignition", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\igui_wlight_eng_ca.paa", {
+    ["ignition3", "Ignicion", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\igui_wlight_eng_ca.paa", {
         (vehicle player) isKindOf "AllVehicles"
     }],
-    ["lightswitch3", "Toggle Head Lights", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
+    ["lightswitch3", "Encender Luces", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
         (vehicle player != player)
     }],
-    ["collision_lights4", "Toggle Collision Lights", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
+    ["collision_lights4", "Encender Luces de Colision", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_col_ON_ca.paa", {
         true
     }],
-    ["ignition4", "Ignition", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\igui_wlight_eng_ca.paa", {
+    ["ignition4", "Ignicion", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\igui_wlight_eng_ca.paa", {
         (vehicle player) isKindOf "AllVehicles"
     }],
-    ["lightswitch4", "Toggle Head Lights", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
+    ["lightswitch4", "Encender Luces", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
         (vehicle player != player)
     }],
-    ["Door_RF", "Enter as Driver", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["Door_RF", "Entrar como Conductor", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         (player_objintersect isKindOf "Air") && (vehicle player == player) && !(player_objIntersect getVariable["locked", true])
     }],
-    ["Door_LF", "Enter as Co-Pilot", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["Door_LF", "Entrar como Co-Piloto", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         (player_objintersect isKindOf "Air") && (vehicle player == player) && !(player_objIntersect getVariable["locked", true])
     }],
-    ["ship_driver", "Enter as Driver", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["ship_driver", "Entrar como Conductor", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         ((vehicle player) == player) && (simulationEnabled player_objIntersect) && !(player_objIntersect getVariable["locked", true])
     }],
-    ["ship_driver", "Lock/Unlock Vehicle Doors", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
+    ["ship_driver", "Bloquear/Desbloquear Puertas del Vehiculo", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
         (getPlayerUID player in (player_objintersect getVariable["keyAccess", []]))
     }],
-    ["ship_passenger", "Enter as Passenger", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["ship_passenger", "Entrar como pasajero", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         ((vehicle player) == player) && (simulationEnabled player_objIntersect) && !(player_objIntersect getVariable["locked", true])
     }],
-    ["ship_passenger", "Lock/Unlock Vehicle Doors", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
+    ["ship_passenger", "Bloquear/Desbloquear Puertas del Vehiculo", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
         (getPlayerUID player in (player_objintersect getVariable["keyAccess", []]))
     }],
-    ["lever_drillarm", "Retract/Extend Drill Arm", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["lever_drillarm", "Recoger/Extender Brazo del Taladro", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["lever_drill", "Retract/Extend Drill", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["lever_drill", "Recoger/Extender Taladro", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["pumpjack_connect", "Start Jack Pump", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["pumpjack_connect", "Arrancar Bomba", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["ski", "Attach/Detach Rope", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["ski", "Atar/Desatar Cuerda", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         typeOf player_objintersect == "A3PL_Ski_Base"
     }],
-    ["ski", "Pickup Ski", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["ski", "Recoger Ski", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         typeOf player_objintersect == "A3PL_Ski_Base"
     }],
-    ["spine3", "Hand Ticket", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\si_prone_down_ca.paa", {
+    ["spine3", "Llevar el Ticket en la mano", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\si_prone_down_ca.paa", {
         (player_ItemClass == "ticket") && (isPlayer player_objintersect)
     }],
-    ["spine3", "Talk to McFishers Employee", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al empleado de McFishers", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN [npc_mcfisher, npc_mcfisher_1]
     }],
-    ["spine3", "Switch to McFishers uniform", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Equiparse Uniforme de McFishers", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN [npc_mcfisher, npc_mcfisher_1]
     }],
-    ["spine3", "Talk to Fisherman", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al Pescador", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_fisher
     }],
-    ["spine3", "Talk to Sheriff", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al Sheriff", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN [npc_police, npc_police_1] 
     }],
-    ["spine3", "Talk to Dispatch", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al Dispatch", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN [npc_dispatch, npc_dispatch_1] 
     }],
-    ["spine3", "Talk to Medic", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al Medico", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN [NPC_emt, NPC_emt_1]
     }],
-    ["spine3", "Talk to Bank Employee", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al Banquero", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[npc_bank, npc_bank_1, npc_bank_2, npc_bank_3]
     }],
-    ["spine3", "Talk to USCG Officer", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al oficial de la USCG", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_uscg
     }],
-    ["spine3", "Talk to Roadside Service Worker", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al empleado de servicio de carreteras", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_roadworker
     }],
-    ["spine3", "Talk to Farmer", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al granjero", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[npc_farmer, npc_farmer_1]
     }],
-    ["spine3", "Talk to Oil Recoverer", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al petrolero", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_oilrecovery
     }],
-    ["spine3", "Talk to FAA 1", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al FAA 1", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_faastart
     }],
-    ["spine3", "Talk to FAA 2", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al FAA 2", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_faastop
     }],
-    ["spine3", "Talk to Taco Hell Employee", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al empleado de Taco Hell", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[npc_tacohell, npc_tacohell_1, npc_tacohell_2]
     }],
-    ["spine3", "Switch to Taco Hell uniform", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Equiparse Uniforme de Taco Hell", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[npc_tacohell, npc_tacohell_1, npc_tacohell_2]
     }],
-    ["spine3", "Talk to Drugs Dealer", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al Narcotraficante", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_drugsdealer
     }],
-    ["spine3", "Talk to Black Market", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al Traficante del Mercado Negro", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_blackmarket
     }],
-    ["spine3", "Talk to Guns NPC", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al NPC Armero", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN [npc_guns, npc_guns_1]
     }],
-    ["spine3", "Talk to Vehicles NPC", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al NPC Mecanico", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_vehicles
     }],
-    ["spine3", "Talk to Supermarket NPC", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al NPC del Supermercado", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[npc_supermarket, npc_supermarket_1]
     }],
-    ["spine3", "Talk to Government NPC", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al NPC empleado del Gobierno", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[npc_government, npc_government_1, npc_government_2]
     }],
-    ["spine3", "Generate Referal Code", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Generar codigo de Referido", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[npc_government, npc_government_1, npc_government_2]
     }],   
-    ["spine3", "Claim My Referal Reward", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Reclamar mi Referido", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[npc_government, npc_government_1, npc_government_2]
     }],     
-    ["spine3", "Talk to DOJ NPC", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al NPC de DOJ", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN [npc_doj_supplier, npc_doj_supplier_1, npc_doj_pris] 
     }],
-    ["spine3", "Talk to DOC NPC", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al NPC de DOC", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == NPC_doc
     }],
-    ["spine3", "Talk to DMV NPC", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al NPC de DMV", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN [NPC_dmv, NPC_dmv_1]
     }],
-    ["spine3", "Talk to Hunting NPC", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Hablar al NPC de Cazador", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_hunting
     }],
-    ["spine3", "Open Import/Export Menu", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Abrir menu de Importaciones/Exportaciones", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_import
     }],
-    ["spine3", "Convert stolen money", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Convertir dinero robado", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_moneylaunderer
     }],
-    ["spine3", "Access Chemical Plant", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Planta Quimica", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_chemicalplant
     }],
-    ["spine3", "Access Steel Mill", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Aceria", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_steelmill
     }],
-    ["spine3", "Access Oil Refinery", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Refineria de Petroleo", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_oilrefinery
     }],
-    ["spine3", "Access Weapon Factory", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Fabrica de Armas", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_weaponfactory
     }],
-    ["spine3", "Access Food Processing Plant", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Planta de Procesamiento de Comida", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_foodprocessing
     }],
-    ["spine3", "Access Goods Factory", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Fabrica Goods", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_goodsfactory
     }],
-    ["spine3", "Access Clothing Factory", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Fabrica de Ropa", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_clothingfactory
     }],
-    ["spine3", "Access Vehicle Factory", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Fabrica de Vehiculos", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_vehiclefactory
     }],
-    ["spine3", "Access Faction Vehicle Factory", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Fabrica de Vehiculos de Facciones", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_factionvehicle
     }],
-    ["spine3", "Access Marine Factory", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Fabrica Marina", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_marinefactory
     }],
-    ["spine3", "Access Aircraft Factory", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Fabrica de Aeronaves", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_aircraftfactory
     }],
-    ["spine3", "Access Car Parts Factory", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Fabrica de Vehiculos (Piezas)", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect == npc_carpartfactory
     }],
-    ["spine3", "Access Furniture Shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Fabrica de Muebles", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[npc_furniture2, npc_furniture_4, npc_furniture_6]
     }],
-    ["spine3", "Access Furniture Shop 2", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Fabrica de Muebles 2", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[npc_furniture, npc_furniture_3, npc_furniture_5]
     }],
-    ["spine3", "Access General Shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Tienda General", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_medical_supplies, NPC_general_2, NPC_general_3]
     }],
-    ["spine3", "Access Pinhead Larry's shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Tienda de Larry's Pinhead", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[npc_pinhead]
     }],
-    ["spine3", "Access Buckeye Buck's shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Tienda de Buck's Buckeye", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_Buckeye]
     }],
-    ["spine3", "Access Moonshine Willy's shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Tienda de Willy's Moonshine", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_MoonshineWilly]
     }],
-    ["spine3", "Access Hemlock Huck's shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Tienda de Huck's Hemlock", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_Hemlock]
     }],
-    ["spine3", "Access Waste Management shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Tienda de Reciclaje", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_WasteManagement]
     }],
-    ["spine3", "Start/Stop working for Waste Management!", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Comenzar/parar de trabajar en la gestion residual", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_WasteManagement]
     }],
-    ["spine3", "Start/Stop working for Fishers Island Postal Service!", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Comenzar/parar de trabajar en el servicio postal de Fishers Island", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[npc_mailman]
     }],
-    ["spine3", "Start/Stop working for the Great Ratsby!", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Comenzar/parar de trabajar en la empresa de plagas", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_Exterminator]
     }],
-    ["spine3", "Start/Stop renting a go-kart!", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Comenzar/parar el alquiler de un kart", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_Karts]
     }],
-    ["spine3", "Access Mining Mike's shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la Tienda de Mike's Mining", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_MiningMike]
     }],
     ["spine3", "Buy a Iron mining map ($500)", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
@@ -2281,1000 +2281,1000 @@ Config_IntersectArray = [
     ["pilecash", "Steal Vault Money", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_bankvault", "Connect Vault Drill", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_bankvault", "Conectar el Taladro a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         backpack player == "A3PL_Backpack_Drill"
     }],
-    ["Door_bankvault", "Secure Vault Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_bankvault", "Puerta de la Caja Fuerte", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (player getVariable["job", "unemployed"]) == "police"
     }],
     ["drill_bit_install", "Install Drill Bit", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         player_ItemClass == "drill_bit"
     }],
-    ["drill_handle", "Start Vault Drill", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["drill_handle", "Empezar a Taladrar la Caja Fuerte", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["drill_handle", "Dissemble Drill", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["drill_handle", "Ocultar Taladro", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_1", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_1", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_2", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_2", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_3", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_3", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_4", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_4", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_5", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_5", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_6", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_6", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_7", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_7", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_8", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_8", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_9", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_9", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_10", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_10", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_11", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_11", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_12", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_12", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_13", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_13", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_14", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_14", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_15", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_15", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_16", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_16", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_17", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_17", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_18", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_18", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_19", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_19", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["deposit_20", "Open Deposit Box", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["deposit_20", "Abrir Caja de Deposito", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["ATM", "Use ATM", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["ATM", "Usar Cajero", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["dogcage", "Open K-9 Menu", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["dogcage", "Abrir Menu de Unidad K-9", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         player getVariable["job", "unemployed"] IN["police", "uscg"]
     }],
-    ["mcfishergrill", "Pickup Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["mcfishergrill", "Recoger Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (isNil {
             player_objintersect getVariable["bitem", nil]
         })
     }],
-    ["mcfishergrill", "Check Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["mcfishergrill", "Comprobar Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["mcfishergrill", "Buy Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["mcfishergrill", "Comprar Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (!isNil {
             player_objintersect getVariable["bitem", nil]
         })
     }],
-    ["mcfishergrill", "Sell Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["mcfishergrill", "Vender Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (player_objintersect getVariable["owner", "0"]) == (getPlayerUID player)
     }],
-    ["mcfishertable", "Place Item", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["mcfishertable", "Colocar Item", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         true
     }],
-    ["mcFishersTable1", "Place Item", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["mcFishersTable1", "Colocar Item", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         true
     }],
-    ["mcFishersTable2", "Place Item", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["mcFishersTable2", "Colocar Item", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         true
     }],
-    ["mcfishergrill", "Place Burger", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["mcfishergrill", "Colocar Hamburguesa", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         true
     }],
-    ["mcFishersGrill1", "Place Burger", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["mcFishersGrill1", "Colocar Hamburguesa", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         true
     }],
-    ["mcFishersGrill2", "Place Burger", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
+    ["mcFishersGrill2", "Colocar Hamburguesa", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
         true
     }],
-    ["net", "Buy/Sell Net", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!((player_objintersect getVariable["stock", -1]) == -1)
+    ["net", "Comprar/Vender Red", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!((player_objintersect getVariable["stock", -1]) == -1)
     }],
-    ["buoy", "Collect Net", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!((player_objintersect getVariable["fishstate", -1]) == -1)
+    ["buoy", "Recoger Red", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!((player_objintersect getVariable["fishstate", -1]) == -1)
     }],
-    ["buoy", "Deploy Net", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["buoy", "Desplegar Red", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (simulationEnabled player_objIntersect) && ((player_objintersect getVariable["fishstate", -1]) == -1)
     }],
-    ["buoy", "Bait net", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["buoy", "Red de cebo", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (simulationEnabled player_objIntersect) && ((player_objintersect getVariable["fishstate", -1]) > -1)
     }],
-    ["bucket", "Buy/Sell Bucket", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!((player_objintersect getVariable["stock", -1]) == -1)
+    ["bucket", "Comprar/Vender Cubo", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!((player_objintersect getVariable["stock", -1]) == -1)
     }],
-    ["farmingplant", "Harvest Plant", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["farmingplant", "Cosechar Planta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["plant_cannabis", "Harvest Plant", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["plant_cannabis", "Cosechar Planta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["lettuce", "Harvest Plant", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["lettuce", "Cosechar Planta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         player_objintersect getVariable["growState", -1] != -1
     }],
-    ["EstateSign", "Buy House", "\a3\ui_f\data\IGUI\Cfg\Actions\settimer_ca.paa", {
+    ["EstateSign", "Comprar Casa", "\a3\ui_f\data\IGUI\Cfg\Actions\settimer_ca.paa", {
         ((getObjectTextures player_objIntersect) select 0) isEqualTo "a3pl_objects\street\estate_sign\house_sale_co.paa"
     }],
-    ["EstateSign", "Sell House", "\a3\ui_f\data\IGUI\Cfg\Actions\settimer_ca.paa", {
+    ["EstateSign", "Vender Casa", "\a3\ui_f\data\IGUI\Cfg\Actions\settimer_ca.paa", {
         ((getObjectTextures player_objIntersect) select 0) isEqualTo "a3pl_objects\street\estate_sign\house_rented_co.paa"
     }],
-    ["greenhousesign", "Rent Greenhouse", "\a3\ui_f\data\IGUI\Cfg\Actions\settimer_ca.paa", {
+    ["greenhousesign", "Alquilar Casa", "\a3\ui_f\data\IGUI\Cfg\Actions\settimer_ca.paa", {
         true
     }],
-    ["sign_business", "Rent Business", "\a3\ui_f\data\IGUI\Cfg\Actions\settimer_ca.paa", {
+    ["sign_business", "Alquilar Negocio", "\a3\ui_f\data\IGUI\Cfg\Actions\settimer_ca.paa", {
         true
     }],
-    ["fd_hoseend", "Connect Rolled Hose", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["fd_hoseend", "Conectar manguera enrollada", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (player_ItemClass == "FD_hose") && (typeOf player_objintersect == "A3PL_FD_HoseEnd1_Float")
     }],
-    ["fd_hoseend", "Connect Hose To Adapter", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["fd_hoseend", "Conectar manguera al adaptador", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         ((typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"]) && (typeOf player_objintersect == "A3PL_FD_HoseEnd1_Float")
     }],
-    ["fd_hoseend", "Connect Hose To Adapter", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["fd_hoseend", "Conectar manguera al adaptador", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         ((typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"]) && (typeOf player_objintersect IN["A3PL_FD_HoseEnd1"])
     }],
-    ["fd_hoseend", "Hold Hose Adapter", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["fd_hoseend", "Llevar adaptador de manguera", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (typeOf player_objintersect IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"])
     }],
-    ["fd_hoseend", "Rollup Hose", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["fd_hoseend", "Enrollar Manguera", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (typeOf player_objintersect IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"])
     }],
-    ["fd_yadapter_in", "Connect Hose To Inlet", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["fd_yadapter_in", "Conectar manguera a la entrada", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (typeOf player_objintersect == "A3PL_FD_yAdapter") && ((typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"])
     }],
-    ["fd_yadapter_out1", "Connect Hose To Inlet", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["fd_yadapter_out1", "Conectar manguera a la entrada", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (typeOf player_objintersect == "A3PL_FD_yAdapter") && ((typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"])
     }],
-    ["fd_yadapter_out2", "Connect Hose To Outlet", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["fd_yadapter_out2", "Conectar manguera a la salida", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (typeOf player_objintersect == "A3PL_FD_yAdapter") && ((typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"])
     }],
-    ["outlet_4", "Connect Hose To Tanker", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["outlet_4", "Conectar manguera al tanque", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         ((typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"]) && (typeOf player_objintersect == "A3PL_Tanker_Trailer")
     }],
-    ["outlet_3", "Connect Hose To Tanker", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["outlet_3", "Conectar manguera al tanque", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         ((typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"]) && (typeOf player_objintersect == "A3PL_Tanker_Trailer")
     }],
-    ["outlet_2", "Connect Hose To Tanker", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["outlet_2", "Conectar manguera al tanque", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         ((typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"]) && (typeOf player_objintersect == "A3PL_Tanker_Trailer")
     }],
-    ["outlet_1", "Connect Hose To Tanker", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["outlet_1", "Conectar manguera al tanque", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         ((typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"]) && (typeOf player_objintersect == "A3PL_Tanker_Trailer")
     }],
-    ["outlet_1", "Connect Hose To Tanker", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["outlet_1", "Conectar manguera al tanque", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         ((typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"]) && (typeOf player_objintersect == "A3PL_Fuel_Van")
     }],
-    ["gas_hoseconnect", "Connect Hose Adapter", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["gas_hoseconnect", "Conectar adaptador de manguera", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (player_ItemClass == "FD_adapter") && (typeOf player_objintersect == "Land_A3PL_Gas_Station")
     }],
-    ["gas_hoseswitch", "Switch Gas Storage Switch", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["gas_hoseswitch", "Cambiar el compartimento del gas", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["hydrant_connect", "Connect Hose Adapter", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["hydrant_connect", "Conectar adaptador de manguera", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (player_ItemClass == "FD_adapter") && (typeOf player_objintersect == "Land_A3PL_FireHydrant")
     }],
-    ["hydrant_wrench", "Connect Hydrant Wrench", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["hydrant_wrench", "Conectar llave hidrante", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (player_ItemClass == "FD_hydrantwrench") && (typeOf player_objintersect == "Land_A3PL_FireHydrant")
     }],
-    ["hydrantwrench", "Open Hydrant", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["hydrantwrench", "Abrir Hidrante", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (typeOf player_objintersect == "A3PL_FD_HydrantWrench_F") && (player_objintersect animationSourcePhase "WrenchRotation" < 0.5)
     }],
-    ["hydrantwrench", "Close Hydrant", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["hydrantwrench", "Cerrar Hidrante", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (typeOf player_objintersect == "A3PL_FD_HydrantWrench_F") && (player_objintersect animationSourcePhase "WrenchRotation" > 0.5)
     }],
-    ["inlet_r", "Connect Hose To Ladder Inlet", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["inlet_r", "Conectar manguera a la escalera", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         ((typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"])
     }],
-    ["inlet_ds", "Connect Hose To Engine Inlet", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["inlet_ds", "Conectar manguera a la entrada del motor", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         ((typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"])
     }],
-    ["ft_lever_11", "Open/Close Discharge", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["ft_lever_11", "Abrir/Cerrar Descarga", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["ft_lever_10", "Open/Close Discharge", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["ft_lever_10", "Abrir/Cerrar Descarga", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["ft_lever_8", "Open/Close Discharge", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["ft_lever_8", "Abrir/Cerrar Descarga", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["ft_lever_7", "Open/Close Discharge", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["ft_lever_7", "Abrir/Cerrar Descarga", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["ft_lever_1", "Open/Close Discharge", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["ft_lever_1", "Abrir/Cerrar Descarga", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["outlet_ps", "Connect Hose To Engine Discharge", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["outlet_ps", "Conectar manguera al motor de descarga", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         ((typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"])
     }],
-    ["outlet_ds", "Connect Hose To Engine Discharge", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["outlet_ds", "Conectar manguera al motor de descarga", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         ((typeof(call A3PL_Lib_AttachedFirst)) IN["A3PL_FD_HoseEnd1", "A3PL_FD_HoseEnd2"])
     }],
-    ["burger", "Create Fish Burger", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["burger", "Crear hamburguesa de pescado", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         _burgers = nearestObjects[player_objIntersect, ["A3PL_Burger_Bun"], 1];
         (count _burgers) > 0
     }],
-    ["tacoshell", "Create Fish Taco", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["tacoshell", "Crear taco de pescado", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         _burgers = nearestObjects[player_objIntersect, ["A3PL_Fish_Raw", "A3PL_Fish_Cooked", "A3PL_Fish_Burned"], 1];
         _salads = nearestObjects[player_objIntersect, ["A3PL_Salad"], 1];
         ((count _burgers) > 0) && ((count _salads) > 0)
     }],
-    ["burgerbread", "Create Fish Burger", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["burgerbread", "Crear hamburguesa de pescado", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         _burgers = nearestObjects[player_objIntersect, ["A3PL_Burger_Raw", "A3PL_Burger_Cooked", "A3PL_Burger_Burnt"], 1];
         (count _burgers) > 0
     }],
-    ["clothes", "Buy/Sell Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["clothes", "Comprar/Vender Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (!(isNil {
             player_objIntersect getVariable "stock"
         }))
     }],
-    ["handcuffs", "Pickup Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["handcuffs", "Recoger Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (isNil {
             player_objintersect getVariable["bitem", nil]
         })
     }],
-    ["handcuffs", "Check Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["handcuffs", "Comprobar Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["handcuffs", "Buy Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["handcuffs", "Comprar Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (!isNil {
             player_objintersect getVariable["bitem", nil]
         })
     }],
-    ["handcuffs", "Sell Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["handcuffs", "Vender Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (player_objintersect getVariable["owner", "0"]) == (getPlayerUID player)
     }],
-    ["wrench", "Buy/Sell Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["wrench", "Comprar/Vender Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (!(isNil {
             player_objIntersect getVariable "stock"
         }))
     }],
-    ["housekey", "Pickup Key", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["housekey", "Recoger Llave", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         isNull(attachedTo player_objintersect)
     }],
-    ["carInfo", "Vehicle Storage", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!isNil {
+    ["carInfo", "Almacenamiento de Vehiculos", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!isNil {
             player_objIntersect getVariable "positionSpawn"
         }
     }],
-    ["carInfo", "Store Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!isNil {
+    ["carInfo", "Guardar Vehiculo", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {!isNil {
             player_objIntersect getVariable "positionSpawn"
         }
     }],
-    ["carInfo", "Paint Aircraft", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["carInfo", "Pintar Aeronave", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         player_objIntersect == AircraftPaint
     }],
-    ["carInfo", "Store Aircraft", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["carInfo", "Guardar Aeronave", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         player_objIntersect == AircraftStore
     }],
-    ["Door_8_button1", "Open/Close Defendant Room", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_8_button1", "Abrir/Cerrar sala del acusado", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" == "police"
     }],
-    ["Door_8_button2", "Open/Close Defendant Room", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_8_button2", "Abrir/Cerrar sala del acusado", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" == "police"
     }],
-    ["treasurysettings", "Open Treasury Info", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["treasurysettings", "Abrir la Tesoreria", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["jailDoor_1", "Open/Close Jail Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["jailDoor_1", "Abrir/Cerrar puerta de la carcel", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" == "police"
     }],
-    ["jailDoor_2", "Open/Close Jail Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["jailDoor_2", "Abrir/Cerrar puerta de la carcel", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" == "police"
     }],
-    ["jailDoor_3", "Open/Close Jail Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["jailDoor_3", "Abrir/Cerrar puerta de la carcel", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" == "police"
     }],
-    ["Door_1_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_1_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_1_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_1_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_2_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_2_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_2_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_2_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_3_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_3_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_3_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_3_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_4_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_4_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_4_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_4_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_5_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_5_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_5_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_5_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_6_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_6_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_6_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_6_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_7_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_7_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_7_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_7_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_8_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_8_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_8_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_8_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_9_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_9_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_9_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_9_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_10_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_10_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_10_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_10_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_11_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_11_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_11_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_11_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_12_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_12_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_12_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_12_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_13_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_13_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_13_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_13_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_14_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_14_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_14_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_14_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_15_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_15_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_15_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_15_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_16_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_16_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_16_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_16_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_22_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_22_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_22_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_22_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_23_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_23_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_23_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_23_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_24_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_24_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_25_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_25_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["Door_26_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_26_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         player getVariable "job" in ["police", "uscg"]
     }],
-    ["garageDoor_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", false])
+    ["garageDoor_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", false])
     }],
-    ["garageDoor_button2", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", false])
+    ["garageDoor_button2", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", false])
     }],
-    ["garageDoor_1_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", false])
+    ["garageDoor_1_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", false])
     }],
-    ["garageDoor_1_source", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", false])
+    ["garageDoor_1_source", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", false])
     }],
-    ["garageDoor_2_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", false])
+    ["garageDoor_2_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", false])
     }],
-    ["garageDoor1_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", false])
+    ["garageDoor1_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", false])
     }],
-    ["garageDoor2_button", "Use Door Button", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", false])
+    ["garageDoor2_button", "Usar el boton de la puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", false])
     }],
-    ["garageDoor_button", "Spawn vehicle in garage", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageDoor_button", "Aparecer vehiculo en el garaje", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (!(player_objIntersect getVariable["locked", false])) && (player_objintersect isKindOf "House_f")
     }],
-    ["garageDoor_button2", "Spawn vehicle in garage", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageDoor_button2", "Aparecer vehiculo en el garaje", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (!(player_objIntersect getVariable["locked", false])) && (player_objintersect isKindOf "House_f")
     }],
-    ["garageDoor_1_button", "Spawn vehicle in garage", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageDoor_1_button", "Aparecer vehiculo en el garaje", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (!(player_objIntersect getVariable["locked", false])) && (player_objintersect isKindOf "House_f")
     }],
-    ["garageDoor_1_source", "Spawn vehicle in garage", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageDoor_1_source", "Aparecer vehiculo en el garaje", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (!(player_objIntersect getVariable["locked", false])) && (player_objintersect isKindOf "House_f")
     }],
-    ["garageDoor_2_button", "Spawn vehicle in garage", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageDoor_2_button", "Aparecer vehiculo en el garaje", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (!(player_objIntersect getVariable["locked", false])) && (player_objintersect isKindOf "House_f")
     }],
-    ["garageDoor1_button", "Spawn vehicle in garage", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageDoor1_button", "Aparecer vehiculo en el garaje", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (!(player_objIntersect getVariable["locked", false])) && (player_objintersect isKindOf "House_f")
     }],
-    ["garageDoor2_button", "Spawn vehicle in garage", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageDoor2_button", "Aparecer vehiculo en el garaje", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (!(player_objIntersect getVariable["locked", false])) && (player_objintersect isKindOf "House_f")
     }],
-    ["garageDoor_button", "Store Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageDoor_button", "Guardar Vehiculo", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (!(player_objIntersect getVariable["locked", false])) && (player_objintersect isKindOf "House_f")
     }],
-    ["garageDoor_button2", "Store Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageDoor_button2", "Guardar Vehiculo", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (!(player_objIntersect getVariable["locked", false])) && (player_objintersect isKindOf "House_f")
     }],
-    ["garageDoor_1_button", "Store Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageDoor_1_button", "Guardar Vehiculo", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (!(player_objIntersect getVariable["locked", false])) && (player_objintersect isKindOf "House_f")
     }],
-    ["garageDoor_1_source", "Store Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageDoor_1_source", "Guardar Vehiculo", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (!(player_objIntersect getVariable["locked", false])) && (player_objintersect isKindOf "House_f")
     }],
-    ["garageDoor_2_button", "Store Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageDoor_2_button", "Guardar Vehiculo", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (!(player_objIntersect getVariable["locked", false])) && (player_objintersect isKindOf "House_f")
     }],
-    ["garageDoor1_button", "Store Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageDoor1_button", "Guardar Vehiculo", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (!(player_objIntersect getVariable["locked", false])) && (player_objintersect isKindOf "House_f")
     }],
-    ["garageDoor2_button", "Store Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageDoor2_button", "Guardar Vehiculo", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (!(player_objIntersect getVariable["locked", false])) && (player_objintersect isKindOf "House_f")
     }],
-    ["console_cell1", "Open Cell 1", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_cell1", "Abrir Celda 1", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_cell2", "Open Cell 2", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_cell2", "Abrir Celda 2", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_cell3", "Open Cell 3", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_cell3", "Abrir Celda 3", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_cell4", "Open Cell 4", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_cell4", "Abrir Celda 4", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_cell5", "Open Cell 5", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_cell5", "Abrir Celda 5", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_cell6", "Open Cell 6", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_cell6", "Abrir Celda 6", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_cell7", "Open Cell 7", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_cell7", "Abrir Celda 7", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_cell8", "Open Cell 8", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_cell8", "Abrir Celda 8", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_cell9", "Open Cell 9", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_cell9", "Abrir Celda 9", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_cell10", "Open Cell 10", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_cell10", "Abrir Celda 10", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_cell11", "Open Cell 11", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_cell11", "Abrir Celda 11", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_cell12", "Open Cell 12", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_cell12", "Abrir Celda 12", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_cell13", "Open Cell 13", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_cell13", "Abrir Celda 13", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_cell14", "Open Cell 14", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_cell14", "Abrir Celda 14", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_maincell1", "Open Main cell 1", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_maincell1", "Abrir Celda Principal 1", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_maincell2", "Open Main cell 2", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_maincell2", "Abrir Celda Principal 2", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_maincell3", "Open Kitchen Cell", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_maincell3", "Abrir Celda de la Cocina", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_garage", "Open Garage", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["console_garage", "Abrir Garaje", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["console_lockdown", "LOCKDOWN!", "\a3\ui_f\data\IGUI\Cfg\Actions\ico_cpt_col_ON_ca.paa", {
+    ["console_lockdown", "CERRAR", "\a3\ui_f\data\IGUI\Cfg\Actions\ico_cpt_col_ON_ca.paa", {
         true
     }],
-    ["StorageDoor1", "Vehicle Storage", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["StorageDoor1", "Guardar Vehiculo", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["StorageDoor2", "Vehicle Storage", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["StorageDoor2", "Almacenamiento de Vehiculos", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["StorageDoor3", "Vehicle Storage", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["StorageDoor3", "Almacenamiento de Vehiculos", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["StorageDoor1", "Store Vehicle", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["StorageDoor1", "Guardar Vehiculo", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["StorageDoor2", "Store Vehicle", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["StorageDoor2", "Guardar Vehiculo", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["StorageDoor3", "Store Vehicle", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["StorageDoor3", "Guardar Vehiculo", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["StorageDoor1", "Object Storage", "A3\ui_f\data\map\Markers\Military\box_ca.paa", {
+    ["StorageDoor1", "Almacenamiento de Objetos", "A3\ui_f\data\map\Markers\Military\box_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["StorageDoor2", "Object Storage", "A3\ui_f\data\map\Markers\Military\box_ca.paa", {
+    ["StorageDoor2", "Almacenamiento de Objetos", "A3\ui_f\data\map\Markers\Military\box_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["StorageDoor3", "Object Storage", "A3\ui_f\data\map\Markers\Military\box_ca.paa", {
+    ["StorageDoor3", "Almacenamiento de Objetos", "A3\ui_f\data\map\Markers\Military\box_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["StorageDoor1", "Store Object", "A3\ui_f\data\map\Markers\Military\box_ca.paa", {
+    ["StorageDoor1", "Guardar Objeto", "A3\ui_f\data\map\Markers\Military\box_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["StorageDoor2", "Store Object", "A3\ui_f\data\map\Markers\Military\box_ca.paa", {
+    ["StorageDoor2", "Guardar Objeto", "A3\ui_f\data\map\Markers\Military\box_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["StorageDoor3", "Store Object", "A3\ui_f\data\map\Markers\Military\box_ca.paa", {
+    ["StorageDoor3", "Guardar Objeto", "A3\ui_f\data\map\Markers\Military\box_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["SDStorageDoor3", "Vehicle Storage", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["SDStorageDoor3", "Almacenamiento de Vehiculos", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["SDStorageDoor6", "Vehicle Storage", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["SDStorageDoor6", "Almacenamiento de Vehiculos", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["SDStorageDoor3", "Store Vehicle", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["SDStorageDoor3", "Guardar Vehiculos", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["SDStorageDoor6", "Store Vehicle", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["SDStorageDoor6", "Guardar Vehiculos", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         player_objIntersect animationSourcePhase "StorageDoor" < 0.1
     }],
-    ["door0", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["door0", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["door0_1", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["door0_1", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["apt1_door0", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_1_locked", false])
+    ["apt1_door0", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_1_locked", false])
     }],
-    ["apt2_door0", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_2_locked", false])
+    ["apt2_door0", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_2_locked", false])
     }],
-    ["apt3_door0", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_3_locked", false])
+    ["apt3_door0", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_3_locked", false])
     }],
-    ["apt4_door0", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_4_locked", false])
+    ["apt4_door0", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_4_locked", false])
     }],
-    ["apt5_door0", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_5_locked", false])
+    ["apt5_door0", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_5_locked", false])
     }],
-    ["apt6_door0", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_6_locked", false])
+    ["apt6_door0", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_6_locked", false])
     }],
-    ["apt7_door0", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_7_locked", false])
+    ["apt7_door0", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_7_locked", false])
     }],
-    ["apt8_door0", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_8_locked", false])
+    ["apt8_door0", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_8_locked", false])
     }],
-    ["apt9_door0", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_9_locked", false])
+    ["apt9_door0", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_9_locked", false])
     }],
-    ["apt10_door0", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_10_locked", false])
+    ["apt10_door0", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_10_locked", false])
     }],
-    ["apt11_door0", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_11_locked", false])
+    ["apt11_door0", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_11_locked", false])
     }],
-    ["apt12_door0", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_12_locked", false])
+    ["apt12_door0", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_12_locked", false])
     }],
-    ["gas_openmenu", "Pay For Fuel", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["gas_openmenu", "Pagar Combustible", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["gas_openmenu", "Open Gasstation Menu", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["gas_openmenu", "Abrir Menu de Gasolinera", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["garage1_open", "Open Showroom Doors", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garage1_open", "Abrir las puertas del Showroom", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (typeOf player_objintersect) == "Land_A3PL_Showroom"
     }],
-    ["garage1_close", "Close Showroom Doors", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garage1_close", "Cerrar las puertas del Showroom", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (typeOf player_objintersect) == "Land_A3PL_Showroom"
     }],
-    ["garage2_open", "Open Showroom Doors", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garage2_open", "Abrir las puertas del Showroom", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (typeOf player_objintersect) == "Land_A3PL_Showroom"
     }],
-    ["garage2_close", "Close Showroom Doors", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garage2_close", "Cerrar las puertas del Showroom", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (typeOf player_objintersect) == "Land_A3PL_Showroom"
     }],
-    ["Door_1", "Delivery Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_1", "Vehiculo de Entrega", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "trucker"
     }],
-    ["Door_2", "Delivery Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_2", "Vehiculo de Entrega", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "trucker"
     }],
-    ["Door_3", "Delivery Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_3", "Vehiculo de Entrega", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "trucker"
     }],
-    ["Door_4", "Delivery Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_4", "Vehiculo de Entrega", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "trucker"
     }],
-    ["Door_5", "Delivery Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_5", "Vehiculo de Entrega", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "trucker"
     }],
-    ["Door_6", "Delivery Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_6", "Vehiculo de Entrega", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "trucker"
     }],
-    ["Door_7", "Delivery Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_7", "Vehiculo de Entrega", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "trucker"
     }],
-    ["Door_8", "Delivery Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_8", "Vehiculo de Entrega", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "trucker"
     }],
-    ["Door_9", "Delivery Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_9", "Vehiculo de Entrega", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "trucker"
     }],
-    ["Door_10", "Delivery Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_10", "Vehiculo de Entrega", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "trucker"
     }],
-    ["Door_11", "Delivery Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_11", "Vehiculo de Entrega", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "trucker"
     }],
-    ["Door_12", "Delivery Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_12", "Vehiculo de Entrega", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "trucker"
     }],
-    ["Door_13", "Delivery Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_13", "Vehiculo de Entrega", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "trucker"
     }],
-    ["Door_14", "Delivery Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_14", "Vehiculo de Entrega", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "trucker"
     }],
-    ["Door_1", "Deliver Package", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_1", "Entregar Paquete", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "mailman"
     }],
-    ["Door_2", "Deliver Package", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_2", "Entregar Paquete", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "mailman"
     }],
-    ["Door_3", "Deliver Package", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_3", "Entregar Paquete", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "mailman"
     }],
-    ["Door_4", "Deliver Package", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_4", "Entregar Paquete", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "mailman"
     }],
-    ["Door_5", "Deliver Package", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_5", "Entregar Paquete", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "mailman"
     }],
-    ["Door_6", "Deliver Package", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_6", "Entregar Paquete", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "mailman"
     }],
-    ["Door_7", "Deliver Package", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_7", "Entregar Paquete", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "mailman"
     }],
-    ["Door_8", "Deliver Package", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_8", "Entregar Paquete", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "mailman"
     }],
-    ["Door_9", "Deliver Package", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_9", "Entregar Paquete", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "mailman"
     }],
-    ["Door_10", "Deliver Package", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_10", "Entregar Paquete", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "mailman"
     }],
-    ["Door_11", "Deliver Package", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_11", "Entregar Paquete", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "mailman"
     }],
-    ["Door_12", "Deliver Package", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_12", "Entregar Paquete", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "mailman"
     }],
-    ["Door_13", "Deliver Package", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_13", "Entregar Paquete", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "mailman"
     }],
-    ["Door_14", "Deliver Package", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_14", "Entregar Paquete", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         (player getVariable["job", "unemployed"]) == "mailman"
     }],
-    ["Door_1", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_1_locked", false])
+    ["Door_1", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_1_locked", false])
     }],
-    ["Door_2", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_2_locked", false])
+    ["Door_2", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_2_locked", false])
     }],
     ["Door_3", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_3_locked", false])
     }],
-    ["Door_4", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_4_locked", false])
+    ["Door_4", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_4_locked", false])
     }],
-    ["Door_5", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_5_locked", false])
+    ["Door_5", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_5_locked", false])
     }],
-    ["Door_6", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_6_locked", false])
+    ["Door_6", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_6_locked", false])
     }],
-    ["Door_7", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_7_locked", false])
+    ["Door_7", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_7_locked", false])
     }],
-    ["Door_8", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_8_locked", false])
+    ["Door_8", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_8_locked", false])
     }],
-    ["Door_9", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_9_locked", false])
+    ["Door_9", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_9_locked", false])
     }],
-    ["Door_10", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_10_locked", false])
+    ["Door_10", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_10_locked", false])
     }],
-    ["Door_11", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_11_locked", false])
+    ["Door_11", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_11_locked", false])
     }],
-    ["Door_12", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_12_locked", false])
+    ["Door_12", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_12_locked", false])
     }],
-    ["Door_13", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_13_locked", false])
+    ["Door_13", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_13_locked", false])
     }],
-    ["Door_14", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_14_locked", false])
+    ["Door_14", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_14_locked", false])
     }],
-    ["Door_15", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_15_locked", false])
+    ["Door_15", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_15_locked", false])
     }],
-    ["Door_16", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_16_locked", false])
+    ["Door_16", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_16_locked", false])
     }],
-    ["Door_17", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_17_locked", false])
+    ["Door_17", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_17_locked", false])
     }],
-    ["Door_18", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_18_locked", false])
+    ["Door_18", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_18_locked", false])
     }],
-    ["Door_19", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_19_locked", false])
+    ["Door_19", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_19_locked", false])
     }],
-    ["Door_20", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_20_locked", false])
+    ["Door_20", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_20_locked", false])
     }],
-    ["Door_21", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_21_locked", false])
+    ["Door_21", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_21_locked", false])
     }],
-    ["Door_22", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_22_locked", false])
+    ["Door_22", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_22_locked", false])
     }],
-    ["Door_23", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_22_locked", false])
+    ["Door_23", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_22_locked", false])
     }],
-    ["Door_24", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_24_locked", false])
+    ["Door_24", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_24_locked", false])
     }],
-    ["Door_25", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_25_locked", false])
+    ["Door_25", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_25_locked", false])
     }],
-    ["Door_26", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_26_locked", false])
+    ["Door_26", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_26_locked", false])
     }],
-    ["Door_27", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_27_locked", false])
+    ["Door_27", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_27_locked", false])
     }],
-    ["Door_28", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_28_locked", false])
+    ["Door_28", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_28_locked", false])
     }],
-    ["Door_29", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_29_locked", false])
+    ["Door_29", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_29_locked", false])
     }],
-    ["Door_30", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_30_locked", false])
+    ["Door_30", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_30_locked", false])
     }],
-    ["Door_31", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_31_locked", false])
+    ["Door_31", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_31_locked", false])
     }],
-    ["Door_32", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_32_locked", false])
+    ["Door_32", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_32_locked", false])
     }],
-    ["Door_33", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_33_locked", false])
+    ["Door_33", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_33_locked", false])
     }],
-    ["Door_34", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_34_locked", false])
+    ["Door_34", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_34_locked", false])
     }],
-    ["Door_35", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_35_locked", false])
+    ["Door_35", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_35_locked", false])
     }],
-    ["Door_36", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_36_locked", false])
+    ["Door_36", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_36_locked", false])
     }],
-    ["Door_37", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_37_locked", false])
+    ["Door_37", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_37_locked", false])
     }],
-    ["Door_38", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_38_locked", false])
+    ["Door_38", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_38_locked", false])
     }],
-    ["Door_39", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_39_locked", false])
+    ["Door_39", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_39_locked", false])
     }],
-    ["Door_40", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_40_locked", false])
+    ["Door_40", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_40_locked", false])
     }],
-    ["Door_41", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_41_locked", false])
+    ["Door_41", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_41_locked", false])
     }],
-    ["Door_42", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_42_locked", false])
+    ["Door_42", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_42_locked", false])
     }],
-    ["Door_43", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_43_locked", false])
+    ["Door_43", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_43_locked", false])
     }],
-    ["Door_44", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_44_locked", false])
+    ["Door_44", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_44_locked", false])
     }],
-    ["Door_45", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_45_locked", false])
+    ["Door_45", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_45_locked", false])
     }],
-    ["Door_46", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_46_locked", false])
+    ["Door_46", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_46_locked", false])
     }],
-    ["Door_47", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_47_locked", false])
+    ["Door_47", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_47_locked", false])
     }],
-    ["Door_48", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_48_locked", false])
+    ["Door_48", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_48_locked", false])
     }],
-    ["Door_49", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_49_locked", false])
+    ["Door_49", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_49_locked", false])
     }],
-    ["Door_50", "Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_50_locked", false])
+    ["Door_50", "Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["Door_50_locked", false])
     }],
-    ["Door_1", "Lock/Unlock Door", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
+    ["Door_1", "Bloquear/Desbloquear Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
         (typeOf([] call A3PL_Intersect_cursortarget)) IN["Land_A3PL_Ranch3", "Land_A3PL_Ranch2", "Land_A3PL_Ranch1", "Land_Mansion01", "Land_A3PL_Greenhouse", "Land_Home1g_DED_Home1g_01_F", "Land_Home2b_DED_Home2b_01_F", "Land_Home3r_DED_Home3r_01_F", "Land_Home4w_DED_Home4w_01_F", "Land_Home5y_DED_Home5y_01_F", "Land_Home6b_DED_Home6b_01_F", "Land_A3PL_Motel"]
     }],
-    ["Door_2", "Lock/Unlock Door", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
+    ["Door_2", "Bloquear/Desbloquear Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
         (typeOf([] call A3PL_Intersect_cursortarget)) IN["Land_A3PL_Ranch3", "Land_A3PL_Ranch2", "Land_A3PL_Ranch1", "Land_A3PL_Greenhouse", "Land_Home1g_DED_Home1g_01_F", "Land_Home2b_DED_Home2b_01_F", "Land_Home3r_DED_Home3r_01_F", "Land_Home4w_DED_Home4w_01_F", "Land_Home5y_DED_Home5y_01_F", "Land_Home6b_DED_Home6b_01_F", "Land_A3PL_Motel"]
     }],
-    ["Door_3", "Lock/Unlock Door", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
+    ["Door_3", "Bloquear/Desbloquear Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
         (typeOf([] call A3PL_Intersect_cursortarget)) IN["Land_Home1g_DED_Home1g_01_F", "Land_Home2b_DED_Home2b_01_F", "Land_Home3r_DED_Home3r_01_F", "Land_Home4w_DED_Home4w_01_F", "Land_Home5y_DED_Home5y_01_F", "Land_Home6b_DED_Home6b_01_F", "Land_A3PL_Motel"]
     }],
-    ["Door_4", "Lock/Unlock Door", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
+    ["Door_4", "Bloquear/Desbloquear Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
         (typeOf([] call A3PL_Intersect_cursortarget)) IN["Land_A3PL_Motel"]
     }],
-    ["Door_5", "Lock/Unlock Door", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
+    ["Door_5", "Bloquear/Desbloquear Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
         (typeOf([] call A3PL_Intersect_cursortarget)) IN["Land_A3PL_Motel"]
     }],
-    ["Door_6", "Lock/Unlock Door", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
+    ["Door_6", "Bloquear/Desbloquear Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
         (typeOf([] call A3PL_Intersect_cursortarget)) IN["Land_A3PL_Motel"]
     }],
-    ["Door_7", "Lock/Unlock Door", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
+    ["Door_7", "Bloquear/Desbloquear Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
         (typeOf([] call A3PL_Intersect_cursortarget)) IN["Land_A3PL_Motel"]
     }],
-    ["Door_8", "Lock/Unlock Door", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
+    ["Door_8", "Bloquear/Desbloquear Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
         (typeOf([] call A3PL_Intersect_cursortarget)) IN["Land_A3PL_Motel", "Land_Mansion01"]
     }],
-    ["Door_1", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_1", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_2", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_2", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_3", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_3", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_4", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_4", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_5", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_5", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_6", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_6", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_7", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_7", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_8", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_8", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_9", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_9", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_10", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_10", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_11", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_11", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_12", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_12", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_13", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_13", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_14", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_14", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_15", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_15", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_16", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_16", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_17", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_17", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_18", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_18", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_19", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_19", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_20", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_20", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_21", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_21", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_22", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_22", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_23", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_23", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_24", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_24", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_25", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_25", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_26", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_26", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_26", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_26", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_27", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_27", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_28", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_28", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_29", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_29", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_30", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_30", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_31", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_31", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_32", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_32", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_33", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_33", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_34", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_34", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_35", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_35", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_36", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_36", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_37", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_37", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_38", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_38", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_39", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_39", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_40", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_40", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_41", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_41", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_42", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_42", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_43", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_43", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_44", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_44", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_45", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_45", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_46", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_46", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_47", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_47", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_48", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_48", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_49", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_49", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Door_50", "Knock On Door", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Door_50", "Tocar a la Puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["garageButton", "Garage Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["garageButton", "Puerta del Garaje", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
     ["Door_RB", "Board Helicopter (Side)", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
@@ -3343,34 +3343,34 @@ Config_IntersectArray = [
     ["extPressure", "Toggle Pressure", "\a3\ui_f\data\IGUI\Cfg\Actions\ladderup_ca.paa", {
         true
     }],
-    ["Spine1", "Cuff/Uncuff", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
+    ["Spine1", "Esposar/Desesposar", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
         ((player getVariable "job") IN["police", "uscg", "faa", "dmv"]) && (player_Itemclass == "handcuffs") && (isPlayer player_objintersect) or((player getVariable "job") IN["police", "uscg", "faa"]) && player_objintersect getVariable["Cuffed", true] && (isPlayer player_objintersect)
     }],
-    ["Spine3", "Cuff/Uncuff", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
+    ["Spine3", "Esposar/Desesposar", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
         ((player getVariable "job") IN["police", "uscg", "faa", "dmv"]) && (player_Itemclass == "handcuffs") && (isPlayer player_objintersect) or((player getVariable "job") IN["police", "uscg", "faa"]) && player_objintersect getVariable["Cuffed", true] && (isPlayer player_objintersect)
     }],
-    ["RightHand", "Cuff/Uncuff", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
+    ["RightHand", "Esposar/Desesposar", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
         ((player getVariable "job") IN["police", "uscg", "faa", "dmv"]) && (player_Itemclass == "handcuffs") && (isPlayer player_objintersect) or((player getVariable "job") IN["police", "uscg", "faa"]) && player_objintersect getVariable["Cuffed", true] && (isPlayer player_objintersect)
     }],
-    ["LeftHand", "Cuff/Uncuff", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
+    ["LeftHand", "Esposar/Desesposar", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
         ((player getVariable "job") IN["police", "uscg", "faa", "dmv"]) && (player_Itemclass == "handcuffs") && (isPlayer player_objintersect) or((player getVariable "job") IN["police", "uscg", "faa"]) && player_objintersect getVariable["Cuffed", true] && (isPlayer player_objintersect)
     }],
-    ["LeftForeArm", "Cuff/Uncuff", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
+    ["LeftForeArm", "Esposar/Desesposar", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
         ((player getVariable "job") IN["police", "uscg", "faa", "dmv"]) && (player_Itemclass == "handcuffs") && (isPlayer player_objintersect) or((player getVariable "job") IN["police", "uscg", "faa"]) && player_objintersect getVariable["Cuffed", true] && (isPlayer player_objintersect)
     }],
-    ["RightForeArm", "Cuff/Uncuff", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
+    ["RightForeArm", "Esposar/Desesposar", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
         ((player getVariable "job") IN["police", "uscg", "faa", "dmv"]) && (player_Itemclass == "handcuffs") && (isPlayer player_objintersect) or((player getVariable "job") IN["police", "uscg", "faa"]) && player_objintersect getVariable["Cuffed", true] && (isPlayer player_objintersect)
     }],
-    ["Spine3", "Drag", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
+    ["Spine3", "Arrastrar", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
         (isPlayer player_objintersect) && ((player getVariable "job") IN["police", "uscg", "faa", "dmv"]) && player_objintersect getVariable["Cuffed", true]
     }],
-    ["Spine1", "Drag", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
+    ["Spine1", "Arrastrar", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
         (isPlayer player_objintersect) && ((player getVariable "job") IN["police", "uscg", "faa", "dmv"]) && player_objintersect getVariable["Cuffed", true]
     }],
-    ["spine3", "Kick Down", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\si_prone_down_ca.paa", {
+    ["spine3", "Tirarlo al Suelo", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\si_prone_down_ca.paa", {
         animationState player_objintersect == "a3pl_handsupkneelcuffed"
     }],
-    ["Spine3", "Pat down", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
+    ["Spine3", "Patearlo", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
         ((player getVariable "job") IN["police", "uscg", "faa"]) && (isPlayer player_objintersect) && (animationState player_objintersect IN["a3pl_idletohandsup", "a3pl_handsuptokneel"]) or((player getVariable "job") IN["police", "uscg", "faa"]) && player_objintersect getVariable["Cuffed", true]
     }],
     ["Retract_Stinger", "Retract Stinger", "\a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoput_ca.paa", {
@@ -3388,26 +3388,26 @@ Config_IntersectArray = [
             player_objintersect animationSourcePhase "Deploy_Stinger" < 0.5
         })
     }],
-    ["Deploy_Stinger", "Pickup Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Deploy_Stinger", "Recoger item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (isNil {
             player_objintersect getVariable["bitem", nil]
         }) && ({
             player_objintersect animationSourcePhase "Deploy_Stinger" < 0.5
         })
     }],
-    ["Deploy_Stinger", "Pickup Item To Hand", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Deploy_Stinger", "Coger item con la mano", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (isNil {
             player_objintersect getVariable["bitem", nil]
         }) && ({
             player_objintersect animationSourcePhase "Deploy_Stinger" < 0.5
         })
     }],
-    ["Deploy_Stinger", "Buy Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Deploy_Stinger", "Comprar Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (!isNil {
             player_objintersect getVariable["bitem", nil]
         })
     }],
-    ["Deploy_Stinger", "Sell Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Deploy_Stinger", "Vender Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (player_objintersect getVariable["owner", "0"]) == (getPlayerUID player)
     }],
     ["ski", "Enter as Driver", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
