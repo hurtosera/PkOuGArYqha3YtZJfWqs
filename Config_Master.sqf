@@ -1101,7 +1101,7 @@ Config_Licenses = [
     ["c3driver","Permiso de Conducción Avanzado"],
     ["fishing","Licencia de Pesca"],
     ["cfishing","Licencia de Pesca Comercial"],
-    ["cboat","Licencia de Barcos Comerciantes"],
+    ["cboat","Licencia de Barcos Mercantes"],
     ["security","Licencia de Seguridad"]
 ];
 publicVariable "Config_Licenses";
@@ -2200,40 +2200,40 @@ Config_IntersectArray = [
     ["spine3", "Acceder a la Tienda de Mike's Mining", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_MiningMike]
     }],
-    ["spine3", "Buy a Iron mining map ($500)", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Comprar mapa mina de hierro ($500)", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_MiningMike]
     }],
-    ["spine3", "Buy a Coal mining map ($500)", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Comprar mapa mina de carbób ($500)", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_MiningMike]
     }],
-    ["spine3", "Buy a Aluminium mining map ($500)", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Comprar mapa mina de aluminio ($500)", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_MiningMike]
     }],
-    ["spine3", "Buy a Sulphur mining map ($500)", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Comprar mapa mina de azufre ($500)", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_MiningMike]
     }],
-    ["spine3", "Buy a Oil mining map ($1000)", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Comprar mapa mina de petróleo ($1000)", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_MiningMike]
     }],
-    ["spine3", "Access Hardware Shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la tienda de hardware", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_hardware_1]
     }],
-    ["spine3", "Access Seeds Shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la tienda de semillas", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_Seed_Store, NPC_Seed_Store_1]
     }],
-    ["spine3", "Access Gem Stone Shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la tienda de gemas", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[NPC_gemshop]
     }],
-    ["spine3", "Buy/Sell halloween items with Candy", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Comprar/Vender halloween items con golosinas", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN[npc_candy]
     }],
-    ["spine3", "Access FIFR Equipment Shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la tienda de equipamiento FIFR", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN [NPC_fifr_supplier, NPC_fifr_supplier_1]
     }],
-    ["spine3", "Access FIFR Firefighting Shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la tienda de bomberos FIFR", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN [NPC_fifr_supplier2, NPC_fifr_supplier2_1]
     }],
-    ["spine3", "Access FIFR Vehicle Shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
+    ["spine3", "Acceder a la tienda de vehículos  FIFR", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
         player_objintersect IN [npc_fifr_vehicles, npc_fifr_vehicles_1]
     }],
     ["spine3", "Access SD Equipment Shop", "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa", {
@@ -3301,10 +3301,10 @@ Config_IntersectArray = [
     ["ecs", "ECS/Start", "\a3\ui_f\data\gui\Rsc\RscDisplayArcadeMap\editor_wind_min_ca.paa", {
         true
     }],
-    ["fuelpump", "Fuel Pump", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\fuelwarning_ca.paa", {
+    ["fuelpump", "Bomba de gasolina", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\fuelwarning_ca.paa", {
         true
     }],
-    ["windshield", "Windshield", "\a3\ui_f\data\gui\Rsc\RscDisplayArcadeMap\rainy_ca.paa", {
+    ["windshield", "Parabrisas", "\a3\ui_f\data\gui\Rsc\RscDisplayArcadeMap\rainy_ca.paa", {
         true
     }],
     ["fold", "Unfold/Fold Jayhawk", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
@@ -3313,34 +3313,34 @@ Config_IntersectArray = [
     ["Fold_switch", "Unfold/Fold Jayhawk", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
-    ["Interior_Lights", "Cockpit Lights", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
+    ["Interior_Lights", "Luces de cabina", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         true
     }],
     ["Searchlight_Switch", "Toggle Searchlight", "\a3\ui_f\data\IGUI\Cfg\Actions\engine_on_ca.paa", {
         true
     }],
-    ["PatrolLadder", "Use Ladder", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_ladderonup_ca.paa", {
+    ["PatrolLadder", "Usar escalera", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_ladderonup_ca.paa", {
         true
     }],
-    ["boatdoor", "Open\Close Door", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["boatdoor", "Abrir\Cerrar puerta", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         true
     }],
-    ["driver", "Drive Ship", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["driver", "Conducir barco", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         true
     }],
-    ["cargo1", "Cargo Ship", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_cargo_ca.paa", {
+    ["cargo1", "Buque de carga", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_cargo_ca.paa", {
         true
     }],
-    ["cargo2", "Cargo Ship", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_cargo_ca.paa", {
+    ["cargo2", "Buque de carga", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_cargo_ca.paa", {
         true
     }],
-    ["extinguisher", "Control Extinguisher", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_fire_put_down_ca.paa", {
+    ["extinguisher", "Control Extintor", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_fire_put_down_ca.paa", {
         true
     }],
-    ["extPump", "Toggle Pump", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\fuelwarning_ca.paa", {
+    ["extPump", "Palanca bomba", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\fuelwarning_ca.paa", {
         true
     }],
-    ["extPressure", "Toggle Pressure", "\a3\ui_f\data\IGUI\Cfg\Actions\ladderup_ca.paa", {
+    ["extPressure", "Palanca de presión", "\a3\ui_f\data\IGUI\Cfg\Actions\ladderup_ca.paa", {
         true
     }],
     ["Spine1", "Esposar/Desesposar", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_insp_hand_1_ca.paa", {
@@ -3410,59 +3410,59 @@ Config_IntersectArray = [
     ["Deploy_Stinger", "Vender Item", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
         (player_objintersect getVariable["owner", "0"]) == (getPlayerUID player)
     }],
-    ["ski", "Enter as Driver", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["ski", "Entrar como conductor", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         ((vehicle player) == player) && (simulationEnabled player_objIntersect) && !(player_objIntersect getVariable["locked", true])
     }],
-    ["ski", "Exit Vehicle", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!((vehicle player) == player) && !(player_objIntersect getVariable["locked", true])
+    ["ski", "Salir del vehículo", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!((vehicle player) == player) && !(player_objIntersect getVariable["locked", true])
     }],
-    ["ski", "Lock/Unlock Vehicle Doors", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
+    ["ski", "Bloquear/Desbloquear puertss", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
         (getPlayerUID player in (player_objintersect getVariable["keyAccess", []]))
     }],
-    ["Door_RF", "Enter as Co-Driver", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
+    ["Door_RF", "Entrar como Co-Piloto", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {
         ((typeOf player_objintersect) IN["A3PL_Tahoe_PD", "A3PL_Tahoe_PD_Slicktop", "A3PL_CVPI_PD", "A3PL_CVPI_PD_Slicktop", "A3PL_Mustang_PD", "A3PL_Mustang_PD_Slicktop", "A3PL_Charger_PD", "A3PL_Charger_PD_Slicktop"]) && !(player_objIntersect getVariable["locked", true])
     }],
-    ["scooter_driver", "Enter as Driver", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["scooter_driver", "Entrar como conductor", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         ((vehicle player) == player) && (simulationEnabled player_objIntersect) && !(player_objIntersect getVariable["locked", true])
     }],
-    ["scooter_driver", "Exit Vehicle", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {!((vehicle player) == player)
+    ["scooter_driver", "Salir del vehículo", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {!((vehicle player) == player)
     }],
-    ["scooter_driver", "Lock/Unlock Vehicle Doors", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
+    ["scooter_driver", "Bloquear/Desbloquear puertas", "\a3\ui_f\data\IGUI\Cfg\Actions\Obsolete\ui_action_open_ca.paa", {
         (getPlayerUID player in (player_objintersect getVariable["keyAccess", []]))
     }],
-    ["scooter_driver", "Reset Scooter", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
+    ["scooter_driver", "Reiniciar Scooter", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
         true
     }],
-    ["scooter_passenger", "Enter as Passenger", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["scooter_passenger", "Entrar como pasajero", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         ((vehicle player) == player) && (simulationEnabled player_objIntersect)
     }],
-    ["scooter_passenger", "Exit Vehicle", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {!((vehicle player) == player)
+    ["scooter_passenger", "Salir del vehículo", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {!((vehicle player) == player)
     }],
-    ["carinfo", "Vehicle Info", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
+    ["carinfo", "Información del vehículo", "A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfo\role_driver_ca.paa", {
         (!isNil {
             player_objIntersect getVariable "stock"
         })
     }],
-    ["sirenSwitch", "Toggle Lightbar", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
+    ["sirenSwitch", "Botón Puente de Luces", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
         (vehicle player != player)
     }],
-    ["sirenSwitch", "Toggle Siren", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_sound_on_ca.paa", {
+    ["sirenSwitch", "Botón Sirena", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_sound_on_ca.paa", {
         (vehicle player != player)
     }],
-    ["sirenSwitch", "Toggle Manual 1", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_sound_on_ca.paa", {
+    ["sirenSwitch", "Botón Manual 1", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_sound_on_ca.paa", {
         (vehicle player != player)
     }],
-    ["sirenSwitch", "Toggle Manual 2", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_sound_on_ca.paa", {
+    ["sirenSwitch", "Botón Manual 2", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_sound_on_ca.paa", {
         (vehicle player != player)
     }],
-    ["sirenSwitch", "Toggle Manual 3", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_sound_on_ca.paa", {
+    ["sirenSwitch", "Botón Manual 3", "\a3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\ico_cpt_sound_on_ca.paa", {
         (vehicle player != player)
     }],
-    ["carpanel", "Open/Close Trunk", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", true])
+    ["carpanel", "Abrir/Cerrar Maletero", "\a3\ui_f\data\IGUI\Cfg\Actions\open_Door_ca.paa", {!(player_objIntersect getVariable["locked", true])
     }],
-    ["carpanel", "Toggle Warning Lights", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
+    ["carpanel", "Palanca luces de emergencia", "\a3\ui_f\data\IGUI\Cfg\VehicleToggles\lightsiconon_ca.paa", {
         (vehicle player != player)
     }],
-    ["policeradio", "Use Police Radio", "\a3\ui_f\data\IGUI\RscIngameUI\RscDisplayVoiceChat\microphone_ca.paa", {
+    ["policeradio", "Usar radio policial", "\a3\ui_f\data\IGUI\RscIngameUI\RscDisplayVoiceChat\microphone_ca.paa", {
         (vehicle player != player)
     }],
     ["hitchTrailer", "Hitch Trailer", "\a3\ui_f\data\IGUI\Cfg\Actions\take_ca.paa", {
